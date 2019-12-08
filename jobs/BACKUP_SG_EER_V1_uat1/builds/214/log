@@ -1,0 +1,580 @@
+Started by timer
+Building in workspace /Users/eyhuellou/.jenkins/workspace/BACKUP_SG_EER_V1_uat1
+[BACKUP_SG_EER_V1_uat1] $ /bin/bash /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/hudson1349880922618170349.sh
+LAUNCH
+Starting RetrieveAllFromOrg
+/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/
+/Users/eyhuellou/Documents/BACKUP/ANT/apache-ant-1.9.8/
+./retrieveAllFromOrg: line 18: cd: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_BACKUP: No such file or directory
+Retrieving metadata from uat1
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/SG/ANT_SGEER/PROJET_V1/FOR_BACKUP/Salesforce_Deploy_Toolbox.xml
+
+generatePackageXml:
+     [echo] --------------uat1
+     [echo] --------------package.xml
+     [echo] --------------35
+     [echo] List metadata of 'InstalledPackage'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-InstalledPackage-5072459310195869624.txt
+     [echo] List metadata of 'CustomLabels'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomLabels-3746964574202471940.txt
+     [echo] List metadata of 'CustomLabels child' called 'CustomLabel'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomLabel-6709575056078122587.txt
+     [echo] List metadata of 'StaticResource'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-StaticResource-111500104257106788.txt
+     [echo] List metadata of 'Scontrol'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Scontrol-3265683284540594576.txt
+     [echo] List metadata of 'Certificate'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Certificate-4313160631035338172.txt
+     [echo] List metadata of 'AuraDefinitionBundle'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AuraDefinitionBundle-4183393933918818811.txt
+     [echo] List metadata of 'ApexComponent'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexComponent-6955252097636192296.txt
+     [echo] List metadata of 'ApexPage'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexPage-7521735974778528392.txt
+     [echo] List metadata of 'Queue'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Queue-6630551261112497117.txt
+     [echo] List metadata of 'ExternalDataSource'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ExternalDataSource-7780918909952494871.txt
+     [echo] List metadata of 'NamedCredential'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-NamedCredential-7852690506520726357.txt
+     [echo] List metadata of 'ExternalServiceRegistration'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ExternalServiceRegistration-497503842532095058.txt
+     [echo] List metadata of 'Role'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Role-6253872817339333716.txt
+     [echo] List metadata of 'Group'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Group-4976359531939073223.txt
+     [echo] List metadata of 'GlobalValueSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-GlobalValueSet-6412123001467626619.txt
+     [echo] List metadata of 'StandardValueSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-StandardValueSet-9142902476674905565.txt
+     [echo] List metadata of 'CustomPermission'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomPermission-5657835338842281154.txt
+     [echo] List metadata of 'CustomObject'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomObject-7463739850263815307.txt
+     [echo] List metadata of 'CustomObject child' called 'CustomField'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomField-7662887064002526405.txt
+     [echo] List metadata of 'CustomObject child' called 'Index'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Index-5524788714835243806.txt
+     [echo] List metadata of 'CustomObject child' called 'BusinessProcess'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-BusinessProcess-7881243741043505525.txt
+     [echo] List metadata of 'CustomObject child' called 'CompactLayout'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CompactLayout-1531384070920470229.txt
+     [echo] List metadata of 'CustomObject child' called 'RecordType'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-RecordType-2290477828881110441.txt
+     [echo] List metadata of 'CustomObject child' called 'WebLink'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WebLink-1412574487957607034.txt
+     [echo] List metadata of 'CustomObject child' called 'ValidationRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ValidationRule-1144029846388350108.txt
+     [echo] List metadata of 'CustomObject child' called 'SharingReason'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SharingReason-2956068237242780075.txt
+     [echo] List metadata of 'CustomObject child' called 'ListView'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ListView-6475599348148148474.txt
+     [echo] List metadata of 'CustomObject child' called 'FieldSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-FieldSet-5224718391420950695.txt
+     [echo] List metadata of 'ReportType'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ReportType-6794240557544740924.txt
+     [echo] List metadata of 'ReportFolder'...
+     [echo] List metadata of 'Report' in folder 'SG_Rapports_D_plac_s_du_Folder_Public'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_Rapports_D_plac_s_du_Folder_Public-3305925682400701950.txt
+     [echo] List metadata of 'Report' in folder 'Sites_pilotage_en_temps_diff_r'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Sites_pilotage_en_temps_diff_r-1121552951944643929.txt
+     [echo] List metadata of 'Report' in folder 'Catherine'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Catherine-2482200790664476442.txt
+     [echo] List metadata of 'Report' in folder 'Tps_r_el_pilotage_file_EER_D'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Tps_r_el_pilotage_file_EER_D-5193438644017210966.txt
+     [echo] List metadata of 'Report' in folder 'sites_reporting__Site_Usage_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-sites_reporting__Site_Usage_Reports-4938997708242960464.txt
+     [echo] List metadata of 'Report' in folder 'SG_EERReportingEERADLancement'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_EERReportingEERADLancement-2777002066841750760.txt
+     [echo] List metadata of 'Report' in folder 'Tps_r_el_pilotage_file_RDV'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Tps_r_el_pilotage_file_RDV-2768976758889586302.txt
+     [echo] List metadata of 'Report' in folder 'SG_Recette'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_Recette-2548700373046910191.txt
+     [echo] List metadata of 'Report' in folder 'CLH_stats_all_g_es_abs_PAU'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-CLH_stats_all_g_es_abs_PAU-3557708059241354925.txt
+     [echo] List metadata of 'Report' in folder 'Service_Dashboards_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Service_Dashboards_Reports-1429826870824198936.txt
+     [echo] List metadata of 'Report' in folder 'unfiled$public'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-unfiled$public-6765718419382257906.txt
+     [echo] List metadata of 'Report' in folder 'Sales_and_Marketing_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Sales_and_Marketing_Reports-9170658441382672906.txt
+     [echo] List metadata of 'Report' in folder 'Tchat_relation_digitale'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Tchat_relation_digitale-8488278116606202706.txt
+     [echo] List metadata of 'Report' in folder 'Sales_Marketing_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Sales_Marketing_Reports-3311976243879521895.txt
+     [echo] List metadata of 'Report' in folder 'Sites_Pilotage_temps_r_el'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Sites_Pilotage_temps_r_el-7611388332007838501.txt
+     [echo] List metadata of 'Report' in folder 'Pilotage_EERAD'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Pilotage_EERAD-2558657912351856846.txt
+     [echo] List metadata of 'Report' in folder 'SG_SuiviCCMhebdo'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_SuiviCCMhebdo-4571050889234715698.txt
+     [echo] List metadata of 'Report' in folder 'SG_VISION_SITES'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_VISION_SITES-55017449191651545.txt
+     [echo] List metadata of 'Report' in folder 'Gouvernance'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Gouvernance-5661414122948238429.txt
+     [echo] List metadata of 'Report' in folder 'Suivi_Recette_SG'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Suivi_Recette_SG-746175389955845772.txt
+     [echo] List metadata of 'Report' in folder 'DashboardReportsAdoption'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-DashboardReportsAdoption-8228216557740632968.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ReportFolder-8552952825436145354.txt
+     [echo] List metadata of 'DashboardFolder'...
+     [echo] List metadata of 'Dashboard' in folder 'Recette'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-Recette-1510932582904830435.txt
+     [echo] List metadata of 'Dashboard' in folder 'sites_reporting__CompanyDashboards'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-sites_reporting__CompanyDashboards-2158557234788067075.txt
+     [echo] List metadata of 'Dashboard' in folder 'SG_EERReportingEERADLancement'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-SG_EERReportingEERADLancement-1884705472827399599.txt
+     [echo] List metadata of 'Dashboard' in folder 'dashboard_test'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-dashboard_test-1803754501773116224.txt
+     [echo] List metadata of 'Dashboard' in folder 'Service_Dashboards'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-Service_Dashboards-3314503964381757453.txt
+     [echo] List metadata of 'Dashboard' in folder 'SG_POPPARTTAB1'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-SG_POPPARTTAB1-3095489420333256732.txt
+     [echo] List metadata of 'Dashboard' in folder 'Pilotage_EERAD'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-Pilotage_EERAD-102582509570339789.txt
+     [echo] List metadata of 'Dashboard' in folder 'SG_POPPARTTAB1_CRCm'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-SG_POPPARTTAB1_CRCm-7241263715852602223.txt
+     [echo] List metadata of 'Dashboard' in folder 'Sales_and_Marketing_Dashboards'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-Sales_and_Marketing_Dashboards-370864990347825394.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DashboardFolder-539729650903630340.txt
+     [echo] List metadata of 'AnalyticSnapshot'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AnalyticSnapshot-7015300338355918624.txt
+     [echo] List metadata of 'CustomFeedFilter'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomFeedFilter-1316436239133210107.txt
+     [echo] List metadata of 'Layout'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Layout-6246455969075055.txt
+     [echo] List metadata of 'DocumentFolder'...
+     [echo] List metadata of 'Document' in folder 'SG_PPR'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SG_PPR-8564743208150437997.txt
+     [echo] List metadata of 'Document' in folder 'Dossier_partag_des_communaut_s'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-Dossier_partag_des_communaut_s-6840640473251070730.txt
+     [echo] List metadata of 'Document' in folder 'Dossier_partag_des_communaut_s1'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-Dossier_partag_des_communaut_s1-7431685029037786086.txt
+     [echo] List metadata of 'Document' in folder 'SG_EER'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SG_EER-2152473988305987463.txt
+     [echo] List metadata of 'Document' in folder 'SalesTools'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SalesTools-5765282360489141084.txt
+     [echo] List metadata of 'Document' in folder 'SG_EERV1'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SG_EERV1-7050292628386451353.txt
+     [echo] List metadata of 'Document' in folder 'SG_EER_DocumentWeb'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SG_EER_DocumentWeb-7739175499261410230.txt
+     [echo] List metadata of 'Document' in folder 'SharedDocuments'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SharedDocuments-5732733531521275239.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DocumentFolder-3949935250369829367.txt
+     [echo] List metadata of 'CustomPageWebLink'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomPageWebLink-6603691783815793512.txt
+     [echo] List metadata of 'Letterhead'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Letterhead-4039334207480009874.txt
+     [echo] List metadata of 'EmailFolder'...
+     [echo] List metadata of 'EmailTemplate' in folder 'unfiled$public'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmailTemplate-in-unfiled$public-1281760162467308899.txt
+     [echo] List metadata of 'EmailTemplate' in folder 'EER_V1_Template'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmailTemplate-in-EER_V1_Template-5690049410261146964.txt
+     [echo] List metadata of 'EmailTemplate' in folder 'SG_PRV_Template'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmailTemplate-in-SG_PRV_Template-4760319242540833384.txt
+     [echo] List metadata of 'EmailTemplate' in folder 'SG_EER_Template'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmailTemplate-in-SG_EER_Template-4432957987350693783.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmailFolder-186564533777485092.txt
+     [echo] List metadata of 'QuickAction'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-QuickAction-3579803269701146535.txt
+     [echo] List metadata of 'FlexiPage'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-FlexiPage-3275094142564078104.txt
+     [echo] List metadata of 'CustomTab'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomTab-489541628138240133.txt
+     [echo] List metadata of 'CustomApplicationComponent'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomApplicationComponent-7859961078325660863.txt
+     [echo] List metadata of 'CustomApplication'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomApplication-181191108001331150.txt
+     [echo] List metadata of 'EmbeddedServiceConfig'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmbeddedServiceConfig-3712722699700946208.txt
+     [echo] List metadata of 'EmbeddedServiceLiveAgent'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmbeddedServiceLiveAgent-5926264142220883511.txt
+     [echo] List metadata of 'EmbeddedServiceBranding'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmbeddedServiceBranding-1348775830825413029.txt
+     [echo] List metadata of 'Flow'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Flow-4607551042705856420.txt
+     [echo] List metadata of 'FlowDefinition'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-FlowDefinition-8256193253069779175.txt
+     [echo] List metadata of 'EventSubscription'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EventSubscription-171384229271916903.txt
+     [echo] List metadata of 'EventDelivery'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EventDelivery-1590290238642154862.txt
+     [echo] List metadata of 'Workflow'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Workflow-5470608768635946294.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowFieldUpdate'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowFieldUpdate-1993726122712389542.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowKnowledgePublish'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowKnowledgePublish-2413430807465855476.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowTask'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowTask-4648691689384784741.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowAlert'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowAlert-603911603294127925.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowSend'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowSend-1811381062254572156.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowOutboundMessage'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowOutboundMessage-5366191411478910430.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowRule-5443684419080471282.txt
+     [echo] List metadata of 'AssignmentRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AssignmentRules-15923850286005089.txt
+     [echo] List metadata of 'AssignmentRules child' called 'AssignmentRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AssignmentRule-2260667077601995965.txt
+     [echo] List metadata of 'AutoResponseRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AutoResponseRules-2451358496698180306.txt
+     [echo] List metadata of 'AutoResponseRules child' called 'AutoResponseRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AutoResponseRule-4518196482042233473.txt
+     [echo] List metadata of 'EscalationRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EscalationRules-4327078018602697589.txt
+     [echo] List metadata of 'EscalationRules child' called 'EscalationRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EscalationRule-7697231606096158949.txt
+     [echo] List metadata of 'PostTemplate'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-PostTemplate-4261433245192339048.txt
+     [echo] List metadata of 'ApprovalProcess'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApprovalProcess-5228558322699163782.txt
+     [echo] List metadata of 'HomePageComponent'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-HomePageComponent-4725412583626330331.txt
+     [echo] List metadata of 'HomePageLayout'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-HomePageLayout-2962994826494148009.txt
+     [echo] List metadata of 'CustomObjectTranslation'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomObjectTranslation-1058164731657996925.txt
+     [echo] List metadata of 'Translations'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Translations-5632805012490473282.txt
+     [echo] List metadata of 'GlobalValueSetTranslation'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-GlobalValueSetTranslation-3825617647096125629.txt
+     [echo] List metadata of 'StandardValueSetTranslation'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-StandardValueSetTranslation-3630480979451603383.txt
+     [echo] List metadata of 'ApexClass'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexClass-3095688195664608363.txt
+     [echo] List metadata of 'ApexTrigger'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexTrigger-7777641193818818621.txt
+     [echo] List metadata of 'ApexTestSuite'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexTestSuite-786407401301374084.txt
+     [echo] List metadata of 'Profile'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Profile-2115435158356765941.txt
+     [echo] List metadata of 'PermissionSet'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-PermissionSet-5742191239764333475.txt
+     [echo] List metadata of 'CustomMetadata'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomMetadata-5419308730127509583.txt
+     [echo] List metadata of 'ProfilePasswordPolicy'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ProfilePasswordPolicy-2977954285188855631.txt
+     [echo] List metadata of 'ProfileSessionSetting'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ProfileSessionSetting-5863067745918669747.txt
+     [echo] List metadata of 'DataCategoryGroup'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DataCategoryGroup-5848581619440386883.txt
+     [echo] List metadata of 'RemoteSiteSetting'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-RemoteSiteSetting-307211851969552738.txt
+     [echo] List metadata of 'CspTrustedSite'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CspTrustedSite-8202578580092047737.txt
+     [echo] List metadata of 'MatchingRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-MatchingRules-6179937200654729128.txt
+     [echo] List metadata of 'MatchingRules child' called 'MatchingRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-MatchingRule-8666661526834351469.txt
+     [echo] List metadata of 'DuplicateRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DuplicateRule-2998612636851329154.txt
+     [echo] List metadata of 'CleanDataService'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CleanDataService-6812904909264022308.txt
+     [echo] List metadata of 'AuthProvider'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AuthProvider-1725171304086276265.txt
+     [echo] List metadata of 'EclairGeoData'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EclairGeoData-5238791999472339494.txt
+     [echo] List metadata of 'CustomSite'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomSite-5453579517138001872.txt
+     [echo] List metadata of 'ChannelLayout'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ChannelLayout-341620236197962567.txt
+     [echo] List metadata of 'ContentAsset'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ContentAsset-6144597709349846004.txt
+     [echo] List metadata of 'SharingRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SharingRules-5155421282236671135.txt
+     [echo] List metadata of 'SharingRules child' called 'SharingOwnerRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SharingOwnerRule-6812073130450944453.txt
+     [echo] List metadata of 'SharingRules child' called 'SharingCriteriaRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SharingCriteriaRule-8335008355746514769.txt
+     [echo] List metadata of 'Community'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Community-3288250387971237913.txt
+     [echo] List metadata of 'ChatterExtension'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ChatterExtension-400399473868168213.txt
+     [echo] List metadata of 'CallCenter'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CallCenter-6452679241195604717.txt
+     [echo] List metadata of 'ConnectedApp'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ConnectedApp-4930448551712599355.txt
+     [echo] List metadata of 'AppMenu'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AppMenu-5797362157638424004.txt
+     [echo] List metadata of 'DelegateGroup'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DelegateGroup-787132343975454912.txt
+     [echo] List metadata of 'SiteDotCom'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SiteDotCom-2462462362968912761.txt
+     [echo] List metadata of 'Network'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Network-4356079135210328852.txt
+     [echo] List metadata of 'CommunityThemeDefinition'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CommunityThemeDefinition-3201704321793163508.txt
+     [echo] List metadata of 'BrandingSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-BrandingSet-4748158007413456297.txt
+     [echo] List metadata of 'CommunityTemplateDefinition'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CommunityTemplateDefinition-1632240496074148050.txt
+     [echo] List metadata of 'ManagedTopics'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ManagedTopics-162069581306747579.txt
+     [echo] List metadata of 'ManagedTopics child' called 'ManagedTopic'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ManagedTopic-8580711265171666652.txt
+     [echo] List metadata of 'KeywordList'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-KeywordList-5082800103651727459.txt
+     [echo] List metadata of 'UserCriteria'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-UserCriteria-7165603746233038767.txt
+     [echo] List metadata of 'ModerationRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ModerationRule-8463033427311278011.txt
+     [echo] List metadata of 'SamlSsoConfig'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SamlSsoConfig-6462518142319877895.txt
+     [echo] List metadata of 'CorsWhitelistOrigin'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CorsWhitelistOrigin-4891149600218762011.txt
+     [echo] List metadata of 'ActionLinkGroupTemplate'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ActionLinkGroupTemplate-315541412618725841.txt
+     [echo] List metadata of 'Skill'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Skill-7663018515694819455.txt
+     [echo] List metadata of 'LiveChatDeployment'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LiveChatDeployment-2552740901208598821.txt
+     [echo] List metadata of 'LiveChatButton'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LiveChatButton-978569929340946449.txt
+     [echo] List metadata of 'LiveChatAgentConfig'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LiveChatAgentConfig-8914620148094300985.txt
+     [echo] List metadata of 'SynonymDictionary'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SynonymDictionary-8163887501482674967.txt
+     [echo] List metadata of 'PathAssistant'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-PathAssistant-1541818465585248174.txt
+     [echo] List metadata of 'LeadConvertSettings'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LeadConvertSettings-2840278280010505459.txt
+     [echo] List metadata of 'LiveChatSensitiveDataRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LiveChatSensitiveDataRule-1607636883935202634.txt
+     [echo] List metadata of 'PlatformCachePartition'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-PlatformCachePartition-7400741396871858352.txt
+     [echo] List metadata of 'AssistantRecommendationType'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AssistantRecommendationType-527939782532600653.txt
+     [echo] List metadata of 'Settings'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Settings-7307138209258635335.txt
+
+BUILD SUCCESSFUL
+Total time: 1 minute 10 seconds
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/SG/ANT_SGEER/PROJET_V1/FOR_BACKUP/Salesforce_Deploy_Toolbox.xml
+
+retrieve:
+[sf:retrieve] Request for a retrieve submitted successfully.
+[sf:retrieve] Request ID for the current retrieve task: 09S5E000000FsJSUA0
+[sf:retrieve] Waiting for server to finish processing the request...
+[sf:retrieve] Request Status: Pending
+[sf:retrieve] Request Status: Pending
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: Succeeded
+[sf:retrieve] Retrieve warnings (119):
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Entity of type 'InstalledPackage' named 'mule' cannot be found
+[sf:retrieve] package.xml - Entity of type 'CustomLabels' named 'sf_com_apps' cannot be found
+[sf:retrieve] package.xml - Entity type 'Certificate' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ExternalServiceRegistration' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'GlobalValueSet' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'StandardValueSet' is not available in this api version
+[sf:retrieve] package.xml - Entity of type 'RecordType' named 'Account.PersonAccount' cannot be found
+[sf:retrieve] package.xml - Entity of type 'RecordType' named 'Account.SG_EERProspect' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'SocialPost.AllSocialPosts' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'Quote.mine' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'Idea.Ideas_Last_7_Days' cannot be found
+[sf:retrieve] package.xml - Entity type: '${${metadatatype}}' is unknown
+[sf:retrieve] package.xml - Entity type 'EmbeddedServiceConfig' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'EmbeddedServiceLiveAgent' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'EmbeddedServiceBranding' is not available in this api version
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EER_AUTOFILL_AgenceRetraitMoyenPaiement' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_Assign_Current_Owner_Case' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EERV1_SendSMS' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EERV1_DisableJouveFolder' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EERV1_Envoi_Mail' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_Send_Email_to_Tomii' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_Send_Email_Formulaire_En_Cours' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'G_Send_Email_to_Prospect_Finalise' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EER_UpdateTechFieldCountry' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EER_DeleteContactSite' cannot be found
+[sf:retrieve] package.xml - Entity type 'EventSubscription' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'EventDelivery' is not available in this api version
+[sf:retrieve] package.xml - Entity of type 'Workflow' named 'SG_Send_Email_to_Tomii' cannot be found
+[sf:retrieve] package.xml - Entity of type 'AssignmentRules' named 'Case.SG_CASE_WF38_CLOTURE PRET ETUDIANT RDV' cannot be found
+[sf:retrieve] package.xml - Entity of type 'AutoResponseRules' named 'Case.SG_CASE_WF38_CLOTURE PRET ETUDIANT RDV' cannot be found
+[sf:retrieve] package.xml - Entity of type 'EscalationRules' named 'Case.SG_CASE_WF38_CLOTURE PRET ETUDIANT RDV' cannot be found
+[sf:retrieve] package.xml - Entity of type 'CustomObjectTranslation' named 'Dashboard Home Page Default' cannot be found
+[sf:retrieve] package.xml - Entity type 'GlobalValueSetTranslation' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'StandardValueSetTranslation' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ApexTestSuite' is not available in this api version
+[sf:retrieve] package.xml - Entity of type 'CustomMetadata' named 'Salesforce_Lead_Capture' cannot be found
+[sf:retrieve] package.xml - Entity type 'ProfilePasswordPolicy' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ProfileSessionSetting' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'CspTrustedSite' is not available in this api version
+[sf:retrieve] package.xml - Entity of type 'MatchingRules' named 'SG_EERV1_SSOPV2_HOM_T' cannot be found
+[sf:retrieve] package.xml - Entity of type 'MatchingRule' named 'Account.Standard_PersonAccount_Match_Rule_v1_0' cannot be found
+[sf:retrieve] package.xml - Entity type 'DuplicateRule' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'CleanDataService' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'EclairGeoData' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ContentAsset' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ChatterExtension' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'DelegateGroup' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'CommunityThemeDefinition' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'BrandingSet' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'CommunityTemplateDefinition' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'KeywordList' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'UserCriteria' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ModerationRule' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'AssistantRecommendationType' is not available in this api version
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/leadcap.installedPackage - Duplicate object names in the same package, 'installedPackages/leadcap.installedPackage'; please rename one
+[sf:retrieve] installedPackages/leadcap.installedPackage - Duplicate object names in the same package, 'installedPackages/leadcap.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] package.xml - Unable to retrieve report with id 00O58000003alc4 (Component title: Les demandes en cours...)
+[sf:retrieve] package.xml - API version Winter '16 does not have access to Lightning Pages of type UtilityBar.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:AppMenu and file name:AppSwitcher.
+[sf:retrieve] package.xml - Invalid name for AppMenu: SG_MOBILE_APP
+[sf:retrieve] Finished request 09S5E000000FsJSUA0 successfully.
+
+BUILD SUCCESSFUL
+Total time: 2 minutes 11 seconds
+Starting Git Job...
+Cloning into 'sg_eer_v1_uat1'...
+[master 2e232e1] commiting change to repository
+ Committer: Erwan Yhuellou <eyhuellou@eyhuellou-ltm1.internal.salesforce.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 182 insertions(+), 157 deletions(-)
+ rewrite siteDotComSites/Soci_t_G_n_rale_C.site (98%)
+ rewrite siteDotComSites/Soci_t_G_n_rale_Old_C.site (98%)
+To https://bitbucket.org/eyhuellou/sg_eer_v1_uat1.git
+   0417605..2e232e1  master -> master
+Branch master set up to track remote branch master from origin.
+RetrieveAllFromOrg Finished !
+Finished: SUCCESS

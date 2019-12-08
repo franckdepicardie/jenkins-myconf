@@ -1,0 +1,131 @@
+Started by timer
+Started by timer
+Started by timer
+Started by timer
+Started by timer
+Started by timer
+Started by timer
+Building in workspace /Users/eyhuellou/.jenkins/workspace/RUN_ALL_TEST_dev1
+[RUN_ALL_TEST_dev1] $ /bin/bash /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/hudson57119476498324873.sh
+LAUNCH
+Starting testAllFromOrg
+/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/
+/Users/eyhuellou/Documents/BACKUP/ANT/apache-ant-1.9.8/
+./testAllFromOrg: line 18: cd: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_TEST: No such file or directory
+*** testAllFromOrg Job Started for dev1
+>> RETRIEVING TEST CLASS dev1
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/SG/ANT_SGEER/PROJET_V1/FOR_TEST/Salesforce_Deploy_Toolbox.xml
+
+retrieve:
+[sf:retrieve] Request for a retrieve submitted successfully.
+[sf:retrieve] Request ID for the current retrieve task: 09S9E000000x1xRUAQ
+[sf:retrieve] Waiting for server to finish processing the request...
+[sf:retrieve] Request Status: Pending
+[sf:retrieve] Request Status: Succeeded
+[sf:retrieve] Finished request 09S9E000000x1xRUAQ successfully.
+
+BUILD SUCCESSFUL
+Total time: 13 seconds
+>> PREPARING UNIT TESTS
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/SG/ANT_SGEER/PROJET_V1/FOR_TEST/Salesforce_Deploy_Toolbox.xml
+
+prepareUnitTests2:
+     [echo] retrievedTestClass_dev1
+     [echo] --
+     [echo] --
+     [echo] Adding CaseBeforeUpdateTest in allUnmanagedTests.xml
+     [echo] Adding SGEERV1_PaiementChoixCarteCtrlTest in allUnmanagedTests.xml
+     [echo] Adding SGEER_PaiementChoixCarteCtrlTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERCaseSendEmailAfter70day_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERCaseSendEmailafter5daysTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERSendEmailNewAttachment_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERSendEmail_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERTemplateMailCaseControllertest in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_AccueilController_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_AttachmentUploadTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_BAD_ChoixJustificatif_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_BAD_ConfirmationRdv_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_BAD_RedirectPourCommencer_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_BAD_TelechargementContrat_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_CasePjTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_CaseSendEmailAfterXdaysTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_ContactExt_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_CustomLoginController_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_DetectScore_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_Moteur_OFFRETest in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_Moteur_PJtest in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_OffrePaiementRecommandatioTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_PJ_PopupTEST in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_PageDeGardeTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_PdfParentCtrlTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_Prochaines_Etapes_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_RedirectAgence_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_RedirectLogin_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_RedirectMoyenDePaiment_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_RedirectPourCommencer_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_RedirectRecapFinal_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_RedirectRecap_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_RedirectVous_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_SOSSessionTriggerHandlerTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_SendSMS_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_TemplateMailCaseControllerTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_TestIntegrationMock in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_TestIntegrationTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_WS001ITGT_mock in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_WS001ITGT_test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_WS_Jouve_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_WS_NotificationTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_WS_Signature_mock in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_WS_Signature_test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_WS_VerificationNF_mock in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_WS_VerificationNF_test in allUnmanagedTests.xml
+     [echo] Adding SG_EERV1_getPJforcasetest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_AccueilController_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_AttachmentUploadTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_ContactExt_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_CopyEncryptedFieldsTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_CustomLoginController_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_DeleteContactSite_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_Inactive_UserTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_Moteur_OFFRETest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_OffrePaiementRecommandation_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_PJ_AddedTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_PJ_PopupTEST in allUnmanagedTests.xml
+     [echo] Adding SG_EER_PageDeGardeTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_RedirectAgence_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_RedirectMoyenDePaiment_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_RedirectPourCommencer_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_RedirectRecapFinal_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_RedirectRecap_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_RedirectVous_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_TestUtilsTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_UpdatePersonAccFieldsTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_getPJforcasetest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_userDesactivationTest in allUnmanagedTests.xml
+     [echo] Adding SG_IndicateurCalcul_TEST in allUnmanagedTests.xml
+     [echo] Adding SG_SendMailFormulaireClient_Test in allUnmanagedTests.xml
+     [echo] Adding SG_SendMailFormulaireEnCoursTest in allUnmanagedTests.xml
+     [echo] Adding SG_SendMailFormulaireTommi_Test in allUnmanagedTests.xml
+     [echo] Adding SG_SendMailNouvelleDemandeTest in allUnmanagedTests.xml
+     [echo] Adding SG_newERRADDepuisFicheRDVController_test in allUnmanagedTests.xml
+     [echo] Adding SG_newRDVDepuisFicheEERADController_test in allUnmanagedTests.xml
+     [echo] Adding SG_resetPassword_test in allUnmanagedTests.xml
+     [echo] Adding newPriseRDVController_test in allUnmanagedTests.xml
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+>> RUNNING UNIT TESTS
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/SG/ANT_SGEER/PROJET_V1/FOR_TEST/Salesforce_Deploy_Toolbox.xml
+
+runUnitTests:
+    [mkdir] Created dir: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev1-20171030152911219
+[sf:deploy] Request for a deploy submitted successfully.
+[sf:deploy] Request ID for the current deploy task: 0Af9E00000tf3EjSAI
+[sf:deploy] Waiting for server to finish processing the request...
+[sf:deploy] Request Status: Pending
+[sf:deploy] Request Status: InProgress (1/11)  -- Running Test: SG_EER_AccueilController_Test.TestMethod2DemEnCoursVotreAgence
+[sf:deploy] Request Status: InProgress (3/11)  -- Running Test: SG_EER_AccueilController_Test.TestMethod4DemEnCoursVous
+[sf:deploy] Request Status: InProgress (6/11)  -- Running Test: SG_EER_AccueilController_Test.TestMethod5_2DemFinalaTraiteCaseDossierRecu
+Build was aborted
+Aborted by [8mha:////4FQ2j8NbATnSqqEGRgV3uOBwsGTWg4RSbZHQRuDr1uy2AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Finished: ABORTED

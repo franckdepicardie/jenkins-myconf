@@ -1,0 +1,1896 @@
+Started by user [8mha:////4FQ2j8NbATnSqqEGRgV3uOBwsGTWg4RSbZHQRuDr1uy2AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /Users/eyhuellou/.jenkins/workspace/RUN_ALL_TEST_dev1
+[RUN_ALL_TEST_dev1] $ /bin/bash /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/hudson7576596219977406788.sh
+LAUNCH
+Starting testAllFromOrg
+/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/
+/Users/eyhuellou/Documents/BACKUP/ANT/apache-ant-1.9.8/
+*** testAllFromOrg Job Started for dev1
+>> RETRIEVING TEST CLASS dev1
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_TEST/Salesforce_Deploy_Toolbox.xml
+
+retrieve:
+[sf:retrieve] Request for a retrieve submitted successfully.
+[sf:retrieve] Request ID for the current retrieve task: 09S9E000000T3Z2UAK
+[sf:retrieve] Waiting for server to finish processing the request...
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: Succeeded
+[sf:retrieve] Finished request 09S9E000000T3Z2UAK successfully.
+
+BUILD SUCCESSFUL
+Total time: 12 seconds
+>> PREPARING UNIT TESTS
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_TEST/Salesforce_Deploy_Toolbox.xml
+
+prepareUnitTests2:
+     [echo] retrievedTestClass_dev1
+     [echo] --
+     [echo] --
+     [echo] Adding CaseBeforeUpdateTest in allUnmanagedTests.xml
+     [echo] Adding SGEER_PaiementChoixCarteCtrlTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERCaseSendEmailAfter70day_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERCaseSendEmailafter5daysTest in allUnmanagedTests.xml
+     [echo] Adding SG_EERSendEmailNewAttachment_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERSendEmail_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EERTemplateMailCaseControllertest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_AccueilController_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_AttachmentUploadTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_ContactExt_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_CopyEncryptedFieldsTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_CustomLoginController_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_DeleteContactSite_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_Inactive_UserTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_Moteur_OFFRETest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_OffrePaiementRecommandation_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_PJ_AddedTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_PJ_PopupTEST in allUnmanagedTests.xml
+     [echo] Adding SG_EER_PageDeGardeTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_RedirectAgence_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_RedirectMoyenDePaiment_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_RedirectPourCommencer_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_RedirectRecapFinal_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_RedirectRecap_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_RedirectVous_Test in allUnmanagedTests.xml
+     [echo] Adding SG_EER_TestUtilsTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_UpdatePersonAccFieldsTest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_getPJforcasetest in allUnmanagedTests.xml
+     [echo] Adding SG_EER_userDesactivationTest in allUnmanagedTests.xml
+     [echo] Adding SG_IndicateurCalcul_TEST in allUnmanagedTests.xml
+     [echo] Adding SG_SendMailFormulaireClient_Test in allUnmanagedTests.xml
+     [echo] Adding SG_SendMailFormulaireEnCoursTest in allUnmanagedTests.xml
+     [echo] Adding SG_SendMailFormulaireTommi_Test in allUnmanagedTests.xml
+     [echo] Adding SG_SendMailNouvelleDemandeTest in allUnmanagedTests.xml
+     [echo] Adding SG_newERRADDepuisFicheRDVController_test in allUnmanagedTests.xml
+     [echo] Adding SG_newRDVDepuisFicheEERADController_test in allUnmanagedTests.xml
+     [echo] Adding SG_resetPassword_test in allUnmanagedTests.xml
+     [echo] Adding newPriseRDVController_test in allUnmanagedTests.xml
+
+BUILD SUCCESSFUL
+Total time: 1 second
+>> RUNNING UNIT TESTS
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_TEST/Salesforce_Deploy_Toolbox.xml
+
+runUnitTests:
+    [mkdir] Created dir: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev1-20170623090814105
+[sf:deploy] Request for a deploy submitted successfully.
+[sf:deploy] Request ID for the current deploy task: 0Af9E00000JfEZNSA3
+[sf:deploy] Waiting for server to finish processing the request...
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: Failed
+[sf:deploy] Debugging Information:
+[sf:deploy] 35.0 APEX_CODE,FINER;APEX_PROFILING,FINE;CALLOUT,INFO;DB,INFO;SYSTEM,FINEST
+[sf:deploy] 09:08:13.607 (607784907)|USER_INFO|[EXTERNAL]|00558000001ngsT|eyhuellou@sgeer.com.dev1|Heure d'Europe centrale|GMT+02:00
+[sf:deploy] 09:08:13.607 (607837394)|EXECUTION_STARTED
+[sf:deploy] 09:08:13.607 (607845582)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000008UseZ|SG_EER_AccueilController_Test.TestMethod1DemEnCoursPourCommencer
+[sf:deploy] 09:08:13.607 (608118892)|HEAP_ALLOCATE|[72]|Bytes:3
+[sf:deploy] 09:08:13.607 (608176632)|HEAP_ALLOCATE|[77]|Bytes:152
+[sf:deploy] 09:08:13.607 (608205512)|HEAP_ALLOCATE|[342]|Bytes:408
+[sf:deploy] 09:08:13.607 (608237291)|HEAP_ALLOCATE|[355]|Bytes:408
+[sf:deploy] 09:08:13.607 (608266143)|HEAP_ALLOCATE|[467]|Bytes:48
+[sf:deploy] 09:08:13.607 (608300367)|HEAP_ALLOCATE|[139]|Bytes:6
+[sf:deploy] 09:08:13.607 (608319699)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:530
+[sf:deploy] 09:08:13.607 (608331479)|METHOD_ENTRY|[7]|01p58000008UseZ|SG_EER_AccueilController_Test.SG_EER_AccueilController_Test()
+[sf:deploy] 09:08:13.607 (608338119)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.607 (608344418)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.607 (608349102)|METHOD_EXIT|[7]|SG_EER_AccueilController_Test
+[sf:deploy] 09:08:13.607 (608385403)|HEAP_ALLOCATE|[50]|Bytes:5
+[sf:deploy] 09:08:13.607 (608419726)|HEAP_ALLOCATE|[56]|Bytes:5
+[sf:deploy] 09:08:13.607 (608433710)|HEAP_ALLOCATE|[64]|Bytes:7
+[sf:deploy] 09:08:13.607 (608487379)|STATEMENT_EXECUTE|[10]
+[sf:deploy] 09:08:13.607 (608491302)|STATEMENT_EXECUTE|[11]
+[sf:deploy] 09:08:13.607 (608496125)|HEAP_ALLOCATE|[11]|Bytes:58
+[sf:deploy] 09:08:13.607 (608512526)|HEAP_ALLOCATE|[11]|Bytes:4
+[sf:deploy] 09:08:13.607 (608530133)|HEAP_ALLOCATE|[11]|Bytes:7
+[sf:deploy] 09:08:13.607 (608536828)|HEAP_ALLOCATE|[11]|Bytes:29
+[sf:deploy] 09:08:13.607 (610887439)|HEAP_ALLOCATE|[11]|Bytes:13
+[sf:deploy] 09:08:13.607 (611256631)|SOQL_EXECUTE_BEGIN|[11]|Aggregations:0|SELECT id, name FROM Profile WHERE name = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.607 (650777584)|SOQL_EXECUTE_END|[11]|Rows:1
+[sf:deploy] 09:08:13.607 (650815666)|HEAP_ALLOCATE|[11]|Bytes:8
+[sf:deploy] 09:08:13.607 (650830611)|HEAP_ALLOCATE|[11]|Bytes:50
+[sf:deploy] 09:08:13.607 (650982042)|HEAP_ALLOCATE|[11]|Bytes:8
+[sf:deploy] 09:08:13.607 (651003012)|HEAP_ALLOCATE|[11]|Bytes:33
+[sf:deploy] 09:08:13.607 (651083078)|HEAP_ALLOCATE|[11]|Bytes:12
+[sf:deploy] 09:08:13.607 (651129637)|STATEMENT_EXECUTE|[12]
+[sf:deploy] 09:08:13.607 (651138098)|HEAP_ALLOCATE|[12]|Bytes:4
+[sf:deploy] 09:08:13.607 (651147886)|HEAP_ALLOCATE|[12]|Bytes:49
+[sf:deploy] 09:08:13.607 (651153201)|HEAP_ALLOCATE|[12]|Bytes:8
+[sf:deploy] 09:08:13.607 (651158256)|HEAP_ALLOCATE|[12]|Bytes:4
+[sf:deploy] 09:08:13.607 (651177754)|HEAP_ALLOCATE|[12]|Bytes:18
+[sf:deploy] 09:08:13.607 (651195664)|HEAP_ALLOCATE|[12]|Bytes:45
+[sf:deploy] 09:08:13.607 (651226603)|METHOD_ENTRY|[1]|01p58000008UsfA|SG_EER_TestUtils.SG_EER_TestUtils()
+[sf:deploy] 09:08:13.607 (651236397)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.607 (651242829)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.607 (651251212)|METHOD_EXIT|[1]|SG_EER_TestUtils
+[sf:deploy] 09:08:13.607 (651301090)|METHOD_ENTRY|[12]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.607 (651379976)|STATEMENT_EXECUTE|[3]
+[sf:deploy] 09:08:13.607 (651384078)|STATEMENT_EXECUTE|[4]
+[sf:deploy] 09:08:13.607 (651397315)|HEAP_ALLOCATE|[4]|Bytes:4
+[sf:deploy] 09:08:13.607 (651525867)|STATEMENT_EXECUTE|[5]
+[sf:deploy] 09:08:13.607 (651594591)|STATEMENT_EXECUTE|[6]
+[sf:deploy] 09:08:13.607 (651623738)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.607 (651642994)|STATEMENT_EXECUTE|[8]
+[sf:deploy] 09:08:13.607 (651661050)|STATEMENT_EXECUTE|[9]
+[sf:deploy] 09:08:13.607 (651679256)|STATEMENT_EXECUTE|[10]
+[sf:deploy] 09:08:13.607 (651701933)|HEAP_ALLOCATE|[10]|Bytes:1
+[sf:deploy] 09:08:13.607 (651739016)|SYSTEM_METHOD_ENTRY|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.607 (651830962)|SYSTEM_METHOD_EXIT|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.607 (651857749)|SYSTEM_METHOD_ENTRY|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.607 (651867860)|HEAP_ALLOCATE|[10]|Bytes:34
+[sf:deploy] 09:08:13.607 (651881548)|SYSTEM_METHOD_EXIT|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.607 (651917974)|STATEMENT_EXECUTE|[11]
+[sf:deploy] 09:08:13.607 (651923870)|HEAP_ALLOCATE|[11]|Bytes:12
+[sf:deploy] 09:08:13.607 (651952790)|STATEMENT_EXECUTE|[12]
+[sf:deploy] 09:08:13.607 (651957011)|HEAP_ALLOCATE|[12]|Bytes:10
+[sf:deploy] 09:08:13.607 (651990890)|STATEMENT_EXECUTE|[13]
+[sf:deploy] 09:08:13.607 (651996107)|HEAP_ALLOCATE|[13]|Bytes:10
+[sf:deploy] 09:08:13.607 (652029793)|STATEMENT_EXECUTE|[14]
+[sf:deploy] 09:08:13.607 (652055989)|HEAP_ALLOCATE|[14]|Bytes:4
+[sf:deploy] 09:08:13.607 (652119342)|STATEMENT_EXECUTE|[15]
+[sf:deploy] 09:08:13.607 (652130329)|HEAP_ALLOCATE|[15]|Bytes:2
+[sf:deploy] 09:08:13.607 (652159819)|STATEMENT_EXECUTE|[16]
+[sf:deploy] 09:08:13.607 (652171465)|METHOD_EXIT|[12]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.607 (652181361)|STATEMENT_EXECUTE|[14]
+[sf:deploy] 09:08:13.607 (652185561)|HEAP_ALLOCATE|[14]|Bytes:7
+[sf:deploy] 09:08:13.607 (652209613)|METHOD_ENTRY|[14]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.607 (652262559)|STATEMENT_EXECUTE|[19]
+[sf:deploy] 09:08:13.607 (652266226)|STATEMENT_EXECUTE|[20]
+[sf:deploy] 09:08:13.607 (652278233)|HEAP_ALLOCATE|[20]|Bytes:4
+[sf:deploy] 09:08:13.607 (652351924)|STATEMENT_EXECUTE|[21]
+[sf:deploy] 09:08:13.607 (652388227)|STATEMENT_EXECUTE|[22]
+[sf:deploy] 09:08:13.607 (652394647)|HEAP_ALLOCATE|[22]|Bytes:53
+[sf:deploy] 09:08:13.607 (652405956)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.607 (652416510)|HEAP_ALLOCATE|[22]|Bytes:22
+[sf:deploy] 09:08:13.607 (652452548)|HEAP_ALLOCATE|[22]|Bytes:43
+[sf:deploy] 09:08:13.607 (652692112)|SOQL_EXECUTE_BEGIN|[22]|Aggregations:0|SELECT Id FROM User WHERE Username = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.607 (657221784)|SOQL_EXECUTE_END|[22]|Rows:0
+[sf:deploy] 09:08:13.607 (657256621)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.607 (657271236)|HEAP_ALLOCATE|[22]|Bytes:0
+[sf:deploy] 09:08:13.607 (657321149)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.607 (657336733)|HEAP_ALLOCATE|[22]|Bytes:30
+[sf:deploy] 09:08:13.607 (657405739)|HEAP_ALLOCATE|[22]|Bytes:46
+[sf:deploy] 09:08:13.607 (657423212)|METHOD_EXIT|[14]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.607 (657498724)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod1DemEnCoursPourCommencer: line 14, column 1
+[sf:deploy] 09:08:13.607 (657521078)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod1DemEnCoursPourCommencer: line 14, column 1
+[sf:deploy] 09:08:13.657 (657549498)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 09:08:13.657 (657549498)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 2 out of 100
+[sf:deploy]   Number of query rows: 1 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 09:08:13.657 (657549498)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+[sf:deploy] 09:08:13.657 (657549498)|STATIC_VARIABLE_LIST|
+[sf:deploy]   char[]:DigitTens:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   String:_sfdcSuppressedCodeLocations:0
+[sf:deploy]   double:MAX_VALUE:0
+[sf:deploy]   Boolean:FALSE:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MIN_VALUE:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:NEGATIVE_INFINITY:0
+[sf:deploy]   int:MAX_VALUE:0
+[sf:deploy]   char[]:digits:0
+[sf:deploy]   double:NaN:0
+[sf:deploy]   Boolean:TRUE:0
+[sf:deploy]   int:MIN_VALUE:0
+[sf:deploy]   char[]:DigitOnes:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy]   int:MIN_EXPONENT:0
+[sf:deploy]   int[]:sizeTable:0
+[sf:deploy]   int:MAX_EXPONENT:0
+[sf:deploy]   String:_sfdcAdditionalCodeLocations:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:POSITIVE_INFINITY:0
+[sf:deploy]   double:MIN_NORMAL:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy] 
+[sf:deploy] 09:08:13.657 (657549498)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 09:08:13.607 (657738446)|CODE_UNIT_FINISHED|SG_EER_AccueilController_Test.TestMethod1DemEnCoursPourCommencer
+[sf:deploy] 09:08:13.607 (658547571)|EXECUTION_FINISHED
+[sf:deploy] 09:08:13.732 (732433764)|USER_INFO|[EXTERNAL]|00558000001ngsT|eyhuellou@sgeer.com.dev1|Heure d'Europe centrale|GMT+02:00
+[sf:deploy] 09:08:13.732 (732470055)|EXECUTION_STARTED
+[sf:deploy] 09:08:13.732 (732478410)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000008UseZ|SG_EER_AccueilController_Test.TestMethod2DemEnCoursVotreAgence
+[sf:deploy] 09:08:13.732 (732627923)|HEAP_ALLOCATE|[72]|Bytes:3
+[sf:deploy] 09:08:13.732 (732669178)|HEAP_ALLOCATE|[77]|Bytes:152
+[sf:deploy] 09:08:13.732 (732686168)|HEAP_ALLOCATE|[342]|Bytes:408
+[sf:deploy] 09:08:13.732 (732702361)|HEAP_ALLOCATE|[355]|Bytes:408
+[sf:deploy] 09:08:13.732 (732716590)|HEAP_ALLOCATE|[467]|Bytes:48
+[sf:deploy] 09:08:13.732 (732743687)|HEAP_ALLOCATE|[139]|Bytes:6
+[sf:deploy] 09:08:13.732 (732760604)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:530
+[sf:deploy] 09:08:13.732 (732772076)|METHOD_ENTRY|[7]|01p58000008UseZ|SG_EER_AccueilController_Test.SG_EER_AccueilController_Test()
+[sf:deploy] 09:08:13.732 (732778006)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.732 (732784243)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.732 (732789020)|METHOD_EXIT|[7]|SG_EER_AccueilController_Test
+[sf:deploy] 09:08:13.732 (732812894)|HEAP_ALLOCATE|[50]|Bytes:5
+[sf:deploy] 09:08:13.732 (732840937)|HEAP_ALLOCATE|[56]|Bytes:5
+[sf:deploy] 09:08:13.732 (732850553)|HEAP_ALLOCATE|[64]|Bytes:7
+[sf:deploy] 09:08:13.732 (732891427)|STATEMENT_EXECUTE|[39]
+[sf:deploy] 09:08:13.732 (732893834)|STATEMENT_EXECUTE|[40]
+[sf:deploy] 09:08:13.732 (732896111)|HEAP_ALLOCATE|[40]|Bytes:58
+[sf:deploy] 09:08:13.732 (732907537)|HEAP_ALLOCATE|[40]|Bytes:4
+[sf:deploy] 09:08:13.732 (732918595)|HEAP_ALLOCATE|[40]|Bytes:7
+[sf:deploy] 09:08:13.732 (732921778)|HEAP_ALLOCATE|[40]|Bytes:29
+[sf:deploy] 09:08:13.732 (732954289)|HEAP_ALLOCATE|[40]|Bytes:13
+[sf:deploy] 09:08:13.732 (733207095)|SOQL_EXECUTE_BEGIN|[40]|Aggregations:0|SELECT id, name FROM Profile WHERE name = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.732 (735429878)|SOQL_EXECUTE_END|[40]|Rows:1
+[sf:deploy] 09:08:13.732 (735450180)|HEAP_ALLOCATE|[40]|Bytes:8
+[sf:deploy] 09:08:13.732 (735464062)|HEAP_ALLOCATE|[40]|Bytes:50
+[sf:deploy] 09:08:13.732 (735493858)|HEAP_ALLOCATE|[40]|Bytes:8
+[sf:deploy] 09:08:13.732 (735503351)|HEAP_ALLOCATE|[40]|Bytes:33
+[sf:deploy] 09:08:13.732 (735534231)|HEAP_ALLOCATE|[40]|Bytes:12
+[sf:deploy] 09:08:13.732 (735550490)|STATEMENT_EXECUTE|[41]
+[sf:deploy] 09:08:13.732 (735553378)|HEAP_ALLOCATE|[41]|Bytes:4
+[sf:deploy] 09:08:13.732 (735556788)|HEAP_ALLOCATE|[41]|Bytes:49
+[sf:deploy] 09:08:13.732 (735559471)|HEAP_ALLOCATE|[41]|Bytes:8
+[sf:deploy] 09:08:13.732 (735561963)|HEAP_ALLOCATE|[41]|Bytes:4
+[sf:deploy] 09:08:13.732 (735577375)|HEAP_ALLOCATE|[41]|Bytes:18
+[sf:deploy] 09:08:13.732 (735591969)|HEAP_ALLOCATE|[41]|Bytes:45
+[sf:deploy] 09:08:13.732 (735599580)|METHOD_ENTRY|[1]|01p58000008UsfA|SG_EER_TestUtils.SG_EER_TestUtils()
+[sf:deploy] 09:08:13.732 (735603665)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.732 (735606785)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.732 (735610326)|METHOD_EXIT|[1]|SG_EER_TestUtils
+[sf:deploy] 09:08:13.732 (735622206)|METHOD_ENTRY|[41]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.732 (735652492)|STATEMENT_EXECUTE|[3]
+[sf:deploy] 09:08:13.732 (735655131)|STATEMENT_EXECUTE|[4]
+[sf:deploy] 09:08:13.732 (735671387)|HEAP_ALLOCATE|[4]|Bytes:4
+[sf:deploy] 09:08:13.732 (735707169)|STATEMENT_EXECUTE|[5]
+[sf:deploy] 09:08:13.732 (735741085)|STATEMENT_EXECUTE|[6]
+[sf:deploy] 09:08:13.732 (735752897)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.732 (735761500)|STATEMENT_EXECUTE|[8]
+[sf:deploy] 09:08:13.732 (735769934)|STATEMENT_EXECUTE|[9]
+[sf:deploy] 09:08:13.732 (735778307)|STATEMENT_EXECUTE|[10]
+[sf:deploy] 09:08:13.732 (735788701)|HEAP_ALLOCATE|[10]|Bytes:1
+[sf:deploy] 09:08:13.732 (735817133)|SYSTEM_METHOD_ENTRY|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.732 (735829545)|SYSTEM_METHOD_EXIT|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.732 (735843506)|SYSTEM_METHOD_ENTRY|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.732 (735849100)|HEAP_ALLOCATE|[10]|Bytes:34
+[sf:deploy] 09:08:13.732 (735856530)|SYSTEM_METHOD_EXIT|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.732 (735874971)|STATEMENT_EXECUTE|[11]
+[sf:deploy] 09:08:13.732 (735878400)|HEAP_ALLOCATE|[11]|Bytes:12
+[sf:deploy] 09:08:13.732 (735891197)|STATEMENT_EXECUTE|[12]
+[sf:deploy] 09:08:13.732 (735893995)|HEAP_ALLOCATE|[12]|Bytes:10
+[sf:deploy] 09:08:13.732 (735915379)|STATEMENT_EXECUTE|[13]
+[sf:deploy] 09:08:13.732 (735919429)|HEAP_ALLOCATE|[13]|Bytes:10
+[sf:deploy] 09:08:13.732 (735932161)|STATEMENT_EXECUTE|[14]
+[sf:deploy] 09:08:13.732 (735942119)|HEAP_ALLOCATE|[14]|Bytes:4
+[sf:deploy] 09:08:13.732 (735961170)|STATEMENT_EXECUTE|[15]
+[sf:deploy] 09:08:13.732 (735964119)|HEAP_ALLOCATE|[15]|Bytes:2
+[sf:deploy] 09:08:13.732 (735975705)|STATEMENT_EXECUTE|[16]
+[sf:deploy] 09:08:13.732 (735982827)|METHOD_EXIT|[41]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.732 (735988632)|STATEMENT_EXECUTE|[43]
+[sf:deploy] 09:08:13.732 (735990737)|HEAP_ALLOCATE|[43]|Bytes:7
+[sf:deploy] 09:08:13.732 (736000614)|METHOD_ENTRY|[43]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.732 (736020100)|STATEMENT_EXECUTE|[19]
+[sf:deploy] 09:08:13.732 (736021780)|STATEMENT_EXECUTE|[20]
+[sf:deploy] 09:08:13.732 (736032815)|HEAP_ALLOCATE|[20]|Bytes:4
+[sf:deploy] 09:08:13.732 (736048992)|STATEMENT_EXECUTE|[21]
+[sf:deploy] 09:08:13.732 (736067523)|STATEMENT_EXECUTE|[22]
+[sf:deploy] 09:08:13.732 (736070516)|HEAP_ALLOCATE|[22]|Bytes:53
+[sf:deploy] 09:08:13.732 (736076411)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.732 (736082101)|HEAP_ALLOCATE|[22]|Bytes:22
+[sf:deploy] 09:08:13.732 (736098652)|HEAP_ALLOCATE|[22]|Bytes:43
+[sf:deploy] 09:08:13.732 (736222749)|SOQL_EXECUTE_BEGIN|[22]|Aggregations:0|SELECT Id FROM User WHERE Username = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.732 (738739393)|SOQL_EXECUTE_END|[22]|Rows:0
+[sf:deploy] 09:08:13.732 (738766290)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.732 (738780320)|HEAP_ALLOCATE|[22]|Bytes:0
+[sf:deploy] 09:08:13.732 (738801594)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.732 (738810957)|HEAP_ALLOCATE|[22]|Bytes:30
+[sf:deploy] 09:08:13.732 (738849004)|HEAP_ALLOCATE|[22]|Bytes:46
+[sf:deploy] 09:08:13.732 (738860522)|METHOD_EXIT|[43]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.732 (738908394)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod2DemEnCoursVotreAgence: line 43, column 1
+[sf:deploy] 09:08:13.732 (738920623)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod2DemEnCoursVotreAgence: line 43, column 1
+[sf:deploy] 09:08:13.738 (738926894)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 09:08:13.738 (738926894)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 2 out of 100
+[sf:deploy]   Number of query rows: 1 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 09:08:13.738 (738926894)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+[sf:deploy] 09:08:13.738 (738926894)|STATIC_VARIABLE_LIST|
+[sf:deploy]   char[]:DigitTens:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   String:_sfdcSuppressedCodeLocations:0
+[sf:deploy]   double:MAX_VALUE:0
+[sf:deploy]   Boolean:FALSE:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MIN_VALUE:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:NEGATIVE_INFINITY:0
+[sf:deploy]   int:MAX_VALUE:0
+[sf:deploy]   char[]:digits:0
+[sf:deploy]   double:NaN:0
+[sf:deploy]   Boolean:TRUE:0
+[sf:deploy]   int:MIN_VALUE:0
+[sf:deploy]   char[]:DigitOnes:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy]   int:MIN_EXPONENT:0
+[sf:deploy]   int[]:sizeTable:0
+[sf:deploy]   int:MAX_EXPONENT:0
+[sf:deploy]   String:_sfdcAdditionalCodeLocations:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:POSITIVE_INFINITY:0
+[sf:deploy]   double:MIN_NORMAL:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy] 
+[sf:deploy] 09:08:13.738 (738926894)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 09:08:13.732 (739034159)|CODE_UNIT_FINISHED|SG_EER_AccueilController_Test.TestMethod2DemEnCoursVotreAgence
+[sf:deploy] 09:08:13.732 (739807863)|EXECUTION_FINISHED
+[sf:deploy] 09:08:13.758 (758754668)|USER_INFO|[EXTERNAL]|00558000001ngsT|eyhuellou@sgeer.com.dev1|Heure d'Europe centrale|GMT+02:00
+[sf:deploy] 09:08:13.758 (758775227)|EXECUTION_STARTED
+[sf:deploy] 09:08:13.758 (758780044)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000008UseZ|SG_EER_AccueilController_Test.TestMethod3DemEnCoursMoyenDePaiment
+[sf:deploy] 09:08:13.758 (758887272)|HEAP_ALLOCATE|[72]|Bytes:3
+[sf:deploy] 09:08:13.758 (758923102)|HEAP_ALLOCATE|[77]|Bytes:152
+[sf:deploy] 09:08:13.758 (758939941)|HEAP_ALLOCATE|[342]|Bytes:408
+[sf:deploy] 09:08:13.758 (758955979)|HEAP_ALLOCATE|[355]|Bytes:408
+[sf:deploy] 09:08:13.758 (758970200)|HEAP_ALLOCATE|[467]|Bytes:48
+[sf:deploy] 09:08:13.758 (758994743)|HEAP_ALLOCATE|[139]|Bytes:6
+[sf:deploy] 09:08:13.758 (759008473)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:530
+[sf:deploy] 09:08:13.758 (759018576)|METHOD_ENTRY|[7]|01p58000008UseZ|SG_EER_AccueilController_Test.SG_EER_AccueilController_Test()
+[sf:deploy] 09:08:13.758 (759024385)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.758 (759030519)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.758 (759034805)|METHOD_EXIT|[7]|SG_EER_AccueilController_Test
+[sf:deploy] 09:08:13.758 (759055839)|HEAP_ALLOCATE|[50]|Bytes:5
+[sf:deploy] 09:08:13.758 (759076599)|HEAP_ALLOCATE|[56]|Bytes:5
+[sf:deploy] 09:08:13.758 (759083468)|HEAP_ALLOCATE|[64]|Bytes:7
+[sf:deploy] 09:08:13.758 (759116429)|STATEMENT_EXECUTE|[68]
+[sf:deploy] 09:08:13.758 (759118719)|STATEMENT_EXECUTE|[69]
+[sf:deploy] 09:08:13.758 (759120946)|HEAP_ALLOCATE|[69]|Bytes:58
+[sf:deploy] 09:08:13.758 (759130445)|HEAP_ALLOCATE|[69]|Bytes:4
+[sf:deploy] 09:08:13.758 (759139570)|HEAP_ALLOCATE|[69]|Bytes:7
+[sf:deploy] 09:08:13.758 (759142831)|HEAP_ALLOCATE|[69]|Bytes:29
+[sf:deploy] 09:08:13.758 (759170890)|HEAP_ALLOCATE|[69]|Bytes:13
+[sf:deploy] 09:08:13.758 (759357554)|SOQL_EXECUTE_BEGIN|[69]|Aggregations:0|SELECT id, name FROM Profile WHERE name = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.758 (761146361)|SOQL_EXECUTE_END|[69]|Rows:1
+[sf:deploy] 09:08:13.758 (761165893)|HEAP_ALLOCATE|[69]|Bytes:8
+[sf:deploy] 09:08:13.758 (761178422)|HEAP_ALLOCATE|[69]|Bytes:50
+[sf:deploy] 09:08:13.758 (761203335)|HEAP_ALLOCATE|[69]|Bytes:8
+[sf:deploy] 09:08:13.758 (761213983)|HEAP_ALLOCATE|[69]|Bytes:33
+[sf:deploy] 09:08:13.758 (761242313)|HEAP_ALLOCATE|[69]|Bytes:12
+[sf:deploy] 09:08:13.758 (761256667)|STATEMENT_EXECUTE|[70]
+[sf:deploy] 09:08:13.758 (761259454)|HEAP_ALLOCATE|[70]|Bytes:4
+[sf:deploy] 09:08:13.758 (761262814)|HEAP_ALLOCATE|[70]|Bytes:49
+[sf:deploy] 09:08:13.758 (761265287)|HEAP_ALLOCATE|[70]|Bytes:8
+[sf:deploy] 09:08:13.758 (761267737)|HEAP_ALLOCATE|[70]|Bytes:4
+[sf:deploy] 09:08:13.758 (761281284)|HEAP_ALLOCATE|[70]|Bytes:18
+[sf:deploy] 09:08:13.758 (761291204)|HEAP_ALLOCATE|[70]|Bytes:45
+[sf:deploy] 09:08:13.758 (761298416)|METHOD_ENTRY|[1]|01p58000008UsfA|SG_EER_TestUtils.SG_EER_TestUtils()
+[sf:deploy] 09:08:13.758 (761302843)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.758 (761305889)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.758 (761309517)|METHOD_EXIT|[1]|SG_EER_TestUtils
+[sf:deploy] 09:08:13.758 (761321082)|METHOD_ENTRY|[70]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.758 (761344743)|STATEMENT_EXECUTE|[3]
+[sf:deploy] 09:08:13.758 (761346477)|STATEMENT_EXECUTE|[4]
+[sf:deploy] 09:08:13.758 (761360177)|HEAP_ALLOCATE|[4]|Bytes:4
+[sf:deploy] 09:08:13.758 (761386754)|STATEMENT_EXECUTE|[5]
+[sf:deploy] 09:08:13.758 (761419098)|STATEMENT_EXECUTE|[6]
+[sf:deploy] 09:08:13.758 (761434788)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.758 (761443112)|STATEMENT_EXECUTE|[8]
+[sf:deploy] 09:08:13.758 (761451631)|STATEMENT_EXECUTE|[9]
+[sf:deploy] 09:08:13.758 (761469700)|STATEMENT_EXECUTE|[10]
+[sf:deploy] 09:08:13.758 (761480969)|HEAP_ALLOCATE|[10]|Bytes:1
+[sf:deploy] 09:08:13.758 (761507379)|SYSTEM_METHOD_ENTRY|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.758 (761519767)|SYSTEM_METHOD_EXIT|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.758 (761532885)|SYSTEM_METHOD_ENTRY|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.758 (761538071)|HEAP_ALLOCATE|[10]|Bytes:34
+[sf:deploy] 09:08:13.758 (761545582)|SYSTEM_METHOD_EXIT|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.758 (761563887)|STATEMENT_EXECUTE|[11]
+[sf:deploy] 09:08:13.758 (761567052)|HEAP_ALLOCATE|[11]|Bytes:12
+[sf:deploy] 09:08:13.758 (761580126)|STATEMENT_EXECUTE|[12]
+[sf:deploy] 09:08:13.758 (761582980)|HEAP_ALLOCATE|[12]|Bytes:10
+[sf:deploy] 09:08:13.758 (761601104)|STATEMENT_EXECUTE|[13]
+[sf:deploy] 09:08:13.758 (761603908)|HEAP_ALLOCATE|[13]|Bytes:10
+[sf:deploy] 09:08:13.758 (761614762)|STATEMENT_EXECUTE|[14]
+[sf:deploy] 09:08:13.758 (761624769)|HEAP_ALLOCATE|[14]|Bytes:4
+[sf:deploy] 09:08:13.758 (761644117)|STATEMENT_EXECUTE|[15]
+[sf:deploy] 09:08:13.758 (761647197)|HEAP_ALLOCATE|[15]|Bytes:2
+[sf:deploy] 09:08:13.758 (761659368)|STATEMENT_EXECUTE|[16]
+[sf:deploy] 09:08:13.758 (761666420)|METHOD_EXIT|[70]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.758 (761672236)|STATEMENT_EXECUTE|[72]
+[sf:deploy] 09:08:13.758 (761674405)|HEAP_ALLOCATE|[72]|Bytes:7
+[sf:deploy] 09:08:13.758 (761684556)|METHOD_ENTRY|[72]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.758 (761703927)|STATEMENT_EXECUTE|[19]
+[sf:deploy] 09:08:13.758 (761705600)|STATEMENT_EXECUTE|[20]
+[sf:deploy] 09:08:13.758 (761716317)|HEAP_ALLOCATE|[20]|Bytes:4
+[sf:deploy] 09:08:13.758 (761758164)|STATEMENT_EXECUTE|[21]
+[sf:deploy] 09:08:13.758 (761784132)|STATEMENT_EXECUTE|[22]
+[sf:deploy] 09:08:13.758 (761787828)|HEAP_ALLOCATE|[22]|Bytes:53
+[sf:deploy] 09:08:13.758 (761795502)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.758 (761801919)|HEAP_ALLOCATE|[22]|Bytes:22
+[sf:deploy] 09:08:13.758 (761819014)|HEAP_ALLOCATE|[22]|Bytes:43
+[sf:deploy] 09:08:13.758 (761935508)|SOQL_EXECUTE_BEGIN|[22]|Aggregations:0|SELECT Id FROM User WHERE Username = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.758 (764154033)|SOQL_EXECUTE_END|[22]|Rows:0
+[sf:deploy] 09:08:13.758 (764174823)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.758 (764183323)|HEAP_ALLOCATE|[22]|Bytes:0
+[sf:deploy] 09:08:13.758 (764200184)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.758 (764209121)|HEAP_ALLOCATE|[22]|Bytes:30
+[sf:deploy] 09:08:13.758 (764244691)|HEAP_ALLOCATE|[22]|Bytes:46
+[sf:deploy] 09:08:13.758 (764255781)|METHOD_EXIT|[72]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.758 (764306293)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod3DemEnCoursMoyenDePaiment: line 72, column 1
+[sf:deploy] 09:08:13.758 (764317969)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod3DemEnCoursMoyenDePaiment: line 72, column 1
+[sf:deploy] 09:08:13.764 (764324749)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 09:08:13.764 (764324749)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 2 out of 100
+[sf:deploy]   Number of query rows: 1 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 09:08:13.764 (764324749)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+[sf:deploy] 09:08:13.764 (764324749)|STATIC_VARIABLE_LIST|
+[sf:deploy]   char[]:DigitTens:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   String:_sfdcSuppressedCodeLocations:0
+[sf:deploy]   double:MAX_VALUE:0
+[sf:deploy]   Boolean:FALSE:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MIN_VALUE:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:NEGATIVE_INFINITY:0
+[sf:deploy]   int:MAX_VALUE:0
+[sf:deploy]   char[]:digits:0
+[sf:deploy]   double:NaN:0
+[sf:deploy]   Boolean:TRUE:0
+[sf:deploy]   int:MIN_VALUE:0
+[sf:deploy]   char[]:DigitOnes:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy]   int:MIN_EXPONENT:0
+[sf:deploy]   int[]:sizeTable:0
+[sf:deploy]   int:MAX_EXPONENT:0
+[sf:deploy]   String:_sfdcAdditionalCodeLocations:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:POSITIVE_INFINITY:0
+[sf:deploy]   double:MIN_NORMAL:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy] 
+[sf:deploy] 09:08:13.764 (764324749)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 09:08:13.758 (764423631)|CODE_UNIT_FINISHED|SG_EER_AccueilController_Test.TestMethod3DemEnCoursMoyenDePaiment
+[sf:deploy] 09:08:13.758 (765179311)|EXECUTION_FINISHED
+[sf:deploy] 09:08:13.783 (783349068)|USER_INFO|[EXTERNAL]|00558000001ngsT|eyhuellou@sgeer.com.dev1|Heure d'Europe centrale|GMT+02:00
+[sf:deploy] 09:08:13.783 (783374080)|EXECUTION_STARTED
+[sf:deploy] 09:08:13.783 (783380125)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000008UseZ|SG_EER_AccueilController_Test.TestMethod4DemEnCoursVous
+[sf:deploy] 09:08:13.783 (783513647)|HEAP_ALLOCATE|[72]|Bytes:3
+[sf:deploy] 09:08:13.783 (783568705)|HEAP_ALLOCATE|[77]|Bytes:152
+[sf:deploy] 09:08:13.783 (783601898)|HEAP_ALLOCATE|[342]|Bytes:408
+[sf:deploy] 09:08:13.783 (783628390)|HEAP_ALLOCATE|[355]|Bytes:408
+[sf:deploy] 09:08:13.783 (783644410)|HEAP_ALLOCATE|[467]|Bytes:48
+[sf:deploy] 09:08:13.783 (783675882)|HEAP_ALLOCATE|[139]|Bytes:6
+[sf:deploy] 09:08:13.783 (783693046)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:530
+[sf:deploy] 09:08:13.783 (783703466)|METHOD_ENTRY|[7]|01p58000008UseZ|SG_EER_AccueilController_Test.SG_EER_AccueilController_Test()
+[sf:deploy] 09:08:13.783 (783709972)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.783 (783720221)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.783 (783726572)|METHOD_EXIT|[7]|SG_EER_AccueilController_Test
+[sf:deploy] 09:08:13.783 (783751725)|HEAP_ALLOCATE|[50]|Bytes:5
+[sf:deploy] 09:08:13.783 (783775007)|HEAP_ALLOCATE|[56]|Bytes:5
+[sf:deploy] 09:08:13.783 (783782439)|HEAP_ALLOCATE|[64]|Bytes:7
+[sf:deploy] 09:08:13.783 (783820577)|STATEMENT_EXECUTE|[97]
+[sf:deploy] 09:08:13.783 (783823021)|STATEMENT_EXECUTE|[98]
+[sf:deploy] 09:08:13.783 (783825541)|HEAP_ALLOCATE|[98]|Bytes:58
+[sf:deploy] 09:08:13.783 (783836918)|HEAP_ALLOCATE|[98]|Bytes:4
+[sf:deploy] 09:08:13.783 (783847303)|HEAP_ALLOCATE|[98]|Bytes:7
+[sf:deploy] 09:08:13.783 (783850825)|HEAP_ALLOCATE|[98]|Bytes:29
+[sf:deploy] 09:08:13.783 (783883215)|HEAP_ALLOCATE|[98]|Bytes:13
+[sf:deploy] 09:08:13.783 (784149741)|SOQL_EXECUTE_BEGIN|[98]|Aggregations:0|SELECT id, name FROM Profile WHERE name = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.783 (786357251)|SOQL_EXECUTE_END|[98]|Rows:1
+[sf:deploy] 09:08:13.783 (786382337)|HEAP_ALLOCATE|[98]|Bytes:8
+[sf:deploy] 09:08:13.783 (786396511)|HEAP_ALLOCATE|[98]|Bytes:50
+[sf:deploy] 09:08:13.783 (786427931)|HEAP_ALLOCATE|[98]|Bytes:8
+[sf:deploy] 09:08:13.783 (786438828)|HEAP_ALLOCATE|[98]|Bytes:33
+[sf:deploy] 09:08:13.783 (786471116)|HEAP_ALLOCATE|[98]|Bytes:12
+[sf:deploy] 09:08:13.783 (786488000)|STATEMENT_EXECUTE|[99]
+[sf:deploy] 09:08:13.783 (786491044)|HEAP_ALLOCATE|[99]|Bytes:4
+[sf:deploy] 09:08:13.783 (786494671)|HEAP_ALLOCATE|[99]|Bytes:49
+[sf:deploy] 09:08:13.783 (786497152)|HEAP_ALLOCATE|[99]|Bytes:8
+[sf:deploy] 09:08:13.783 (786499596)|HEAP_ALLOCATE|[99]|Bytes:4
+[sf:deploy] 09:08:13.783 (786514776)|HEAP_ALLOCATE|[99]|Bytes:18
+[sf:deploy] 09:08:13.783 (786525937)|HEAP_ALLOCATE|[99]|Bytes:45
+[sf:deploy] 09:08:13.783 (786533738)|METHOD_ENTRY|[1]|01p58000008UsfA|SG_EER_TestUtils.SG_EER_TestUtils()
+[sf:deploy] 09:08:13.783 (786538042)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.783 (786540995)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.783 (786544930)|METHOD_EXIT|[1]|SG_EER_TestUtils
+[sf:deploy] 09:08:13.783 (786562242)|METHOD_ENTRY|[99]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.783 (786596597)|STATEMENT_EXECUTE|[3]
+[sf:deploy] 09:08:13.783 (786598751)|STATEMENT_EXECUTE|[4]
+[sf:deploy] 09:08:13.783 (786616384)|HEAP_ALLOCATE|[4]|Bytes:4
+[sf:deploy] 09:08:13.783 (786649218)|STATEMENT_EXECUTE|[5]
+[sf:deploy] 09:08:13.783 (786684845)|STATEMENT_EXECUTE|[6]
+[sf:deploy] 09:08:13.783 (786697639)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.783 (786706207)|STATEMENT_EXECUTE|[8]
+[sf:deploy] 09:08:13.783 (786714767)|STATEMENT_EXECUTE|[9]
+[sf:deploy] 09:08:13.783 (786723306)|STATEMENT_EXECUTE|[10]
+[sf:deploy] 09:08:13.783 (786734592)|HEAP_ALLOCATE|[10]|Bytes:1
+[sf:deploy] 09:08:13.783 (786762139)|SYSTEM_METHOD_ENTRY|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.783 (786774471)|SYSTEM_METHOD_EXIT|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.783 (786797352)|SYSTEM_METHOD_ENTRY|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.783 (786804265)|HEAP_ALLOCATE|[10]|Bytes:34
+[sf:deploy] 09:08:13.783 (786812236)|SYSTEM_METHOD_EXIT|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.783 (786834113)|STATEMENT_EXECUTE|[11]
+[sf:deploy] 09:08:13.783 (786837110)|HEAP_ALLOCATE|[11]|Bytes:12
+[sf:deploy] 09:08:13.783 (786850611)|STATEMENT_EXECUTE|[12]
+[sf:deploy] 09:08:13.783 (786853142)|HEAP_ALLOCATE|[12]|Bytes:10
+[sf:deploy] 09:08:13.783 (786865667)|STATEMENT_EXECUTE|[13]
+[sf:deploy] 09:08:13.783 (786868685)|HEAP_ALLOCATE|[13]|Bytes:10
+[sf:deploy] 09:08:13.783 (786879903)|STATEMENT_EXECUTE|[14]
+[sf:deploy] 09:08:13.783 (786889584)|HEAP_ALLOCATE|[14]|Bytes:4
+[sf:deploy] 09:08:13.783 (786909760)|STATEMENT_EXECUTE|[15]
+[sf:deploy] 09:08:13.783 (786912809)|HEAP_ALLOCATE|[15]|Bytes:2
+[sf:deploy] 09:08:13.783 (786925286)|STATEMENT_EXECUTE|[16]
+[sf:deploy] 09:08:13.783 (786932244)|METHOD_EXIT|[99]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.783 (786937882)|STATEMENT_EXECUTE|[101]
+[sf:deploy] 09:08:13.783 (786940307)|HEAP_ALLOCATE|[101]|Bytes:7
+[sf:deploy] 09:08:13.783 (786950272)|METHOD_ENTRY|[101]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.783 (786971110)|STATEMENT_EXECUTE|[19]
+[sf:deploy] 09:08:13.783 (786972859)|STATEMENT_EXECUTE|[20]
+[sf:deploy] 09:08:13.783 (786983712)|HEAP_ALLOCATE|[20]|Bytes:4
+[sf:deploy] 09:08:13.783 (787003954)|STATEMENT_EXECUTE|[21]
+[sf:deploy] 09:08:13.783 (787027860)|STATEMENT_EXECUTE|[22]
+[sf:deploy] 09:08:13.783 (787030913)|HEAP_ALLOCATE|[22]|Bytes:53
+[sf:deploy] 09:08:13.783 (787037991)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.783 (787044087)|HEAP_ALLOCATE|[22]|Bytes:22
+[sf:deploy] 09:08:13.783 (787062749)|HEAP_ALLOCATE|[22]|Bytes:43
+[sf:deploy] 09:08:13.783 (787189672)|SOQL_EXECUTE_BEGIN|[22]|Aggregations:0|SELECT Id FROM User WHERE Username = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.783 (789471799)|SOQL_EXECUTE_END|[22]|Rows:0
+[sf:deploy] 09:08:13.783 (789492905)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.783 (789501767)|HEAP_ALLOCATE|[22]|Bytes:0
+[sf:deploy] 09:08:13.783 (789519245)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.783 (789528147)|HEAP_ALLOCATE|[22]|Bytes:30
+[sf:deploy] 09:08:13.783 (789567217)|HEAP_ALLOCATE|[22]|Bytes:46
+[sf:deploy] 09:08:13.783 (789588985)|METHOD_EXIT|[101]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.783 (789637905)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod4DemEnCoursVous: line 101, column 1
+[sf:deploy] 09:08:13.783 (789650426)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod4DemEnCoursVous: line 101, column 1
+[sf:deploy] 09:08:13.789 (789657127)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 09:08:13.789 (789657127)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 2 out of 100
+[sf:deploy]   Number of query rows: 1 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 09:08:13.789 (789657127)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+[sf:deploy] 09:08:13.789 (789657127)|STATIC_VARIABLE_LIST|
+[sf:deploy]   char[]:DigitTens:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   String:_sfdcSuppressedCodeLocations:0
+[sf:deploy]   double:MAX_VALUE:0
+[sf:deploy]   Boolean:FALSE:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MIN_VALUE:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:NEGATIVE_INFINITY:0
+[sf:deploy]   int:MAX_VALUE:0
+[sf:deploy]   char[]:digits:0
+[sf:deploy]   double:NaN:0
+[sf:deploy]   Boolean:TRUE:0
+[sf:deploy]   int:MIN_VALUE:0
+[sf:deploy]   char[]:DigitOnes:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy]   int:MIN_EXPONENT:0
+[sf:deploy]   int[]:sizeTable:0
+[sf:deploy]   int:MAX_EXPONENT:0
+[sf:deploy]   String:_sfdcAdditionalCodeLocations:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:POSITIVE_INFINITY:0
+[sf:deploy]   double:MIN_NORMAL:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy] 
+[sf:deploy] 09:08:13.789 (789657127)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 09:08:13.783 (789764072)|CODE_UNIT_FINISHED|SG_EER_AccueilController_Test.TestMethod4DemEnCoursVous
+[sf:deploy] 09:08:13.783 (790511651)|EXECUTION_FINISHED
+[sf:deploy] 09:08:13.811 (811580694)|USER_INFO|[EXTERNAL]|00558000001ngsT|eyhuellou@sgeer.com.dev1|Heure d'Europe centrale|GMT+02:00
+[sf:deploy] 09:08:13.811 (811610416)|EXECUTION_STARTED
+[sf:deploy] 09:08:13.811 (811616922)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000008UseZ|SG_EER_AccueilController_Test.TestMethod5DemFinalaTraite
+[sf:deploy] 09:08:13.811 (811736622)|HEAP_ALLOCATE|[72]|Bytes:3
+[sf:deploy] 09:08:13.811 (811770434)|HEAP_ALLOCATE|[77]|Bytes:152
+[sf:deploy] 09:08:13.811 (811786887)|HEAP_ALLOCATE|[342]|Bytes:408
+[sf:deploy] 09:08:13.811 (811803340)|HEAP_ALLOCATE|[355]|Bytes:408
+[sf:deploy] 09:08:13.811 (811817301)|HEAP_ALLOCATE|[467]|Bytes:48
+[sf:deploy] 09:08:13.811 (811841626)|HEAP_ALLOCATE|[139]|Bytes:6
+[sf:deploy] 09:08:13.811 (811855057)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:530
+[sf:deploy] 09:08:13.811 (811868052)|METHOD_ENTRY|[7]|01p58000008UseZ|SG_EER_AccueilController_Test.SG_EER_AccueilController_Test()
+[sf:deploy] 09:08:13.811 (811875253)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.811 (811881620)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.811 (811886139)|METHOD_EXIT|[7]|SG_EER_AccueilController_Test
+[sf:deploy] 09:08:13.811 (811908850)|HEAP_ALLOCATE|[50]|Bytes:5
+[sf:deploy] 09:08:13.811 (811929696)|HEAP_ALLOCATE|[56]|Bytes:5
+[sf:deploy] 09:08:13.811 (811936876)|HEAP_ALLOCATE|[64]|Bytes:7
+[sf:deploy] 09:08:13.811 (811971483)|STATEMENT_EXECUTE|[126]
+[sf:deploy] 09:08:13.811 (811973841)|STATEMENT_EXECUTE|[127]
+[sf:deploy] 09:08:13.811 (811976278)|HEAP_ALLOCATE|[127]|Bytes:58
+[sf:deploy] 09:08:13.811 (811986351)|HEAP_ALLOCATE|[127]|Bytes:4
+[sf:deploy] 09:08:13.811 (811996362)|HEAP_ALLOCATE|[127]|Bytes:7
+[sf:deploy] 09:08:13.811 (811999576)|HEAP_ALLOCATE|[127]|Bytes:29
+[sf:deploy] 09:08:13.811 (812029662)|HEAP_ALLOCATE|[127]|Bytes:13
+[sf:deploy] 09:08:13.811 (812258174)|SOQL_EXECUTE_BEGIN|[127]|Aggregations:0|SELECT id, name FROM Profile WHERE name = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.811 (814229601)|SOQL_EXECUTE_END|[127]|Rows:1
+[sf:deploy] 09:08:13.811 (814249720)|HEAP_ALLOCATE|[127]|Bytes:8
+[sf:deploy] 09:08:13.811 (814262827)|HEAP_ALLOCATE|[127]|Bytes:50
+[sf:deploy] 09:08:13.811 (814285446)|HEAP_ALLOCATE|[127]|Bytes:8
+[sf:deploy] 09:08:13.811 (814295137)|HEAP_ALLOCATE|[127]|Bytes:33
+[sf:deploy] 09:08:13.811 (814325919)|HEAP_ALLOCATE|[127]|Bytes:12
+[sf:deploy] 09:08:13.811 (814341261)|STATEMENT_EXECUTE|[128]
+[sf:deploy] 09:08:13.811 (814344190)|HEAP_ALLOCATE|[128]|Bytes:4
+[sf:deploy] 09:08:13.811 (814347363)|HEAP_ALLOCATE|[128]|Bytes:49
+[sf:deploy] 09:08:13.811 (814350071)|HEAP_ALLOCATE|[128]|Bytes:8
+[sf:deploy] 09:08:13.811 (814352815)|HEAP_ALLOCATE|[128]|Bytes:4
+[sf:deploy] 09:08:13.811 (814367535)|HEAP_ALLOCATE|[128]|Bytes:18
+[sf:deploy] 09:08:13.811 (814378397)|HEAP_ALLOCATE|[128]|Bytes:45
+[sf:deploy] 09:08:13.811 (814385407)|METHOD_ENTRY|[1]|01p58000008UsfA|SG_EER_TestUtils.SG_EER_TestUtils()
+[sf:deploy] 09:08:13.811 (814389910)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.811 (814392805)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.811 (814396234)|METHOD_EXIT|[1]|SG_EER_TestUtils
+[sf:deploy] 09:08:13.811 (814408142)|METHOD_ENTRY|[128]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.811 (814433151)|STATEMENT_EXECUTE|[3]
+[sf:deploy] 09:08:13.811 (814434916)|STATEMENT_EXECUTE|[4]
+[sf:deploy] 09:08:13.811 (814448629)|HEAP_ALLOCATE|[4]|Bytes:4
+[sf:deploy] 09:08:13.811 (814478773)|STATEMENT_EXECUTE|[5]
+[sf:deploy] 09:08:13.811 (814516650)|STATEMENT_EXECUTE|[6]
+[sf:deploy] 09:08:13.811 (814528658)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.811 (814537450)|STATEMENT_EXECUTE|[8]
+[sf:deploy] 09:08:13.811 (814545861)|STATEMENT_EXECUTE|[9]
+[sf:deploy] 09:08:13.811 (814554375)|STATEMENT_EXECUTE|[10]
+[sf:deploy] 09:08:13.811 (814564289)|HEAP_ALLOCATE|[10]|Bytes:1
+[sf:deploy] 09:08:13.811 (814593906)|SYSTEM_METHOD_ENTRY|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.811 (814606498)|SYSTEM_METHOD_EXIT|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.811 (814620150)|SYSTEM_METHOD_ENTRY|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.811 (814626022)|HEAP_ALLOCATE|[10]|Bytes:34
+[sf:deploy] 09:08:13.811 (814633847)|SYSTEM_METHOD_EXIT|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.811 (814655569)|STATEMENT_EXECUTE|[11]
+[sf:deploy] 09:08:13.811 (814659603)|HEAP_ALLOCATE|[11]|Bytes:12
+[sf:deploy] 09:08:13.811 (814673505)|STATEMENT_EXECUTE|[12]
+[sf:deploy] 09:08:13.811 (814676240)|HEAP_ALLOCATE|[12]|Bytes:10
+[sf:deploy] 09:08:13.811 (814688053)|STATEMENT_EXECUTE|[13]
+[sf:deploy] 09:08:13.811 (814690574)|HEAP_ALLOCATE|[13]|Bytes:10
+[sf:deploy] 09:08:13.811 (814700983)|STATEMENT_EXECUTE|[14]
+[sf:deploy] 09:08:13.811 (814710534)|HEAP_ALLOCATE|[14]|Bytes:4
+[sf:deploy] 09:08:13.811 (814730917)|STATEMENT_EXECUTE|[15]
+[sf:deploy] 09:08:13.811 (814733903)|HEAP_ALLOCATE|[15]|Bytes:2
+[sf:deploy] 09:08:13.811 (814745378)|STATEMENT_EXECUTE|[16]
+[sf:deploy] 09:08:13.811 (814752271)|METHOD_EXIT|[128]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.811 (814757683)|STATEMENT_EXECUTE|[130]
+[sf:deploy] 09:08:13.811 (814759937)|HEAP_ALLOCATE|[130]|Bytes:7
+[sf:deploy] 09:08:13.811 (814770060)|METHOD_ENTRY|[130]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.811 (814788323)|STATEMENT_EXECUTE|[19]
+[sf:deploy] 09:08:13.811 (814790008)|STATEMENT_EXECUTE|[20]
+[sf:deploy] 09:08:13.811 (814801725)|HEAP_ALLOCATE|[20]|Bytes:4
+[sf:deploy] 09:08:13.811 (814817383)|STATEMENT_EXECUTE|[21]
+[sf:deploy] 09:08:13.811 (814835663)|STATEMENT_EXECUTE|[22]
+[sf:deploy] 09:08:13.811 (814838185)|HEAP_ALLOCATE|[22]|Bytes:53
+[sf:deploy] 09:08:13.811 (814844116)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.811 (814849735)|HEAP_ALLOCATE|[22]|Bytes:22
+[sf:deploy] 09:08:13.811 (814866422)|HEAP_ALLOCATE|[22]|Bytes:43
+[sf:deploy] 09:08:13.811 (814984987)|SOQL_EXECUTE_BEGIN|[22]|Aggregations:0|SELECT Id FROM User WHERE Username = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.811 (817206417)|SOQL_EXECUTE_END|[22]|Rows:0
+[sf:deploy] 09:08:13.811 (817227294)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.811 (817236091)|HEAP_ALLOCATE|[22]|Bytes:0
+[sf:deploy] 09:08:13.811 (817252527)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.811 (817261565)|HEAP_ALLOCATE|[22]|Bytes:30
+[sf:deploy] 09:08:13.811 (817297993)|HEAP_ALLOCATE|[22]|Bytes:46
+[sf:deploy] 09:08:13.811 (817308852)|METHOD_EXIT|[130]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.811 (817354333)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod5DemFinalaTraite: line 130, column 1
+[sf:deploy] 09:08:13.811 (817366153)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod5DemFinalaTraite: line 130, column 1
+[sf:deploy] 09:08:13.817 (817372503)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 09:08:13.817 (817372503)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 2 out of 100
+[sf:deploy]   Number of query rows: 1 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 09:08:13.817 (817372503)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+[sf:deploy] 09:08:13.817 (817372503)|STATIC_VARIABLE_LIST|
+[sf:deploy]   char[]:DigitTens:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   String:_sfdcSuppressedCodeLocations:0
+[sf:deploy]   double:MAX_VALUE:0
+[sf:deploy]   Boolean:FALSE:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MIN_VALUE:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:NEGATIVE_INFINITY:0
+[sf:deploy]   int:MAX_VALUE:0
+[sf:deploy]   char[]:digits:0
+[sf:deploy]   double:NaN:0
+[sf:deploy]   Boolean:TRUE:0
+[sf:deploy]   int:MIN_VALUE:0
+[sf:deploy]   char[]:DigitOnes:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy]   int:MIN_EXPONENT:0
+[sf:deploy]   int[]:sizeTable:0
+[sf:deploy]   int:MAX_EXPONENT:0
+[sf:deploy]   String:_sfdcAdditionalCodeLocations:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:POSITIVE_INFINITY:0
+[sf:deploy]   double:MIN_NORMAL:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy] 
+[sf:deploy] 09:08:13.817 (817372503)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 09:08:13.811 (817478445)|CODE_UNIT_FINISHED|SG_EER_AccueilController_Test.TestMethod5DemFinalaTraite
+[sf:deploy] 09:08:13.811 (818502774)|EXECUTION_FINISHED
+[sf:deploy] 09:08:13.837 (837183846)|USER_INFO|[EXTERNAL]|00558000001ngsT|eyhuellou@sgeer.com.dev1|Heure d'Europe centrale|GMT+02:00
+[sf:deploy] 09:08:13.837 (837206862)|EXECUTION_STARTED
+[sf:deploy] 09:08:13.837 (837211674)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000008UseZ|SG_EER_AccueilController_Test.TestMethod5_1DemFinalAttente
+[sf:deploy] 09:08:13.837 (837346879)|HEAP_ALLOCATE|[72]|Bytes:3
+[sf:deploy] 09:08:13.837 (837384975)|HEAP_ALLOCATE|[77]|Bytes:152
+[sf:deploy] 09:08:13.837 (837402012)|HEAP_ALLOCATE|[342]|Bytes:408
+[sf:deploy] 09:08:13.837 (837418284)|HEAP_ALLOCATE|[355]|Bytes:408
+[sf:deploy] 09:08:13.837 (837432536)|HEAP_ALLOCATE|[467]|Bytes:48
+[sf:deploy] 09:08:13.837 (837457574)|HEAP_ALLOCATE|[139]|Bytes:6
+[sf:deploy] 09:08:13.837 (837471031)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:530
+[sf:deploy] 09:08:13.837 (837480928)|METHOD_ENTRY|[7]|01p58000008UseZ|SG_EER_AccueilController_Test.SG_EER_AccueilController_Test()
+[sf:deploy] 09:08:13.837 (837486814)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.837 (837493138)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.837 (837497562)|METHOD_EXIT|[7]|SG_EER_AccueilController_Test
+[sf:deploy] 09:08:13.837 (837520934)|HEAP_ALLOCATE|[50]|Bytes:5
+[sf:deploy] 09:08:13.837 (837543476)|HEAP_ALLOCATE|[56]|Bytes:5
+[sf:deploy] 09:08:13.837 (837550365)|HEAP_ALLOCATE|[64]|Bytes:7
+[sf:deploy] 09:08:13.837 (837591709)|STATEMENT_EXECUTE|[156]
+[sf:deploy] 09:08:13.837 (837594256)|STATEMENT_EXECUTE|[157]
+[sf:deploy] 09:08:13.837 (837596700)|HEAP_ALLOCATE|[157]|Bytes:58
+[sf:deploy] 09:08:13.837 (837608411)|HEAP_ALLOCATE|[157]|Bytes:4
+[sf:deploy] 09:08:13.837 (837620016)|HEAP_ALLOCATE|[157]|Bytes:7
+[sf:deploy] 09:08:13.837 (837623252)|HEAP_ALLOCATE|[157]|Bytes:29
+[sf:deploy] 09:08:13.837 (837656199)|HEAP_ALLOCATE|[157]|Bytes:13
+[sf:deploy] 09:08:13.837 (837894316)|SOQL_EXECUTE_BEGIN|[157]|Aggregations:0|SELECT id, name FROM Profile WHERE name = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.837 (840160885)|SOQL_EXECUTE_END|[157]|Rows:1
+[sf:deploy] 09:08:13.837 (840181851)|HEAP_ALLOCATE|[157]|Bytes:8
+[sf:deploy] 09:08:13.837 (840195912)|HEAP_ALLOCATE|[157]|Bytes:50
+[sf:deploy] 09:08:13.837 (840224661)|HEAP_ALLOCATE|[157]|Bytes:8
+[sf:deploy] 09:08:13.837 (840234066)|HEAP_ALLOCATE|[157]|Bytes:33
+[sf:deploy] 09:08:13.837 (840265213)|HEAP_ALLOCATE|[157]|Bytes:12
+[sf:deploy] 09:08:13.837 (840281248)|STATEMENT_EXECUTE|[158]
+[sf:deploy] 09:08:13.837 (840284075)|HEAP_ALLOCATE|[158]|Bytes:4
+[sf:deploy] 09:08:13.837 (840287611)|HEAP_ALLOCATE|[158]|Bytes:49
+[sf:deploy] 09:08:13.837 (840290222)|HEAP_ALLOCATE|[158]|Bytes:8
+[sf:deploy] 09:08:13.837 (840292857)|HEAP_ALLOCATE|[158]|Bytes:4
+[sf:deploy] 09:08:13.837 (840308039)|HEAP_ALLOCATE|[158]|Bytes:18
+[sf:deploy] 09:08:13.837 (840318575)|HEAP_ALLOCATE|[158]|Bytes:45
+[sf:deploy] 09:08:13.837 (840325770)|METHOD_ENTRY|[1]|01p58000008UsfA|SG_EER_TestUtils.SG_EER_TestUtils()
+[sf:deploy] 09:08:13.837 (840330035)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.837 (840332990)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.837 (840336495)|METHOD_EXIT|[1]|SG_EER_TestUtils
+[sf:deploy] 09:08:13.837 (840348698)|METHOD_ENTRY|[158]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.837 (840375167)|STATEMENT_EXECUTE|[3]
+[sf:deploy] 09:08:13.837 (840377598)|STATEMENT_EXECUTE|[4]
+[sf:deploy] 09:08:13.837 (840397354)|HEAP_ALLOCATE|[4]|Bytes:4
+[sf:deploy] 09:08:13.837 (840430442)|STATEMENT_EXECUTE|[5]
+[sf:deploy] 09:08:13.837 (840467808)|STATEMENT_EXECUTE|[6]
+[sf:deploy] 09:08:13.837 (840480336)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.837 (840489147)|STATEMENT_EXECUTE|[8]
+[sf:deploy] 09:08:13.837 (840497998)|STATEMENT_EXECUTE|[9]
+[sf:deploy] 09:08:13.837 (840506399)|STATEMENT_EXECUTE|[10]
+[sf:deploy] 09:08:13.837 (840516719)|HEAP_ALLOCATE|[10]|Bytes:1
+[sf:deploy] 09:08:13.837 (840544233)|SYSTEM_METHOD_ENTRY|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.837 (840556904)|SYSTEM_METHOD_EXIT|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.837 (840570761)|SYSTEM_METHOD_ENTRY|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.837 (840576372)|HEAP_ALLOCATE|[10]|Bytes:34
+[sf:deploy] 09:08:13.837 (840583879)|SYSTEM_METHOD_EXIT|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.837 (840608730)|STATEMENT_EXECUTE|[11]
+[sf:deploy] 09:08:13.837 (840612129)|HEAP_ALLOCATE|[11]|Bytes:12
+[sf:deploy] 09:08:13.837 (840625244)|STATEMENT_EXECUTE|[12]
+[sf:deploy] 09:08:13.837 (840627859)|HEAP_ALLOCATE|[12]|Bytes:10
+[sf:deploy] 09:08:13.837 (840639641)|STATEMENT_EXECUTE|[13]
+[sf:deploy] 09:08:13.837 (840642153)|HEAP_ALLOCATE|[13]|Bytes:10
+[sf:deploy] 09:08:13.837 (840656059)|STATEMENT_EXECUTE|[14]
+[sf:deploy] 09:08:13.837 (840666768)|HEAP_ALLOCATE|[14]|Bytes:4
+[sf:deploy] 09:08:13.837 (840687928)|STATEMENT_EXECUTE|[15]
+[sf:deploy] 09:08:13.837 (840691059)|HEAP_ALLOCATE|[15]|Bytes:2
+[sf:deploy] 09:08:13.837 (840702491)|STATEMENT_EXECUTE|[16]
+[sf:deploy] 09:08:13.837 (840709474)|METHOD_EXIT|[158]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.837 (840715206)|STATEMENT_EXECUTE|[160]
+[sf:deploy] 09:08:13.837 (840717527)|HEAP_ALLOCATE|[160]|Bytes:7
+[sf:deploy] 09:08:13.837 (840727325)|METHOD_ENTRY|[160]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.837 (840746627)|STATEMENT_EXECUTE|[19]
+[sf:deploy] 09:08:13.837 (840748352)|STATEMENT_EXECUTE|[20]
+[sf:deploy] 09:08:13.837 (840759060)|HEAP_ALLOCATE|[20]|Bytes:4
+[sf:deploy] 09:08:13.837 (840775070)|STATEMENT_EXECUTE|[21]
+[sf:deploy] 09:08:13.837 (840794276)|STATEMENT_EXECUTE|[22]
+[sf:deploy] 09:08:13.837 (840796999)|HEAP_ALLOCATE|[22]|Bytes:53
+[sf:deploy] 09:08:13.837 (840803010)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.837 (840808831)|HEAP_ALLOCATE|[22]|Bytes:22
+[sf:deploy] 09:08:13.837 (840825857)|HEAP_ALLOCATE|[22]|Bytes:43
+[sf:deploy] 09:08:13.837 (840949018)|SOQL_EXECUTE_BEGIN|[22]|Aggregations:0|SELECT Id FROM User WHERE Username = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.837 (843347322)|SOQL_EXECUTE_END|[22]|Rows:0
+[sf:deploy] 09:08:13.837 (843368305)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.837 (843376953)|HEAP_ALLOCATE|[22]|Bytes:0
+[sf:deploy] 09:08:13.837 (843394347)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.837 (843404126)|HEAP_ALLOCATE|[22]|Bytes:30
+[sf:deploy] 09:08:13.837 (843445771)|HEAP_ALLOCATE|[22]|Bytes:46
+[sf:deploy] 09:08:13.837 (843457906)|METHOD_EXIT|[160]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.837 (843504946)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod5_1DemFinalAttente: line 160, column 1
+[sf:deploy] 09:08:13.837 (843516817)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod5_1DemFinalAttente: line 160, column 1
+[sf:deploy] 09:08:13.843 (843522864)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 09:08:13.843 (843522864)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 2 out of 100
+[sf:deploy]   Number of query rows: 1 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 09:08:13.843 (843522864)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+[sf:deploy] 09:08:13.843 (843522864)|STATIC_VARIABLE_LIST|
+[sf:deploy]   char[]:DigitTens:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   String:_sfdcSuppressedCodeLocations:0
+[sf:deploy]   double:MAX_VALUE:0
+[sf:deploy]   Boolean:FALSE:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MIN_VALUE:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:NEGATIVE_INFINITY:0
+[sf:deploy]   int:MAX_VALUE:0
+[sf:deploy]   char[]:digits:0
+[sf:deploy]   double:NaN:0
+[sf:deploy]   Boolean:TRUE:0
+[sf:deploy]   int:MIN_VALUE:0
+[sf:deploy]   char[]:DigitOnes:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy]   int:MIN_EXPONENT:0
+[sf:deploy]   int[]:sizeTable:0
+[sf:deploy]   int:MAX_EXPONENT:0
+[sf:deploy]   String:_sfdcAdditionalCodeLocations:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:POSITIVE_INFINITY:0
+[sf:deploy]   double:MIN_NORMAL:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy] 
+[sf:deploy] 09:08:13.843 (843522864)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 09:08:13.837 (843618527)|CODE_UNIT_FINISHED|SG_EER_AccueilController_Test.TestMethod5_1DemFinalAttente
+[sf:deploy] 09:08:13.837 (844335291)|EXECUTION_FINISHED
+[sf:deploy] 09:08:13.862 (862982136)|USER_INFO|[EXTERNAL]|00558000001ngsT|eyhuellou@sgeer.com.dev1|Heure d'Europe centrale|GMT+02:00
+[sf:deploy] 09:08:13.862 (863003553)|EXECUTION_STARTED
+[sf:deploy] 09:08:13.862 (863009019)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000008UseZ|SG_EER_AccueilController_Test.TestMethod5_2DemFinalaTraiteCaseDossierRecu
+[sf:deploy] 09:08:13.862 (863134308)|HEAP_ALLOCATE|[72]|Bytes:3
+[sf:deploy] 09:08:13.862 (863164706)|HEAP_ALLOCATE|[77]|Bytes:152
+[sf:deploy] 09:08:13.862 (863179786)|HEAP_ALLOCATE|[342]|Bytes:408
+[sf:deploy] 09:08:13.862 (863196598)|HEAP_ALLOCATE|[355]|Bytes:408
+[sf:deploy] 09:08:13.862 (863210454)|HEAP_ALLOCATE|[467]|Bytes:48
+[sf:deploy] 09:08:13.862 (863246650)|HEAP_ALLOCATE|[139]|Bytes:6
+[sf:deploy] 09:08:13.862 (863263128)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:530
+[sf:deploy] 09:08:13.862 (863273724)|METHOD_ENTRY|[7]|01p58000008UseZ|SG_EER_AccueilController_Test.SG_EER_AccueilController_Test()
+[sf:deploy] 09:08:13.862 (863279810)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.862 (863286584)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.862 (863290607)|METHOD_EXIT|[7]|SG_EER_AccueilController_Test
+[sf:deploy] 09:08:13.862 (863330907)|HEAP_ALLOCATE|[50]|Bytes:5
+[sf:deploy] 09:08:13.862 (863350380)|HEAP_ALLOCATE|[56]|Bytes:5
+[sf:deploy] 09:08:13.862 (863357797)|HEAP_ALLOCATE|[64]|Bytes:7
+[sf:deploy] 09:08:13.862 (863389034)|STATEMENT_EXECUTE|[186]
+[sf:deploy] 09:08:13.862 (863391610)|STATEMENT_EXECUTE|[187]
+[sf:deploy] 09:08:13.862 (863394138)|HEAP_ALLOCATE|[187]|Bytes:58
+[sf:deploy] 09:08:13.862 (863404864)|HEAP_ALLOCATE|[187]|Bytes:4
+[sf:deploy] 09:08:13.862 (863414393)|HEAP_ALLOCATE|[187]|Bytes:7
+[sf:deploy] 09:08:13.862 (863417894)|HEAP_ALLOCATE|[187]|Bytes:29
+[sf:deploy] 09:08:13.862 (863464123)|HEAP_ALLOCATE|[187]|Bytes:13
+[sf:deploy] 09:08:13.862 (863649323)|SOQL_EXECUTE_BEGIN|[187]|Aggregations:0|SELECT id, name FROM Profile WHERE name = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.862 (865381129)|SOQL_EXECUTE_END|[187]|Rows:1
+[sf:deploy] 09:08:13.862 (865404354)|HEAP_ALLOCATE|[187]|Bytes:8
+[sf:deploy] 09:08:13.862 (865417187)|HEAP_ALLOCATE|[187]|Bytes:50
+[sf:deploy] 09:08:13.862 (865439294)|HEAP_ALLOCATE|[187]|Bytes:8
+[sf:deploy] 09:08:13.862 (865449429)|HEAP_ALLOCATE|[187]|Bytes:33
+[sf:deploy] 09:08:13.862 (865476304)|HEAP_ALLOCATE|[187]|Bytes:12
+[sf:deploy] 09:08:13.862 (865495223)|STATEMENT_EXECUTE|[188]
+[sf:deploy] 09:08:13.862 (865498446)|HEAP_ALLOCATE|[188]|Bytes:4
+[sf:deploy] 09:08:13.862 (865502066)|HEAP_ALLOCATE|[188]|Bytes:49
+[sf:deploy] 09:08:13.862 (865504681)|HEAP_ALLOCATE|[188]|Bytes:8
+[sf:deploy] 09:08:13.862 (865511726)|HEAP_ALLOCATE|[188]|Bytes:4
+[sf:deploy] 09:08:13.862 (865526946)|HEAP_ALLOCATE|[188]|Bytes:18
+[sf:deploy] 09:08:13.862 (865537867)|HEAP_ALLOCATE|[188]|Bytes:45
+[sf:deploy] 09:08:13.862 (865544766)|METHOD_ENTRY|[1]|01p58000008UsfA|SG_EER_TestUtils.SG_EER_TestUtils()
+[sf:deploy] 09:08:13.862 (865554689)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.862 (865560059)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.862 (865564085)|METHOD_EXIT|[1]|SG_EER_TestUtils
+[sf:deploy] 09:08:13.862 (865576686)|METHOD_ENTRY|[188]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.862 (865606609)|STATEMENT_EXECUTE|[3]
+[sf:deploy] 09:08:13.862 (865608714)|STATEMENT_EXECUTE|[4]
+[sf:deploy] 09:08:13.862 (865624110)|HEAP_ALLOCATE|[4]|Bytes:4
+[sf:deploy] 09:08:13.862 (865655112)|STATEMENT_EXECUTE|[5]
+[sf:deploy] 09:08:13.862 (865688846)|STATEMENT_EXECUTE|[6]
+[sf:deploy] 09:08:13.862 (865701362)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.862 (865709851)|STATEMENT_EXECUTE|[8]
+[sf:deploy] 09:08:13.862 (865722883)|STATEMENT_EXECUTE|[9]
+[sf:deploy] 09:08:13.862 (865732072)|STATEMENT_EXECUTE|[10]
+[sf:deploy] 09:08:13.862 (865740883)|HEAP_ALLOCATE|[10]|Bytes:1
+[sf:deploy] 09:08:13.862 (865768755)|SYSTEM_METHOD_ENTRY|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.862 (865781352)|SYSTEM_METHOD_EXIT|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.862 (865798827)|SYSTEM_METHOD_ENTRY|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.862 (865804854)|HEAP_ALLOCATE|[10]|Bytes:34
+[sf:deploy] 09:08:13.862 (865813429)|SYSTEM_METHOD_EXIT|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.862 (865835037)|STATEMENT_EXECUTE|[11]
+[sf:deploy] 09:08:13.862 (865838604)|HEAP_ALLOCATE|[11]|Bytes:12
+[sf:deploy] 09:08:13.862 (865852381)|STATEMENT_EXECUTE|[12]
+[sf:deploy] 09:08:13.862 (865854840)|HEAP_ALLOCATE|[12]|Bytes:10
+[sf:deploy] 09:08:13.862 (865870498)|STATEMENT_EXECUTE|[13]
+[sf:deploy] 09:08:13.862 (865872982)|HEAP_ALLOCATE|[13]|Bytes:10
+[sf:deploy] 09:08:13.862 (865884308)|STATEMENT_EXECUTE|[14]
+[sf:deploy] 09:08:13.862 (865895461)|HEAP_ALLOCATE|[14]|Bytes:4
+[sf:deploy] 09:08:13.862 (865916727)|STATEMENT_EXECUTE|[15]
+[sf:deploy] 09:08:13.862 (865919781)|HEAP_ALLOCATE|[15]|Bytes:2
+[sf:deploy] 09:08:13.862 (865935255)|STATEMENT_EXECUTE|[16]
+[sf:deploy] 09:08:13.862 (865941859)|METHOD_EXIT|[188]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.862 (865947804)|STATEMENT_EXECUTE|[190]
+[sf:deploy] 09:08:13.862 (865950411)|HEAP_ALLOCATE|[190]|Bytes:7
+[sf:deploy] 09:08:13.862 (865961337)|METHOD_ENTRY|[190]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.862 (865980678)|STATEMENT_EXECUTE|[19]
+[sf:deploy] 09:08:13.862 (865982340)|STATEMENT_EXECUTE|[20]
+[sf:deploy] 09:08:13.862 (865992892)|HEAP_ALLOCATE|[20]|Bytes:4
+[sf:deploy] 09:08:13.862 (866014086)|STATEMENT_EXECUTE|[21]
+[sf:deploy] 09:08:13.862 (866035233)|STATEMENT_EXECUTE|[22]
+[sf:deploy] 09:08:13.862 (866038830)|HEAP_ALLOCATE|[22]|Bytes:53
+[sf:deploy] 09:08:13.862 (866045101)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.862 (866050863)|HEAP_ALLOCATE|[22]|Bytes:22
+[sf:deploy] 09:08:13.862 (866067458)|HEAP_ALLOCATE|[22]|Bytes:43
+[sf:deploy] 09:08:13.862 (866204580)|SOQL_EXECUTE_BEGIN|[22]|Aggregations:0|SELECT Id FROM User WHERE Username = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.862 (868618281)|SOQL_EXECUTE_END|[22]|Rows:0
+[sf:deploy] 09:08:13.862 (868639113)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.862 (868648196)|HEAP_ALLOCATE|[22]|Bytes:0
+[sf:deploy] 09:08:13.862 (868667275)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:13.862 (868676822)|HEAP_ALLOCATE|[22]|Bytes:30
+[sf:deploy] 09:08:13.862 (868710104)|HEAP_ALLOCATE|[22]|Bytes:46
+[sf:deploy] 09:08:13.862 (868721525)|METHOD_EXIT|[190]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:13.862 (868769703)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod5_2DemFinalaTraiteCaseDossierRecu: line 190, column 1
+[sf:deploy] 09:08:13.862 (868781749)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod5_2DemFinalaTraiteCaseDossierRecu: line 190, column 1
+[sf:deploy] 09:08:13.868 (868788764)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 09:08:13.868 (868788764)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 2 out of 100
+[sf:deploy]   Number of query rows: 1 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 09:08:13.868 (868788764)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+[sf:deploy] 09:08:13.868 (868788764)|STATIC_VARIABLE_LIST|
+[sf:deploy]   char[]:DigitTens:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   String:_sfdcSuppressedCodeLocations:0
+[sf:deploy]   double:MAX_VALUE:0
+[sf:deploy]   Boolean:FALSE:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MIN_VALUE:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:NEGATIVE_INFINITY:0
+[sf:deploy]   int:MAX_VALUE:0
+[sf:deploy]   char[]:digits:0
+[sf:deploy]   double:NaN:0
+[sf:deploy]   Boolean:TRUE:0
+[sf:deploy]   int:MIN_VALUE:0
+[sf:deploy]   char[]:DigitOnes:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy]   int:MIN_EXPONENT:0
+[sf:deploy]   int[]:sizeTable:0
+[sf:deploy]   int:MAX_EXPONENT:0
+[sf:deploy]   String:_sfdcAdditionalCodeLocations:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:POSITIVE_INFINITY:0
+[sf:deploy]   double:MIN_NORMAL:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy] 
+[sf:deploy] 09:08:13.868 (868788764)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 09:08:13.862 (868893119)|CODE_UNIT_FINISHED|SG_EER_AccueilController_Test.TestMethod5_2DemFinalaTraiteCaseDossierRecu
+[sf:deploy] 09:08:13.862 (869600777)|EXECUTION_FINISHED
+[sf:deploy] 09:08:13.887 (887709992)|USER_INFO|[EXTERNAL]|00558000001ngsT|eyhuellou@sgeer.com.dev1|Heure d'Europe centrale|GMT+02:00
+[sf:deploy] 09:08:13.887 (887734093)|EXECUTION_STARTED
+[sf:deploy] 09:08:13.887 (887742143)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000008Useb|SG_EER_AttachmentUploadTest.testUpload
+[sf:deploy] 09:08:13.887 (887881689)|HEAP_ALLOCATE|[72]|Bytes:3
+[sf:deploy] 09:08:13.887 (887924023)|HEAP_ALLOCATE|[77]|Bytes:152
+[sf:deploy] 09:08:13.887 (887941052)|HEAP_ALLOCATE|[342]|Bytes:408
+[sf:deploy] 09:08:13.887 (887956877)|HEAP_ALLOCATE|[355]|Bytes:408
+[sf:deploy] 09:08:13.887 (887976827)|HEAP_ALLOCATE|[467]|Bytes:48
+[sf:deploy] 09:08:13.887 (888006847)|HEAP_ALLOCATE|[139]|Bytes:6
+[sf:deploy] 09:08:13.887 (888023973)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:131
+[sf:deploy] 09:08:13.887 (888034193)|METHOD_ENTRY|[7]|01p58000008Useb|SG_EER_AttachmentUploadTest.SG_EER_AttachmentUploadTest()
+[sf:deploy] 09:08:13.887 (888040409)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.887 (888046460)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.887 (888051191)|METHOD_EXIT|[7]|SG_EER_AttachmentUploadTest
+[sf:deploy] 09:08:13.887 (888074465)|HEAP_ALLOCATE|[50]|Bytes:5
+[sf:deploy] 09:08:13.887 (888096256)|HEAP_ALLOCATE|[56]|Bytes:5
+[sf:deploy] 09:08:13.887 (888103100)|HEAP_ALLOCATE|[64]|Bytes:7
+[sf:deploy] 09:08:13.887 (888140049)|STATEMENT_EXECUTE|[9]
+[sf:deploy] 09:08:13.887 (888142065)|STATEMENT_EXECUTE|[11]
+[sf:deploy] 09:08:13.887 (888149424)|HEAP_ALLOCATE|[11]|Bytes:45
+[sf:deploy] 09:08:13.887 (888155564)|METHOD_ENTRY|[1]|01p58000008UsfA|SG_EER_TestUtils.SG_EER_TestUtils()
+[sf:deploy] 09:08:13.887 (888159250)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.887 (888161498)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.887 (888163939)|METHOD_EXIT|[1]|SG_EER_TestUtils
+[sf:deploy] 09:08:13.887 (888174428)|METHOD_ENTRY|[11]|01p58000008UsfA|SG_EER_TestUtils.createNationality()
+[sf:deploy] 09:08:13.887 (888235116)|STATEMENT_EXECUTE|[90]
+[sf:deploy] 09:08:13.887 (888237455)|STATEMENT_EXECUTE|[91]
+[sf:deploy] 09:08:13.887 (888255334)|HEAP_ALLOCATE|[91]|Bytes:4
+[sf:deploy] 09:08:13.887 (888342124)|STATEMENT_EXECUTE|[92]
+[sf:deploy] 09:08:13.887 (888345996)|HEAP_ALLOCATE|[92]|Bytes:10
+[sf:deploy] 09:08:13.887 (888400481)|STATEMENT_EXECUTE|[93]
+[sf:deploy] 09:08:13.887 (888404770)|HEAP_ALLOCATE|[93]|Bytes:26
+[sf:deploy] 09:08:13.887 (888436521)|HEAP_ALLOCATE|[93]|Bytes:11
+[sf:deploy] 09:08:13.887 (888470242)|STATEMENT_EXECUTE|[94]
+[sf:deploy] 09:08:13.887 (888477471)|METHOD_EXIT|[11]|01p58000008UsfA|SG_EER_TestUtils.createNationality()
+[sf:deploy] 09:08:13.887 (888484076)|STATEMENT_EXECUTE|[12]
+[sf:deploy] 09:08:13.887 (888508258)|HEAP_ALLOCATE|[12]|Bytes:8
+[sf:deploy] 09:08:13.887 (888518336)|DML_BEGIN|[12]|Op:Insert|Type:SG_EER_REF__c|Rows:1
+[sf:deploy] 09:08:13.887 (888543773)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+[sf:deploy] 09:08:13.887 (939859453)|DML_END|[12]
+[sf:deploy] 09:08:13.887 (939888589)|STATEMENT_EXECUTE|[13]
+[sf:deploy] 09:08:13.887 (939941446)|HEAP_ALLOCATE|[13]|Bytes:18
+[sf:deploy] 09:08:13.887 (939958093)|STATEMENT_EXECUTE|[15]
+[sf:deploy] 09:08:13.887 (939961666)|HEAP_ALLOCATE|[15]|Bytes:4
+[sf:deploy] 09:08:13.887 (939965737)|HEAP_ALLOCATE|[15]|Bytes:6
+[sf:deploy] 09:08:13.887 (939968604)|HEAP_ALLOCATE|[15]|Bytes:17
+[sf:deploy] 09:08:13.887 (939994952)|METHOD_ENTRY|[15]|01p58000008UsfA|SG_EER_TestUtils.createPersonAcc(String, String, String)
+[sf:deploy] 09:08:13.887 (940051853)|STATEMENT_EXECUTE|[96]
+[sf:deploy] 09:08:13.887 (940054793)|STATEMENT_EXECUTE|[97]
+[sf:deploy] 09:08:13.887 (940057711)|HEAP_ALLOCATE|[97]|Bytes:64
+[sf:deploy] 09:08:13.887 (940067475)|HEAP_ALLOCATE|[97]|Bytes:4
+[sf:deploy] 09:08:13.887 (940236302)|SOQL_EXECUTE_BEGIN|[97]|Aggregations:0|SELECT id FROM RecordType WHERE DeveloperName = 'SG_EERProspect'
+[sf:deploy] 09:08:13.887 (941511658)|SOQL_EXECUTE_END|[97]|Rows:1
+[sf:deploy] 09:08:13.887 (941531174)|HEAP_ALLOCATE|[97]|Bytes:8
+[sf:deploy] 09:08:13.887 (941543850)|HEAP_ALLOCATE|[97]|Bytes:29
+[sf:deploy] 09:08:13.887 (941623050)|HEAP_ALLOCATE|[97]|Bytes:8
+[sf:deploy] 09:08:13.887 (941635407)|HEAP_ALLOCATE|[97]|Bytes:36
+[sf:deploy] 09:08:13.887 (941686055)|HEAP_ALLOCATE|[97]|Bytes:8
+[sf:deploy] 09:08:13.887 (941692182)|STATEMENT_EXECUTE|[98]
+[sf:deploy] 09:08:13.887 (941713202)|HEAP_ALLOCATE|[98]|Bytes:18
+[sf:deploy] 09:08:13.887 (941718102)|STATEMENT_EXECUTE|[99]
+[sf:deploy] 09:08:13.887 (941726628)|HEAP_ALLOCATE|[99]|Bytes:4
+[sf:deploy] 09:08:13.887 (941758820)|STATEMENT_EXECUTE|[100]
+[sf:deploy] 09:08:13.887 (941796949)|HEAP_ALLOCATE|[100]|Bytes:4
+[sf:deploy] 09:08:13.887 (941832842)|STATEMENT_EXECUTE|[101]
+[sf:deploy] 09:08:13.887 (941846025)|STATEMENT_EXECUTE|[102]
+[sf:deploy] 09:08:13.887 (941854526)|STATEMENT_EXECUTE|[103]
+[sf:deploy] 09:08:13.887 (941865357)|STATEMENT_EXECUTE|[104]
+[sf:deploy] 09:08:13.887 (941868850)|HEAP_ALLOCATE|[104]|Bytes:53
+[sf:deploy] 09:08:13.887 (941875741)|HEAP_ALLOCATE|[104]|Bytes:4
+[sf:deploy] 09:08:13.887 (941882164)|HEAP_ALLOCATE|[104]|Bytes:7
+[sf:deploy] 09:08:13.887 (941885915)|HEAP_ALLOCATE|[104]|Bytes:22
+[sf:deploy] 09:08:13.887 (941913006)|HEAP_ALLOCATE|[104]|Bytes:43
+[sf:deploy] 09:08:13.887 (942054879)|SOQL_EXECUTE_BEGIN|[104]|Aggregations:0|SELECT Id FROM User WHERE Username = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.887 (944109353)|SOQL_EXECUTE_END|[104]|Rows:0
+[sf:deploy] 09:08:13.887 (944129438)|HEAP_ALLOCATE|[104]|Bytes:4
+[sf:deploy] 09:08:13.887 (944137583)|HEAP_ALLOCATE|[104]|Bytes:0
+[sf:deploy] 09:08:13.887 (944154518)|HEAP_ALLOCATE|[104]|Bytes:4
+[sf:deploy] 09:08:13.887 (944163625)|HEAP_ALLOCATE|[104]|Bytes:30
+[sf:deploy] 09:08:13.887 (944201308)|HEAP_ALLOCATE|[104]|Bytes:46
+[sf:deploy] 09:08:13.887 (944214833)|METHOD_EXIT|[15]|01p58000008UsfA|SG_EER_TestUtils.createPersonAcc(String, String, String)
+[sf:deploy] 09:08:13.887 (944265574)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createPersonAcc: line 104, column 1
+[sf:deploy] Class.SG_EER_AttachmentUploadTest.testUpload: line 15, column 1
+[sf:deploy] 09:08:13.887 (944278302)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createPersonAcc: line 104, column 1
+[sf:deploy] Class.SG_EER_AttachmentUploadTest.testUpload: line 15, column 1
+[sf:deploy] 09:08:13.944 (944285650)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 09:08:13.944 (944285650)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 2 out of 100
+[sf:deploy]   Number of query rows: 1 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 1 out of 150
+[sf:deploy]   Number of DML rows: 1 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 09:08:13.944 (944285650)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+[sf:deploy] 09:08:13.944 (944285650)|STATIC_VARIABLE_LIST|
+[sf:deploy]   char[]:DigitTens:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MAX_VALUE:0
+[sf:deploy]   Boolean:FALSE:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MIN_VALUE:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:NEGATIVE_INFINITY:0
+[sf:deploy]   int:MAX_VALUE:0
+[sf:deploy]   char[]:digits:0
+[sf:deploy]   double:NaN:0
+[sf:deploy]   Boolean:TRUE:0
+[sf:deploy]   int:MIN_VALUE:0
+[sf:deploy]   char[]:DigitOnes:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy]   String:_sfdcSuppressedCodeLocations:0
+[sf:deploy]   int:MIN_EXPONENT:0
+[sf:deploy]   int[]:sizeTable:0
+[sf:deploy]   int:MAX_EXPONENT:0
+[sf:deploy]   String:_sfdcAdditionalCodeLocations:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:POSITIVE_INFINITY:0
+[sf:deploy]   double:MIN_NORMAL:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy] 
+[sf:deploy] 09:08:13.944 (944285650)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 09:08:13.887 (944404153)|CODE_UNIT_FINISHED|SG_EER_AttachmentUploadTest.testUpload
+[sf:deploy] 09:08:13.887 (945397357)|EXECUTION_FINISHED
+[sf:deploy] 09:08:13.965 (965064704)|USER_INFO|[EXTERNAL]|00558000001ngsT|eyhuellou@sgeer.com.dev1|Heure d'Europe centrale|GMT+02:00
+[sf:deploy] 09:08:13.965 (965088436)|EXECUTION_STARTED
+[sf:deploy] 09:08:13.965 (965093941)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000008Used|SG_EER_ContactExt_Test.TestCreateUserCommunity
+[sf:deploy] 09:08:13.965 (965181865)|HEAP_ALLOCATE|[72]|Bytes:3
+[sf:deploy] 09:08:13.965 (965205344)|HEAP_ALLOCATE|[77]|Bytes:152
+[sf:deploy] 09:08:13.965 (965217828)|HEAP_ALLOCATE|[342]|Bytes:408
+[sf:deploy] 09:08:13.965 (965233630)|HEAP_ALLOCATE|[355]|Bytes:408
+[sf:deploy] 09:08:13.965 (965247326)|HEAP_ALLOCATE|[467]|Bytes:48
+[sf:deploy] 09:08:13.965 (965266751)|HEAP_ALLOCATE|[139]|Bytes:6
+[sf:deploy] 09:08:13.965 (965278734)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:239
+[sf:deploy] 09:08:13.965 (965287746)|METHOD_ENTRY|[2]|01p58000008Used|SG_EER_ContactExt_Test.SG_EER_ContactExt_Test()
+[sf:deploy] 09:08:13.965 (965293789)|STATEMENT_EXECUTE|[2]
+[sf:deploy] 09:08:13.965 (965299714)|STATEMENT_EXECUTE|[2]
+[sf:deploy] 09:08:13.965 (965303620)|METHOD_EXIT|[2]|SG_EER_ContactExt_Test
+[sf:deploy] 09:08:13.965 (965319644)|HEAP_ALLOCATE|[50]|Bytes:5
+[sf:deploy] 09:08:13.965 (965335091)|HEAP_ALLOCATE|[56]|Bytes:5
+[sf:deploy] 09:08:13.965 (965342309)|HEAP_ALLOCATE|[64]|Bytes:7
+[sf:deploy] 09:08:13.965 (965372255)|STATEMENT_EXECUTE|[88]
+[sf:deploy] 09:08:13.965 (965374567)|STATEMENT_EXECUTE|[90]
+[sf:deploy] 09:08:13.965 (965376997)|HEAP_ALLOCATE|[90]|Bytes:58
+[sf:deploy] 09:08:13.965 (965388094)|HEAP_ALLOCATE|[90]|Bytes:4
+[sf:deploy] 09:08:13.965 (965395820)|HEAP_ALLOCATE|[90]|Bytes:7
+[sf:deploy] 09:08:13.965 (965399067)|HEAP_ALLOCATE|[90]|Bytes:29
+[sf:deploy] 09:08:13.965 (965430341)|HEAP_ALLOCATE|[90]|Bytes:13
+[sf:deploy] 09:08:13.965 (965665571)|SOQL_EXECUTE_BEGIN|[90]|Aggregations:0|SELECT id, name FROM Profile WHERE name = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.965 (967691888)|SOQL_EXECUTE_END|[90]|Rows:1
+[sf:deploy] 09:08:13.965 (967712453)|HEAP_ALLOCATE|[90]|Bytes:8
+[sf:deploy] 09:08:13.965 (967726645)|HEAP_ALLOCATE|[90]|Bytes:50
+[sf:deploy] 09:08:13.965 (967748230)|HEAP_ALLOCATE|[90]|Bytes:8
+[sf:deploy] 09:08:13.965 (967757610)|HEAP_ALLOCATE|[90]|Bytes:33
+[sf:deploy] 09:08:13.965 (967785974)|HEAP_ALLOCATE|[90]|Bytes:12
+[sf:deploy] 09:08:13.965 (967801774)|STATEMENT_EXECUTE|[91]
+[sf:deploy] 09:08:13.965 (967804683)|HEAP_ALLOCATE|[91]|Bytes:4
+[sf:deploy] 09:08:13.965 (967808221)|HEAP_ALLOCATE|[91]|Bytes:49
+[sf:deploy] 09:08:13.965 (967810731)|HEAP_ALLOCATE|[91]|Bytes:8
+[sf:deploy] 09:08:13.965 (967813193)|HEAP_ALLOCATE|[91]|Bytes:4
+[sf:deploy] 09:08:13.965 (967824368)|HEAP_ALLOCATE|[91]|Bytes:18
+[sf:deploy] 09:08:13.965 (967834911)|HEAP_ALLOCATE|[91]|Bytes:45
+[sf:deploy] 09:08:13.965 (967841881)|METHOD_ENTRY|[1]|01p58000008UsfA|SG_EER_TestUtils.SG_EER_TestUtils()
+[sf:deploy] 09:08:13.965 (967846328)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.965 (967849400)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.965 (967853248)|METHOD_EXIT|[1]|SG_EER_TestUtils
+[sf:deploy] 09:08:13.965 (967864867)|METHOD_ENTRY|[91]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.965 (967888614)|STATEMENT_EXECUTE|[3]
+[sf:deploy] 09:08:13.965 (967890426)|STATEMENT_EXECUTE|[4]
+[sf:deploy] 09:08:13.965 (967911023)|HEAP_ALLOCATE|[4]|Bytes:4
+[sf:deploy] 09:08:13.965 (967941284)|STATEMENT_EXECUTE|[5]
+[sf:deploy] 09:08:13.965 (967974504)|STATEMENT_EXECUTE|[6]
+[sf:deploy] 09:08:13.965 (967989091)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:13.965 (968000310)|STATEMENT_EXECUTE|[8]
+[sf:deploy] 09:08:13.965 (968012759)|STATEMENT_EXECUTE|[9]
+[sf:deploy] 09:08:13.965 (968024307)|STATEMENT_EXECUTE|[10]
+[sf:deploy] 09:08:13.965 (968033944)|HEAP_ALLOCATE|[10]|Bytes:1
+[sf:deploy] 09:08:13.965 (968059017)|SYSTEM_METHOD_ENTRY|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.965 (968071648)|SYSTEM_METHOD_EXIT|[10]|String.indexOf(String)
+[sf:deploy] 09:08:13.965 (968085442)|SYSTEM_METHOD_ENTRY|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.965 (968091135)|HEAP_ALLOCATE|[10]|Bytes:34
+[sf:deploy] 09:08:13.965 (968098946)|SYSTEM_METHOD_EXIT|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:13.965 (968119100)|STATEMENT_EXECUTE|[11]
+[sf:deploy] 09:08:13.965 (968122098)|HEAP_ALLOCATE|[11]|Bytes:12
+[sf:deploy] 09:08:13.965 (968135508)|STATEMENT_EXECUTE|[12]
+[sf:deploy] 09:08:13.965 (968137889)|HEAP_ALLOCATE|[12]|Bytes:10
+[sf:deploy] 09:08:13.965 (968149604)|STATEMENT_EXECUTE|[13]
+[sf:deploy] 09:08:13.965 (968152166)|HEAP_ALLOCATE|[13]|Bytes:10
+[sf:deploy] 09:08:13.965 (968162746)|STATEMENT_EXECUTE|[14]
+[sf:deploy] 09:08:13.965 (968172305)|HEAP_ALLOCATE|[14]|Bytes:4
+[sf:deploy] 09:08:13.965 (968191261)|STATEMENT_EXECUTE|[15]
+[sf:deploy] 09:08:13.965 (968193928)|HEAP_ALLOCATE|[15]|Bytes:2
+[sf:deploy] 09:08:13.965 (968205554)|STATEMENT_EXECUTE|[16]
+[sf:deploy] 09:08:13.965 (968211993)|METHOD_EXIT|[91]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:13.965 (968217562)|STATEMENT_EXECUTE|[92]
+[sf:deploy] 09:08:13.965 (968238864)|HEAP_ALLOCATE|[92]|Bytes:8
+[sf:deploy] 09:08:13.965 (968249717)|DML_BEGIN|[92]|Op:Insert|Type:User|Rows:1
+[sf:deploy] 09:08:13.965 (968268209)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+[sf:deploy] 09:08:13.965 (1131531817)|DML_END|[92]
+[sf:deploy] 09:08:13.965 (1131566720)|STATEMENT_EXECUTE|[94]
+[sf:deploy] 09:08:13.965 (1131580246)|HEAP_ALLOCATE|[94]|Bytes:6
+[sf:deploy] 09:08:13.965 (1131633844)|METHOD_ENTRY|[94]|01p58000008UsfA|SG_EER_TestUtils.createCountry(String)
+[sf:deploy] 09:08:13.965 (1131694572)|STATEMENT_EXECUTE|[83]
+[sf:deploy] 09:08:13.965 (1131697347)|STATEMENT_EXECUTE|[84]
+[sf:deploy] 09:08:13.965 (1131719920)|HEAP_ALLOCATE|[84]|Bytes:4
+[sf:deploy] 09:08:13.965 (1131759380)|STATEMENT_EXECUTE|[85]
+[sf:deploy] 09:08:13.965 (1131803805)|STATEMENT_EXECUTE|[86]
+[sf:deploy] 09:08:13.965 (1131808028)|HEAP_ALLOCATE|[86]|Bytes:4
+[sf:deploy] 09:08:13.965 (1131837017)|STATEMENT_EXECUTE|[87]
+[sf:deploy] 09:08:13.965 (1131845295)|METHOD_EXIT|[94]|01p58000008UsfA|SG_EER_TestUtils.createCountry(String)
+[sf:deploy] 09:08:13.965 (1131851874)|STATEMENT_EXECUTE|[95]
+[sf:deploy] 09:08:13.965 (1131879880)|HEAP_ALLOCATE|[95]|Bytes:8
+[sf:deploy] 09:08:13.965 (1131890505)|DML_BEGIN|[95]|Op:Insert|Type:SG_EER_REF__c|Rows:1
+[sf:deploy] 09:08:13.965 (1131917888)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+[sf:deploy] 09:08:13.965 (1148239732)|DML_END|[95]
+[sf:deploy] 09:08:13.965 (1148265963)|STATEMENT_EXECUTE|[96]
+[sf:deploy] 09:08:13.965 (1148287623)|METHOD_ENTRY|[96]|01p58000008UsfA|SG_EER_TestUtils.createNationality()
+[sf:deploy] 09:08:13.965 (1148327897)|STATEMENT_EXECUTE|[90]
+[sf:deploy] 09:08:13.965 (1148329933)|STATEMENT_EXECUTE|[91]
+[sf:deploy] 09:08:13.965 (1148348097)|HEAP_ALLOCATE|[91]|Bytes:4
+[sf:deploy] 09:08:13.965 (1148383265)|STATEMENT_EXECUTE|[92]
+[sf:deploy] 09:08:13.965 (1148388240)|HEAP_ALLOCATE|[92]|Bytes:10
+[sf:deploy] 09:08:13.965 (1148424445)|STATEMENT_EXECUTE|[93]
+[sf:deploy] 09:08:13.965 (1148428368)|HEAP_ALLOCATE|[93]|Bytes:26
+[sf:deploy] 09:08:13.965 (1151034460)|HEAP_ALLOCATE|[93]|Bytes:11
+[sf:deploy] 09:08:13.965 (1151132695)|STATEMENT_EXECUTE|[94]
+[sf:deploy] 09:08:13.965 (1151151774)|METHOD_EXIT|[96]|01p58000008UsfA|SG_EER_TestUtils.createNationality()
+[sf:deploy] 09:08:13.965 (1151174379)|STATEMENT_EXECUTE|[97]
+[sf:deploy] 09:08:13.965 (1151226610)|HEAP_ALLOCATE|[97]|Bytes:8
+[sf:deploy] 09:08:13.965 (1151241938)|DML_BEGIN|[97]|Op:Insert|Type:SG_EER_REF__c|Rows:1
+[sf:deploy] 09:08:13.965 (1151284747)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+[sf:deploy] 09:08:13.965 (1160375537)|DML_END|[97]
+[sf:deploy] 09:08:13.965 (1160393677)|STATEMENT_EXECUTE|[99]
+[sf:deploy] 09:08:13.965 (1160410427)|HEAP_ALLOCATE|[99]|Bytes:30
+[sf:deploy] 09:08:13.965 (1160457095)|STATEMENT_EXECUTE|[100]
+[sf:deploy] 09:08:13.965 (1160521221)|HEAP_ALLOCATE|[100]|Bytes:63
+[sf:deploy] 09:08:13.965 (1160537553)|SYSTEM_METHOD_ENTRY|[1]|Test.Test()
+[sf:deploy] 09:08:13.965 (1160541518)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:13.965 (1160550940)|SYSTEM_METHOD_EXIT|[1]|Test
+[sf:deploy] 09:08:13.965 (1160567326)|METHOD_ENTRY|[100]||System.Test.setCurrentPage(Object)
+[sf:deploy] 09:08:13.965 (1160626420)|METHOD_EXIT|[100]||System.Test.setCurrentPage(Object)
+[sf:deploy] 09:08:13.965 (1160632336)|STATEMENT_EXECUTE|[101]
+[sf:deploy] 09:08:13.965 (1160637009)|HEAP_ALLOCATE|[101]|Bytes:4
+[sf:deploy] 09:08:13.965 (1160641663)|HEAP_ALLOCATE|[101]|Bytes:17
+[sf:deploy] 09:08:13.965 (1160651892)|METHOD_ENTRY|[101]|01p58000008UsfA|SG_EER_TestUtils.createPersonAcc(String, String, String)
+[sf:deploy] 09:08:13.965 (1160670013)|STATEMENT_EXECUTE|[96]
+[sf:deploy] 09:08:13.965 (1160671658)|STATEMENT_EXECUTE|[97]
+[sf:deploy] 09:08:13.965 (1160673872)|HEAP_ALLOCATE|[97]|Bytes:64
+[sf:deploy] 09:08:13.965 (1160683655)|HEAP_ALLOCATE|[97]|Bytes:4
+[sf:deploy] 09:08:13.965 (1160837405)|SOQL_EXECUTE_BEGIN|[97]|Aggregations:0|SELECT id FROM RecordType WHERE DeveloperName = 'SG_EERProspect'
+[sf:deploy] 09:08:13.965 (1162916342)|SOQL_EXECUTE_END|[97]|Rows:1
+[sf:deploy] 09:08:13.965 (1162942969)|HEAP_ALLOCATE|[97]|Bytes:8
+[sf:deploy] 09:08:13.965 (1162956351)|HEAP_ALLOCATE|[97]|Bytes:29
+[sf:deploy] 09:08:13.965 (1162991721)|HEAP_ALLOCATE|[97]|Bytes:8
+[sf:deploy] 09:08:13.965 (1163002881)|HEAP_ALLOCATE|[97]|Bytes:36
+[sf:deploy] 09:08:13.965 (1163034294)|HEAP_ALLOCATE|[97]|Bytes:8
+[sf:deploy] 09:08:13.965 (1163040216)|STATEMENT_EXECUTE|[98]
+[sf:deploy] 09:08:13.965 (1163060527)|HEAP_ALLOCATE|[98]|Bytes:18
+[sf:deploy] 09:08:13.965 (1163064458)|STATEMENT_EXECUTE|[99]
+[sf:deploy] 09:08:13.965 (1163075250)|HEAP_ALLOCATE|[99]|Bytes:4
+[sf:deploy] 09:08:13.965 (1163105581)|STATEMENT_EXECUTE|[100]
+[sf:deploy] 09:08:13.965 (1163111958)|HEAP_ALLOCATE|[100]|Bytes:4
+[sf:deploy] 09:08:13.965 (1163141616)|STATEMENT_EXECUTE|[101]
+[sf:deploy] 09:08:13.965 (1163155420)|STATEMENT_EXECUTE|[102]
+[sf:deploy] 09:08:13.965 (1163164217)|STATEMENT_EXECUTE|[103]
+[sf:deploy] 09:08:13.965 (1163174243)|STATEMENT_EXECUTE|[104]
+[sf:deploy] 09:08:13.965 (1163176952)|HEAP_ALLOCATE|[104]|Bytes:53
+[sf:deploy] 09:08:13.965 (1163183603)|HEAP_ALLOCATE|[104]|Bytes:4
+[sf:deploy] 09:08:13.965 (1163190023)|HEAP_ALLOCATE|[104]|Bytes:22
+[sf:deploy] 09:08:13.965 (1163210635)|HEAP_ALLOCATE|[104]|Bytes:43
+[sf:deploy] 09:08:13.965 (1163349432)|SOQL_EXECUTE_BEGIN|[104]|Aggregations:0|SELECT Id FROM User WHERE Username = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:13.965 (1174204407)|SOQL_EXECUTE_END|[104]|Rows:0
+[sf:deploy] 09:08:13.965 (1174229070)|HEAP_ALLOCATE|[104]|Bytes:4
+[sf:deploy] 09:08:13.965 (1174238674)|HEAP_ALLOCATE|[104]|Bytes:0
+[sf:deploy] 09:08:13.965 (1174258315)|HEAP_ALLOCATE|[104]|Bytes:4
+[sf:deploy] 09:08:13.965 (1174270334)|HEAP_ALLOCATE|[104]|Bytes:30
+[sf:deploy] 09:08:13.965 (1174314320)|HEAP_ALLOCATE|[104]|Bytes:46
+[sf:deploy] 09:08:13.965 (1174327902)|METHOD_EXIT|[101]|01p58000008UsfA|SG_EER_TestUtils.createPersonAcc(String, String, String)
+[sf:deploy] 09:08:13.965 (1174378860)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createPersonAcc: line 104, column 1
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestCreateUserCommunity: line 101, column 1
+[sf:deploy] 09:08:13.965 (1174391242)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createPersonAcc: line 104, column 1
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestCreateUserCommunity: line 101, column 1
+[sf:deploy] 09:08:14.174 (1174399841)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 09:08:14.174 (1174399841)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 3 out of 100
+[sf:deploy]   Number of query rows: 2 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 3 out of 150
+[sf:deploy]   Number of DML rows: 3 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 09:08:14.174 (1174399841)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+[sf:deploy] 09:08:14.174 (1174399841)|STATIC_VARIABLE_LIST|
+[sf:deploy]   char[]:DigitTens:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   String:_sfdcAdditionalCodeLocations:0
+[sf:deploy]   double:MAX_VALUE:0
+[sf:deploy]   Boolean:FALSE:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MIN_VALUE:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:NEGATIVE_INFINITY:0
+[sf:deploy]   int:MAX_VALUE:0
+[sf:deploy]   char[]:digits:0
+[sf:deploy]   double:NaN:0
+[sf:deploy]   Boolean:TRUE:0
+[sf:deploy]   int:MIN_VALUE:0
+[sf:deploy]   String:_sfdcSuppressedCodeLocations:0
+[sf:deploy]   char[]:DigitOnes:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy]   int:MIN_EXPONENT:0
+[sf:deploy]   int[]:sizeTable:0
+[sf:deploy]   int:MAX_EXPONENT:0
+[sf:deploy]   String:_sfdcAdditionalCodeLocations:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:POSITIVE_INFINITY:0
+[sf:deploy]   double:MIN_NORMAL:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy] 
+[sf:deploy] 09:08:14.174 (1174399841)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 09:08:13.965 (1174520631)|CODE_UNIT_FINISHED|SG_EER_ContactExt_Test.TestCreateUserCommunity
+[sf:deploy] 09:08:13.965 (1175370368)|EXECUTION_FINISHED
+[sf:deploy] 09:08:14.231 (1231325885)|USER_INFO|[EXTERNAL]|00558000001ngsT|eyhuellou@sgeer.com.dev1|Heure d'Europe centrale|GMT+02:00
+[sf:deploy] 09:08:14.231 (1231353159)|EXECUTION_STARTED
+[sf:deploy] 09:08:14.231 (1231360426)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000008Used|SG_EER_ContactExt_Test.TestStatusDemEnCours
+[sf:deploy] 09:08:14.231 (1231506836)|HEAP_ALLOCATE|[72]|Bytes:3
+[sf:deploy] 09:08:14.231 (1231546671)|HEAP_ALLOCATE|[77]|Bytes:152
+[sf:deploy] 09:08:14.231 (1231563782)|HEAP_ALLOCATE|[342]|Bytes:408
+[sf:deploy] 09:08:14.231 (1231580524)|HEAP_ALLOCATE|[355]|Bytes:408
+[sf:deploy] 09:08:14.231 (1231598367)|HEAP_ALLOCATE|[467]|Bytes:48
+[sf:deploy] 09:08:14.231 (1231625210)|HEAP_ALLOCATE|[139]|Bytes:6
+[sf:deploy] 09:08:14.231 (1231640068)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:239
+[sf:deploy] 09:08:14.231 (1231651612)|METHOD_ENTRY|[2]|01p58000008Used|SG_EER_ContactExt_Test.SG_EER_ContactExt_Test()
+[sf:deploy] 09:08:14.231 (1231659039)|STATEMENT_EXECUTE|[2]
+[sf:deploy] 09:08:14.231 (1231665540)|STATEMENT_EXECUTE|[2]
+[sf:deploy] 09:08:14.231 (1231670049)|METHOD_EXIT|[2]|SG_EER_ContactExt_Test
+[sf:deploy] 09:08:14.231 (1231694538)|HEAP_ALLOCATE|[50]|Bytes:5
+[sf:deploy] 09:08:14.231 (1231717724)|HEAP_ALLOCATE|[56]|Bytes:5
+[sf:deploy] 09:08:14.231 (1231724468)|HEAP_ALLOCATE|[64]|Bytes:7
+[sf:deploy] 09:08:14.231 (1231763139)|STATEMENT_EXECUTE|[4]
+[sf:deploy] 09:08:14.231 (1231765693)|STATEMENT_EXECUTE|[6]
+[sf:deploy] 09:08:14.231 (1231768200)|HEAP_ALLOCATE|[6]|Bytes:58
+[sf:deploy] 09:08:14.231 (1231779206)|HEAP_ALLOCATE|[6]|Bytes:4
+[sf:deploy] 09:08:14.231 (1231790771)|HEAP_ALLOCATE|[6]|Bytes:7
+[sf:deploy] 09:08:14.231 (1231794242)|HEAP_ALLOCATE|[6]|Bytes:29
+[sf:deploy] 09:08:14.231 (1234458726)|HEAP_ALLOCATE|[6]|Bytes:13
+[sf:deploy] 09:08:14.231 (1234705035)|SOQL_EXECUTE_BEGIN|[6]|Aggregations:0|SELECT id, name FROM Profile WHERE name = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:14.231 (1237187516)|SOQL_EXECUTE_END|[6]|Rows:1
+[sf:deploy] 09:08:14.231 (1237208671)|HEAP_ALLOCATE|[6]|Bytes:8
+[sf:deploy] 09:08:14.231 (1237223106)|HEAP_ALLOCATE|[6]|Bytes:50
+[sf:deploy] 09:08:14.231 (1237252376)|HEAP_ALLOCATE|[6]|Bytes:8
+[sf:deploy] 09:08:14.231 (1237261855)|HEAP_ALLOCATE|[6]|Bytes:33
+[sf:deploy] 09:08:14.231 (1237293568)|HEAP_ALLOCATE|[6]|Bytes:12
+[sf:deploy] 09:08:14.231 (1237309704)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:14.231 (1237312993)|HEAP_ALLOCATE|[7]|Bytes:4
+[sf:deploy] 09:08:14.231 (1237316606)|HEAP_ALLOCATE|[7]|Bytes:49
+[sf:deploy] 09:08:14.231 (1237319161)|HEAP_ALLOCATE|[7]|Bytes:8
+[sf:deploy] 09:08:14.231 (1237321816)|HEAP_ALLOCATE|[7]|Bytes:4
+[sf:deploy] 09:08:14.231 (1237337061)|HEAP_ALLOCATE|[7]|Bytes:18
+[sf:deploy] 09:08:14.231 (1237347901)|HEAP_ALLOCATE|[7]|Bytes:45
+[sf:deploy] 09:08:14.231 (1237355380)|METHOD_ENTRY|[1]|01p58000008UsfA|SG_EER_TestUtils.SG_EER_TestUtils()
+[sf:deploy] 09:08:14.231 (1237359638)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:14.231 (1237362784)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:14.231 (1237366502)|METHOD_EXIT|[1]|SG_EER_TestUtils
+[sf:deploy] 09:08:14.231 (1237378347)|METHOD_ENTRY|[7]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:14.231 (1237402307)|STATEMENT_EXECUTE|[3]
+[sf:deploy] 09:08:14.231 (1237404105)|STATEMENT_EXECUTE|[4]
+[sf:deploy] 09:08:14.231 (1237425016)|HEAP_ALLOCATE|[4]|Bytes:4
+[sf:deploy] 09:08:14.231 (1237458173)|STATEMENT_EXECUTE|[5]
+[sf:deploy] 09:08:14.231 (1237495221)|STATEMENT_EXECUTE|[6]
+[sf:deploy] 09:08:14.231 (1237511010)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:14.231 (1237522866)|STATEMENT_EXECUTE|[8]
+[sf:deploy] 09:08:14.231 (1237534424)|STATEMENT_EXECUTE|[9]
+[sf:deploy] 09:08:14.231 (1237545290)|STATEMENT_EXECUTE|[10]
+[sf:deploy] 09:08:14.231 (1237555843)|HEAP_ALLOCATE|[10]|Bytes:1
+[sf:deploy] 09:08:14.231 (1237582970)|SYSTEM_METHOD_ENTRY|[10]|String.indexOf(String)
+[sf:deploy] 09:08:14.231 (1237601439)|SYSTEM_METHOD_EXIT|[10]|String.indexOf(String)
+[sf:deploy] 09:08:14.231 (1237615393)|SYSTEM_METHOD_ENTRY|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:14.231 (1237621013)|HEAP_ALLOCATE|[10]|Bytes:34
+[sf:deploy] 09:08:14.231 (1237628630)|SYSTEM_METHOD_EXIT|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:14.231 (1237649257)|STATEMENT_EXECUTE|[11]
+[sf:deploy] 09:08:14.231 (1237653641)|HEAP_ALLOCATE|[11]|Bytes:12
+[sf:deploy] 09:08:14.231 (1237668758)|STATEMENT_EXECUTE|[12]
+[sf:deploy] 09:08:14.231 (1237671540)|HEAP_ALLOCATE|[12]|Bytes:10
+[sf:deploy] 09:08:14.231 (1237683450)|STATEMENT_EXECUTE|[13]
+[sf:deploy] 09:08:14.231 (1237686059)|HEAP_ALLOCATE|[13]|Bytes:10
+[sf:deploy] 09:08:14.231 (1237696633)|STATEMENT_EXECUTE|[14]
+[sf:deploy] 09:08:14.231 (1237706837)|HEAP_ALLOCATE|[14]|Bytes:4
+[sf:deploy] 09:08:14.231 (1237727883)|STATEMENT_EXECUTE|[15]
+[sf:deploy] 09:08:14.231 (1237730712)|HEAP_ALLOCATE|[15]|Bytes:2
+[sf:deploy] 09:08:14.231 (1237742707)|STATEMENT_EXECUTE|[16]
+[sf:deploy] 09:08:14.231 (1237749929)|METHOD_EXIT|[7]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:14.231 (1237755521)|STATEMENT_EXECUTE|[8]
+[sf:deploy] 09:08:14.231 (1237777841)|HEAP_ALLOCATE|[8]|Bytes:8
+[sf:deploy] 09:08:14.231 (1237788388)|DML_BEGIN|[8]|Op:Insert|Type:User|Rows:1
+[sf:deploy] 09:08:14.231 (1237807301)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+[sf:deploy] 09:08:14.231 (1316818654)|DML_END|[8]
+[sf:deploy] 09:08:14.231 (1316849265)|STATEMENT_EXECUTE|[10]
+[sf:deploy] 09:08:14.231 (1316857361)|HEAP_ALLOCATE|[10]|Bytes:6
+[sf:deploy] 09:08:14.231 (1316888975)|METHOD_ENTRY|[10]|01p58000008UsfA|SG_EER_TestUtils.createCountry(String)
+[sf:deploy] 09:08:14.231 (1316929082)|STATEMENT_EXECUTE|[83]
+[sf:deploy] 09:08:14.231 (1316931552)|STATEMENT_EXECUTE|[84]
+[sf:deploy] 09:08:14.231 (1316957461)|HEAP_ALLOCATE|[84]|Bytes:4
+[sf:deploy] 09:08:14.231 (1316989231)|STATEMENT_EXECUTE|[85]
+[sf:deploy] 09:08:14.231 (1317035828)|STATEMENT_EXECUTE|[86]
+[sf:deploy] 09:08:14.231 (1317039898)|HEAP_ALLOCATE|[86]|Bytes:4
+[sf:deploy] 09:08:14.231 (1317069773)|STATEMENT_EXECUTE|[87]
+[sf:deploy] 09:08:14.231 (1317078295)|METHOD_EXIT|[10]|01p58000008UsfA|SG_EER_TestUtils.createCountry(String)
+[sf:deploy] 09:08:14.231 (1317085119)|STATEMENT_EXECUTE|[11]
+[sf:deploy] 09:08:14.231 (1317105063)|HEAP_ALLOCATE|[11]|Bytes:8
+[sf:deploy] 09:08:14.231 (1317116403)|DML_BEGIN|[11]|Op:Insert|Type:SG_EER_REF__c|Rows:1
+[sf:deploy] 09:08:14.231 (1317139778)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+[sf:deploy] 09:08:14.231 (1347727998)|DML_END|[11]
+[sf:deploy] 09:08:14.231 (1347753583)|STATEMENT_EXECUTE|[12]
+[sf:deploy] 09:08:14.231 (1347773662)|METHOD_ENTRY|[12]|01p58000008UsfA|SG_EER_TestUtils.createNationality()
+[sf:deploy] 09:08:14.231 (1347808470)|STATEMENT_EXECUTE|[90]
+[sf:deploy] 09:08:14.231 (1347810463)|STATEMENT_EXECUTE|[91]
+[sf:deploy] 09:08:14.231 (1347831493)|HEAP_ALLOCATE|[91]|Bytes:4
+[sf:deploy] 09:08:14.231 (1347854206)|STATEMENT_EXECUTE|[92]
+[sf:deploy] 09:08:14.231 (1347857950)|HEAP_ALLOCATE|[92]|Bytes:10
+[sf:deploy] 09:08:14.231 (1347893513)|STATEMENT_EXECUTE|[93]
+[sf:deploy] 09:08:14.231 (1347897664)|HEAP_ALLOCATE|[93]|Bytes:26
+[sf:deploy] 09:08:14.231 (1350457857)|HEAP_ALLOCATE|[93]|Bytes:11
+[sf:deploy] 09:08:14.231 (1350502204)|STATEMENT_EXECUTE|[94]
+[sf:deploy] 09:08:14.231 (1350510793)|METHOD_EXIT|[12]|01p58000008UsfA|SG_EER_TestUtils.createNationality()
+[sf:deploy] 09:08:14.231 (1350518703)|STATEMENT_EXECUTE|[13]
+[sf:deploy] 09:08:14.231 (1350536878)|HEAP_ALLOCATE|[13]|Bytes:8
+[sf:deploy] 09:08:14.231 (1350547257)|DML_BEGIN|[13]|Op:Insert|Type:SG_EER_REF__c|Rows:1
+[sf:deploy] 09:08:14.231 (1350568982)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+[sf:deploy] 09:08:14.231 (1358832398)|DML_END|[13]
+[sf:deploy] 09:08:14.231 (1358845457)|STATEMENT_EXECUTE|[15]
+[sf:deploy] 09:08:14.231 (1358851009)|HEAP_ALLOCATE|[15]|Bytes:11
+[sf:deploy] 09:08:14.231 (1358869179)|METHOD_ENTRY|[15]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:14.231 (1358891996)|STATEMENT_EXECUTE|[19]
+[sf:deploy] 09:08:14.231 (1358893884)|STATEMENT_EXECUTE|[20]
+[sf:deploy] 09:08:14.231 (1358913330)|HEAP_ALLOCATE|[20]|Bytes:4
+[sf:deploy] 09:08:14.231 (1358935565)|STATEMENT_EXECUTE|[21]
+[sf:deploy] 09:08:14.231 (1358964649)|STATEMENT_EXECUTE|[22]
+[sf:deploy] 09:08:14.231 (1358968254)|HEAP_ALLOCATE|[22]|Bytes:53
+[sf:deploy] 09:08:14.231 (1358976819)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:14.231 (1358984693)|HEAP_ALLOCATE|[22]|Bytes:22
+[sf:deploy] 09:08:14.231 (1359001978)|HEAP_ALLOCATE|[22]|Bytes:43
+[sf:deploy] 09:08:14.231 (1359200222)|SOQL_EXECUTE_BEGIN|[22]|Aggregations:0|SELECT Id FROM User WHERE Username = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:14.231 (1371560607)|SOQL_EXECUTE_END|[22]|Rows:0
+[sf:deploy] 09:08:14.231 (1371592134)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:14.231 (1371604129)|HEAP_ALLOCATE|[22]|Bytes:0
+[sf:deploy] 09:08:14.231 (1371634910)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:14.231 (1371648182)|HEAP_ALLOCATE|[22]|Bytes:30
+[sf:deploy] 09:08:14.231 (1371696778)|HEAP_ALLOCATE|[22]|Bytes:46
+[sf:deploy] 09:08:14.231 (1371711851)|METHOD_EXIT|[15]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:14.231 (1371767704)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCours: line 15, column 1
+[sf:deploy] 09:08:14.231 (1371780152)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCours: line 15, column 1
+[sf:deploy] 09:08:14.371 (1371787013)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 09:08:14.371 (1371787013)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 2 out of 100
+[sf:deploy]   Number of query rows: 1 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 3 out of 150
+[sf:deploy]   Number of DML rows: 3 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 09:08:14.371 (1371787013)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+[sf:deploy] 09:08:14.371 (1371787013)|STATIC_VARIABLE_LIST|
+[sf:deploy]   char[]:DigitTens:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MAX_VALUE:0
+[sf:deploy]   Boolean:FALSE:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MIN_VALUE:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:NEGATIVE_INFINITY:0
+[sf:deploy]   int:MAX_VALUE:0
+[sf:deploy]   char[]:digits:0
+[sf:deploy]   double:NaN:0
+[sf:deploy]   Boolean:TRUE:0
+[sf:deploy]   int:MIN_VALUE:0
+[sf:deploy]   String:_sfdcSuppressedCodeLocations:0
+[sf:deploy]   char[]:DigitOnes:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy]   int:MIN_EXPONENT:0
+[sf:deploy]   int[]:sizeTable:0
+[sf:deploy]   int:MAX_EXPONENT:0
+[sf:deploy]   String:_sfdcAdditionalCodeLocations:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:POSITIVE_INFINITY:0
+[sf:deploy]   double:MIN_NORMAL:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy] 
+[sf:deploy] 09:08:14.371 (1371787013)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 09:08:14.231 (1371907636)|CODE_UNIT_FINISHED|SG_EER_ContactExt_Test.TestStatusDemEnCours
+[sf:deploy] 09:08:14.231 (1372765340)|EXECUTION_FINISHED
+[sf:deploy] 09:08:14.556 (1556778964)|USER_INFO|[EXTERNAL]|00558000001ngsT|eyhuellou@sgeer.com.dev1|Heure d'Europe centrale|GMT+02:00
+[sf:deploy] 09:08:14.556 (1556815587)|EXECUTION_STARTED
+[sf:deploy] 09:08:14.556 (1556822280)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000008Used|SG_EER_ContactExt_Test.TestStatusDemEnCoursMme
+[sf:deploy] 09:08:14.556 (1556953428)|HEAP_ALLOCATE|[72]|Bytes:3
+[sf:deploy] 09:08:14.556 (1556990979)|HEAP_ALLOCATE|[77]|Bytes:152
+[sf:deploy] 09:08:14.556 (1557008752)|HEAP_ALLOCATE|[342]|Bytes:408
+[sf:deploy] 09:08:14.556 (1557024187)|HEAP_ALLOCATE|[355]|Bytes:408
+[sf:deploy] 09:08:14.556 (1557038333)|HEAP_ALLOCATE|[467]|Bytes:48
+[sf:deploy] 09:08:14.556 (1557065445)|HEAP_ALLOCATE|[139]|Bytes:6
+[sf:deploy] 09:08:14.556 (1557079083)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:239
+[sf:deploy] 09:08:14.556 (1557089896)|METHOD_ENTRY|[2]|01p58000008Used|SG_EER_ContactExt_Test.SG_EER_ContactExt_Test()
+[sf:deploy] 09:08:14.556 (1557096312)|STATEMENT_EXECUTE|[2]
+[sf:deploy] 09:08:14.556 (1557102277)|STATEMENT_EXECUTE|[2]
+[sf:deploy] 09:08:14.556 (1557106590)|METHOD_EXIT|[2]|SG_EER_ContactExt_Test
+[sf:deploy] 09:08:14.556 (1557128470)|HEAP_ALLOCATE|[50]|Bytes:5
+[sf:deploy] 09:08:14.556 (1557148964)|HEAP_ALLOCATE|[56]|Bytes:5
+[sf:deploy] 09:08:14.556 (1557156019)|HEAP_ALLOCATE|[64]|Bytes:7
+[sf:deploy] 09:08:14.556 (1557190644)|STATEMENT_EXECUTE|[49]
+[sf:deploy] 09:08:14.556 (1557192922)|STATEMENT_EXECUTE|[50]
+[sf:deploy] 09:08:14.556 (1557195141)|HEAP_ALLOCATE|[50]|Bytes:58
+[sf:deploy] 09:08:14.556 (1557205916)|HEAP_ALLOCATE|[50]|Bytes:4
+[sf:deploy] 09:08:14.556 (1557216281)|HEAP_ALLOCATE|[50]|Bytes:7
+[sf:deploy] 09:08:14.556 (1557219445)|HEAP_ALLOCATE|[50]|Bytes:29
+[sf:deploy] 09:08:14.556 (1559902548)|HEAP_ALLOCATE|[50]|Bytes:13
+[sf:deploy] 09:08:14.556 (1560534209)|SOQL_EXECUTE_BEGIN|[50]|Aggregations:0|SELECT id, name FROM Profile WHERE name = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:14.556 (1563123799)|SOQL_EXECUTE_END|[50]|Rows:1
+[sf:deploy] 09:08:14.556 (1563144684)|HEAP_ALLOCATE|[50]|Bytes:8
+[sf:deploy] 09:08:14.556 (1563159185)|HEAP_ALLOCATE|[50]|Bytes:50
+[sf:deploy] 09:08:14.556 (1563189390)|HEAP_ALLOCATE|[50]|Bytes:8
+[sf:deploy] 09:08:14.556 (1563200223)|HEAP_ALLOCATE|[50]|Bytes:33
+[sf:deploy] 09:08:14.556 (1563234760)|HEAP_ALLOCATE|[50]|Bytes:12
+[sf:deploy] 09:08:14.556 (1563252338)|STATEMENT_EXECUTE|[51]
+[sf:deploy] 09:08:14.556 (1563256143)|HEAP_ALLOCATE|[51]|Bytes:4
+[sf:deploy] 09:08:14.556 (1563259472)|HEAP_ALLOCATE|[51]|Bytes:49
+[sf:deploy] 09:08:14.556 (1563262496)|HEAP_ALLOCATE|[51]|Bytes:8
+[sf:deploy] 09:08:14.556 (1563265000)|HEAP_ALLOCATE|[51]|Bytes:4
+[sf:deploy] 09:08:14.556 (1563281239)|HEAP_ALLOCATE|[51]|Bytes:18
+[sf:deploy] 09:08:14.556 (1563295630)|HEAP_ALLOCATE|[51]|Bytes:45
+[sf:deploy] 09:08:14.556 (1563307442)|METHOD_ENTRY|[1]|01p58000008UsfA|SG_EER_TestUtils.SG_EER_TestUtils()
+[sf:deploy] 09:08:14.556 (1563311902)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:14.556 (1563315385)|STATEMENT_EXECUTE|[1]
+[sf:deploy] 09:08:14.556 (1563320471)|METHOD_EXIT|[1]|SG_EER_TestUtils
+[sf:deploy] 09:08:14.556 (1563334236)|METHOD_ENTRY|[51]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:14.556 (1563365918)|STATEMENT_EXECUTE|[3]
+[sf:deploy] 09:08:14.556 (1563367844)|STATEMENT_EXECUTE|[4]
+[sf:deploy] 09:08:14.556 (1563389626)|HEAP_ALLOCATE|[4]|Bytes:4
+[sf:deploy] 09:08:14.556 (1563424691)|STATEMENT_EXECUTE|[5]
+[sf:deploy] 09:08:14.556 (1563462445)|STATEMENT_EXECUTE|[6]
+[sf:deploy] 09:08:14.556 (1563477019)|STATEMENT_EXECUTE|[7]
+[sf:deploy] 09:08:14.556 (1563488598)|STATEMENT_EXECUTE|[8]
+[sf:deploy] 09:08:14.556 (1563499891)|STATEMENT_EXECUTE|[9]
+[sf:deploy] 09:08:14.556 (1563510962)|STATEMENT_EXECUTE|[10]
+[sf:deploy] 09:08:14.556 (1563522641)|HEAP_ALLOCATE|[10]|Bytes:1
+[sf:deploy] 09:08:14.556 (1563552778)|SYSTEM_METHOD_ENTRY|[10]|String.indexOf(String)
+[sf:deploy] 09:08:14.556 (1563565258)|SYSTEM_METHOD_EXIT|[10]|String.indexOf(String)
+[sf:deploy] 09:08:14.556 (1563579137)|SYSTEM_METHOD_ENTRY|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:14.556 (1563584651)|HEAP_ALLOCATE|[10]|Bytes:34
+[sf:deploy] 09:08:14.556 (1563597315)|SYSTEM_METHOD_EXIT|[10]|String.substring(Integer, Integer)
+[sf:deploy] 09:08:14.556 (1563616685)|STATEMENT_EXECUTE|[11]
+[sf:deploy] 09:08:14.556 (1563620046)|HEAP_ALLOCATE|[11]|Bytes:12
+[sf:deploy] 09:08:14.556 (1563633412)|STATEMENT_EXECUTE|[12]
+[sf:deploy] 09:08:14.556 (1563635982)|HEAP_ALLOCATE|[12]|Bytes:10
+[sf:deploy] 09:08:14.556 (1563649805)|STATEMENT_EXECUTE|[13]
+[sf:deploy] 09:08:14.556 (1563653327)|HEAP_ALLOCATE|[13]|Bytes:10
+[sf:deploy] 09:08:14.556 (1563666446)|STATEMENT_EXECUTE|[14]
+[sf:deploy] 09:08:14.556 (1563676509)|HEAP_ALLOCATE|[14]|Bytes:4
+[sf:deploy] 09:08:14.556 (1563697294)|STATEMENT_EXECUTE|[15]
+[sf:deploy] 09:08:14.556 (1563700489)|HEAP_ALLOCATE|[15]|Bytes:2
+[sf:deploy] 09:08:14.556 (1563712415)|STATEMENT_EXECUTE|[16]
+[sf:deploy] 09:08:14.556 (1563719471)|METHOD_EXIT|[51]|01p58000008UsfA|SG_EER_TestUtils.createUser(String, String, String, String, String)
+[sf:deploy] 09:08:14.556 (1563724918)|STATEMENT_EXECUTE|[52]
+[sf:deploy] 09:08:14.556 (1563746609)|HEAP_ALLOCATE|[52]|Bytes:8
+[sf:deploy] 09:08:14.556 (1563757649)|DML_BEGIN|[52]|Op:Insert|Type:User|Rows:1
+[sf:deploy] 09:08:14.556 (1563776713)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+[sf:deploy] 09:08:14.556 (1651919762)|DML_END|[52]
+[sf:deploy] 09:08:14.556 (1651967198)|STATEMENT_EXECUTE|[54]
+[sf:deploy] 09:08:14.556 (1651985445)|HEAP_ALLOCATE|[54]|Bytes:6
+[sf:deploy] 09:08:14.556 (1652040594)|METHOD_ENTRY|[54]|01p58000008UsfA|SG_EER_TestUtils.createCountry(String)
+[sf:deploy] 09:08:14.556 (1652104595)|STATEMENT_EXECUTE|[83]
+[sf:deploy] 09:08:14.556 (1652107578)|STATEMENT_EXECUTE|[84]
+[sf:deploy] 09:08:14.556 (1652144451)|HEAP_ALLOCATE|[84]|Bytes:4
+[sf:deploy] 09:08:14.556 (1652201667)|STATEMENT_EXECUTE|[85]
+[sf:deploy] 09:08:14.556 (1652268641)|STATEMENT_EXECUTE|[86]
+[sf:deploy] 09:08:14.556 (1652272658)|HEAP_ALLOCATE|[86]|Bytes:4
+[sf:deploy] 09:08:14.556 (1652308421)|STATEMENT_EXECUTE|[87]
+[sf:deploy] 09:08:14.556 (1652317769)|METHOD_EXIT|[54]|01p58000008UsfA|SG_EER_TestUtils.createCountry(String)
+[sf:deploy] 09:08:14.556 (1652324648)|STATEMENT_EXECUTE|[55]
+[sf:deploy] 09:08:14.556 (1652349886)|HEAP_ALLOCATE|[55]|Bytes:8
+[sf:deploy] 09:08:14.556 (1652362444)|DML_BEGIN|[55]|Op:Insert|Type:SG_EER_REF__c|Rows:1
+[sf:deploy] 09:08:14.556 (1652400816)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+[sf:deploy] 09:08:14.556 (1671041503)|DML_END|[55]
+[sf:deploy] 09:08:14.556 (1671076447)|STATEMENT_EXECUTE|[56]
+[sf:deploy] 09:08:14.556 (1671102958)|METHOD_ENTRY|[56]|01p58000008UsfA|SG_EER_TestUtils.createNationality()
+[sf:deploy] 09:08:14.556 (1671152066)|STATEMENT_EXECUTE|[90]
+[sf:deploy] 09:08:14.556 (1671154146)|STATEMENT_EXECUTE|[91]
+[sf:deploy] 09:08:14.556 (1671198869)|HEAP_ALLOCATE|[91]|Bytes:4
+[sf:deploy] 09:08:14.556 (1671258454)|STATEMENT_EXECUTE|[92]
+[sf:deploy] 09:08:14.556 (1671266992)|HEAP_ALLOCATE|[92]|Bytes:10
+[sf:deploy] 09:08:14.556 (1671326139)|STATEMENT_EXECUTE|[93]
+[sf:deploy] 09:08:14.556 (1671330358)|HEAP_ALLOCATE|[93]|Bytes:26
+[sf:deploy] 09:08:14.556 (1673968539)|HEAP_ALLOCATE|[93]|Bytes:11
+[sf:deploy] 09:08:14.556 (1674018589)|STATEMENT_EXECUTE|[94]
+[sf:deploy] 09:08:14.556 (1674028516)|METHOD_EXIT|[56]|01p58000008UsfA|SG_EER_TestUtils.createNationality()
+[sf:deploy] 09:08:14.556 (1674036428)|STATEMENT_EXECUTE|[57]
+[sf:deploy] 09:08:14.556 (1674061047)|HEAP_ALLOCATE|[57]|Bytes:8
+[sf:deploy] 09:08:14.556 (1674073289)|DML_BEGIN|[57]|Op:Insert|Type:SG_EER_REF__c|Rows:1
+[sf:deploy] 09:08:14.556 (1674098171)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+[sf:deploy] 09:08:14.556 (1684686591)|DML_END|[57]
+[sf:deploy] 09:08:14.556 (1684712212)|STATEMENT_EXECUTE|[59]
+[sf:deploy] 09:08:14.556 (1684719439)|HEAP_ALLOCATE|[59]|Bytes:11
+[sf:deploy] 09:08:14.556 (1684746183)|METHOD_ENTRY|[59]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:14.556 (1684799032)|STATEMENT_EXECUTE|[19]
+[sf:deploy] 09:08:14.556 (1684802226)|STATEMENT_EXECUTE|[20]
+[sf:deploy] 09:08:14.556 (1684847576)|HEAP_ALLOCATE|[20]|Bytes:4
+[sf:deploy] 09:08:14.556 (1684888861)|STATEMENT_EXECUTE|[21]
+[sf:deploy] 09:08:14.556 (1684923294)|STATEMENT_EXECUTE|[22]
+[sf:deploy] 09:08:14.556 (1684927958)|HEAP_ALLOCATE|[22]|Bytes:53
+[sf:deploy] 09:08:14.556 (1684938881)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:14.556 (1684949097)|HEAP_ALLOCATE|[22]|Bytes:22
+[sf:deploy] 09:08:14.556 (1684973841)|HEAP_ALLOCATE|[22]|Bytes:43
+[sf:deploy] 09:08:14.556 (1685196701)|SOQL_EXECUTE_BEGIN|[22]|Aggregations:0|SELECT Id FROM User WHERE Username = :tmpVar1 LIMIT 1
+[sf:deploy] 09:08:14.556 (1699787465)|SOQL_EXECUTE_END|[22]|Rows:0
+[sf:deploy] 09:08:14.556 (1699828895)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:14.556 (1699842519)|HEAP_ALLOCATE|[22]|Bytes:0
+[sf:deploy] 09:08:14.556 (1699883089)|HEAP_ALLOCATE|[22]|Bytes:4
+[sf:deploy] 09:08:14.556 (1699905198)|HEAP_ALLOCATE|[22]|Bytes:30
+[sf:deploy] 09:08:14.556 (1699962034)|HEAP_ALLOCATE|[22]|Bytes:46
+[sf:deploy] 09:08:14.556 (1699979927)|METHOD_EXIT|[59]|01p58000008UsfA|SG_EER_TestUtils.createAccount(String)
+[sf:deploy] 09:08:14.556 (1700051022)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCoursMme: line 59, column 1
+[sf:deploy] 09:08:14.556 (1700065078)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+[sf:deploy] 
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCoursMme: line 59, column 1
+[sf:deploy] 09:08:14.700 (1700071725)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 09:08:14.700 (1700071725)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 2 out of 100
+[sf:deploy]   Number of query rows: 1 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 3 out of 150
+[sf:deploy]   Number of DML rows: 3 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 09:08:14.700 (1700071725)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+[sf:deploy] 09:08:14.700 (1700071725)|STATIC_VARIABLE_LIST|
+[sf:deploy]   char[]:DigitTens:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MAX_VALUE:0
+[sf:deploy]   Boolean:FALSE:0
+[sf:deploy]   long:serialVersionUID:0
+[sf:deploy]   double:MIN_VALUE:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:NEGATIVE_INFINITY:0
+[sf:deploy]   int:MAX_VALUE:0
+[sf:deploy]   char[]:digits:0
+[sf:deploy]   double:NaN:0
+[sf:deploy]   Boolean:TRUE:0
+[sf:deploy]   int:MIN_VALUE:0
+[sf:deploy]   String:_sfdcSuppressedCodeLocations:0
+[sf:deploy]   char[]:DigitOnes:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy]   int:MIN_EXPONENT:0
+[sf:deploy]   int[]:sizeTable:0
+[sf:deploy]   int:MAX_EXPONENT:0
+[sf:deploy]   String:_sfdcAdditionalCodeLocations:0
+[sf:deploy]   int:SIZE:0
+[sf:deploy]   double:POSITIVE_INFINITY:0
+[sf:deploy]   double:MIN_NORMAL:0
+[sf:deploy]   int:BYTES:0
+[sf:deploy] 
+[sf:deploy] 09:08:14.700 (1700071725)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 09:08:14.556 (1700205218)|CODE_UNIT_FINISHED|SG_EER_ContactExt_Test.TestStatusDemEnCoursMme
+[sf:deploy] 09:08:14.556 (1701099845)|EXECUTION_FINISHED
+[sf:deploy] 09:08:14.725 (1725791472)|CUMULATIVE_PROFILING_BEGIN
+[sf:deploy] 09:08:14.725 (1725791472)|CUMULATIVE_PROFILING|SOQL operations|
+[sf:deploy] Class.SG_EER_TestUtils.createAccount: line 22, column 1: [SELECT Id FROM User WHERE Username = : System.Label.SG_EER_GenericUserName limit 1]: executed 9 times in 51 ms
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod1DemEnCoursPourCommencer: line 11, column 1: [SELECT id, name FROM Profile WHERE name = :System.Label.SG_EER_GenericUserProfileName limit 1]: executed 1 time in 40 ms
+[sf:deploy] Class.SG_EER_TestUtils.createPersonAcc: line 104, column 1: [SELECT Id FROM User WHERE Username = : System.Label.SG_EER_GenericUserName limit 1]: executed 2 times in 13 ms
+[sf:deploy] Class.SG_EER_TestUtils.createPersonAcc: line 97, column 1: [SELECT id FROM RecordType where DeveloperName = 'SG_EERProspect']: executed 2 times in 4 ms
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCoursMme: line 50, column 1: [SELECT id, name FROM Profile WHERE name = :System.Label.SG_EER_GenericUserProfileName limit 1]: executed 1 time in 4 ms
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod4DemEnCoursVous: line 98, column 1: [SELECT id, name FROM Profile WHERE name = :System.Label.SG_EER_GenericUserProfileName limit 1]: executed 1 time in 3 ms
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod2DemEnCoursVotreAgence: line 40, column 1: [SELECT id, name FROM Profile WHERE name = :System.Label.SG_EER_GenericUserProfileName limit 1]: executed 1 time in 3 ms
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod5_1DemFinalAttente: line 157, column 1: [SELECT id, name FROM Profile WHERE name = :System.Label.SG_EER_GenericUserProfileName limit 1]: executed 1 time in 3 ms
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod5DemFinalaTraite: line 127, column 1: [SELECT id, name FROM Profile WHERE name = :System.Label.SG_EER_GenericUserProfileName limit 1]: executed 1 time in 3 ms
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCours: line 6, column 1: [SELECT id, name FROM Profile WHERE name = :System.Label.SG_EER_GenericUserProfileName limit 1]: executed 1 time in 3 ms
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod3DemEnCoursMoyenDePaiment: line 69, column 1: [SELECT id, name FROM Profile WHERE name = :System.Label.SG_EER_GenericUserProfileName limit 1]: executed 1 time in 2 ms
+[sf:deploy] 
+[sf:deploy] 09:08:14.725 (1725791472)|CUMULATIVE_PROFILING|No profiling information for SOSL operations
+[sf:deploy] 09:08:14.725 (1725791472)|CUMULATIVE_PROFILING|DML operations|
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestCreateUserCommunity: line 92, column 1: Insert: User: executed 1 time in 163 ms
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCoursMme: line 52, column 1: Insert: User: executed 1 time in 88 ms
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCours: line 8, column 1: Insert: User: executed 1 time in 79 ms
+[sf:deploy] Class.SG_EER_AttachmentUploadTest.testUpload: line 12, column 1: Insert: SG_EER_REF__c: executed 1 time in 51 ms
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCours: line 11, column 1: Insert: SG_EER_REF__c: executed 1 time in 31 ms
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCoursMme: line 55, column 1: Insert: SG_EER_REF__c: executed 1 time in 18 ms
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestCreateUserCommunity: line 95, column 1: Insert: SG_EER_REF__c: executed 1 time in 17 ms
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCoursMme: line 57, column 1: Insert: SG_EER_REF__c: executed 1 time in 11 ms
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestCreateUserCommunity: line 97, column 1: Insert: SG_EER_REF__c: executed 1 time in 9 ms
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCours: line 13, column 1: Insert: SG_EER_REF__c: executed 1 time in 8 ms
+[sf:deploy] 
+[sf:deploy] 09:08:14.725 (1725791472)|CUMULATIVE_PROFILING|method invocations|
+[sf:deploy] External entry point: public static testMethod void TestStatusDemEnCoursMme(): executed 1 time in 143 ms
+[sf:deploy] External entry point: static testMethod void testUpload(): executed 1 time in 57 ms
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCoursMme: line 59, column 1: public static Account createAccount(String): executed 1 time in 15 ms
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestCreateUserCommunity: line 101, column 1: public static Account createPersonAcc(String, String, String): executed 1 time in 14 ms
+[sf:deploy] Class.SG_EER_ContactExt_Test.TestStatusDemEnCours: line 15, column 1: public static Account createAccount(String): executed 1 time in 13 ms
+[sf:deploy] External entry point: static testMethod void TestMethod5_2DemFinalaTraiteCaseDossierRecu(): executed 1 time in 6 ms
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod1DemEnCoursPourCommencer: line 14, column 1: public static Account createAccount(String): executed 1 time in 5 ms
+[sf:deploy] Class.SG_EER_AttachmentUploadTest.testUpload: line 15, column 1: public static Account createPersonAcc(String, String, String): executed 1 time in 5 ms
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod5_1DemFinalAttente: line 160, column 1: public static Account createAccount(String): executed 1 time in 3 ms
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod5DemFinalaTraite: line 130, column 1: public static Account createAccount(String): executed 1 time in 3 ms
+[sf:deploy] Class.SG_EER_AccueilController_Test.TestMethod4DemEnCoursVous: line 101, column 1: public static Account createAccount(String): executed 1 time in 3 ms
+[sf:deploy] 
+[sf:deploy] 09:08:14.725 (1725791472)|CUMULATIVE_PROFILING_END
+   [delete] Deleting directory /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev1-20170623090814105
+
+BUILD FAILED
+/Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_TEST/Salesforce_Deploy_Toolbox.xml:236: Error while running tests!!! Cause is: The following error occurred while executing this line:
+/Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_TEST/Salesforce_Deploy_Toolbox.xml:1089: 
+*********** DEPLOYMENT FAILED ***********
+Request ID: 0Af9E00000JfEZNSA3
+
+All Test Failures:
+1.  SG_EER_AccueilController_Test.TestMethod5_2DemFinalaTraiteCaseDossierRecu -- System.QueryException: List has no rows for assignment to SObject
+    Stack trace: Class.SG_EER_TestUtils.createAccount: line 22, column 1
+    Class.SG_EER_AccueilController_Test.TestMethod5_2DemFinalaTraiteCaseDossierRecu: line 190, column 1
+2.  SG_EER_AttachmentUploadTest.testUpload -- System.QueryException: List has no rows for assignment to SObject
+    Stack trace: Class.SG_EER_TestUtils.createPersonAcc: line 104, column 1
+    Class.SG_EER_AttachmentUploadTest.testUpload: line 15, column 1
+3.  SG_EER_AccueilController_Test.TestMethod2DemEnCoursVotreAgence -- System.QueryException: List has no rows for assignment to SObject
+    Stack trace: Class.SG_EER_TestUtils.createAccount: line 22, column 1
+    Class.SG_EER_AccueilController_Test.TestMethod2DemEnCoursVotreAgence: line 43, column 1
+4.  SG_EER_AccueilController_Test.TestMethod5_1DemFinalAttente -- System.QueryException: List has no rows for assignment to SObject
+    Stack trace: Class.SG_EER_TestUtils.createAccount: line 22, column 1
+    Class.SG_EER_AccueilController_Test.TestMethod5_1DemFinalAttente: line 160, column 1
+5.  SG_EER_AccueilController_Test.TestMethod5DemFinalaTraite -- System.QueryException: List has no rows for assignment to SObject
+    Stack trace: Class.SG_EER_TestUtils.createAccount: line 22, column 1
+    Class.SG_EER_AccueilController_Test.TestMethod5DemFinalaTraite: line 130, column 1
+6.  SG_EER_AccueilController_Test.TestMethod1DemEnCoursPourCommencer -- System.QueryException: List has no rows for assignment to SObject
+    Stack trace: Class.SG_EER_TestUtils.createAccount: line 22, column 1
+    Class.SG_EER_AccueilController_Test.TestMethod1DemEnCoursPourCommencer: line 14, column 1
+7.  SG_EER_AccueilController_Test.TestMethod3DemEnCoursMoyenDePaiment -- System.QueryException: List has no rows for assignment to SObject
+    Stack trace: Class.SG_EER_TestUtils.createAccount: line 22, column 1
+    Class.SG_EER_AccueilController_Test.TestMethod3DemEnCoursMoyenDePaiment: line 72, column 1
+8.  SG_EER_AccueilController_Test.TestMethod4DemEnCoursVous -- System.QueryException: List has no rows for assignment to SObject
+    Stack trace: Class.SG_EER_TestUtils.createAccount: line 22, column 1
+    Class.SG_EER_AccueilController_Test.TestMethod4DemEnCoursVous: line 101, column 1
+9.  SG_EER_ContactExt_Test.TestStatusDemEnCoursMme -- System.QueryException: List has no rows for assignment to SObject
+    Stack trace: Class.SG_EER_TestUtils.createAccount: line 22, column 1
+    Class.SG_EER_ContactExt_Test.TestStatusDemEnCoursMme: line 59, column 1
+10.  SG_EER_ContactExt_Test.TestStatusDemEnCours -- System.QueryException: List has no rows for assignment to SObject
+     Stack trace: Class.SG_EER_TestUtils.createAccount: line 22, column 1
+     Class.SG_EER_ContactExt_Test.TestStatusDemEnCours: line 15, column 1
+11.  SG_EER_ContactExt_Test.TestCreateUserCommunity -- System.QueryException: List has no rows for assignment to SObject
+     Stack trace: Class.SG_EER_TestUtils.createPersonAcc: line 104, column 1
+     Class.SG_EER_ContactExt_Test.TestCreateUserCommunity: line 101, column 1
+*********** DEPLOYMENT FAILED ***********
+
+Total time: 11 seconds
+*** testAllFromOrg Job Started for dev1 finished !
+Finished: SUCCESS

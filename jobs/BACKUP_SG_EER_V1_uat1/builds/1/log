@@ -1,0 +1,1958 @@
+Started by user [8mha:////4FQ2j8NbATnSqqEGRgV3uOBwsGTWg4RSbZHQRuDr1uy2AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /Users/eyhuellou/.jenkins/workspace/BACKUP_SG_EER_V1_uat1
+[BACKUP_SG_EER_V1_uat1] $ /bin/bash /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/hudson9001075480084776510.sh
+LAUNCH
+Starting RetrieveAllFromOrg
+/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/
+/Users/eyhuellou/Documents/BACKUP/ANT/apache-ant-1.9.8/
+Retrieving metadata from uat1
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_BACKUP/Salesforce_Deploy_Toolbox.xml
+
+generatePackageXml:
+     [echo] --------------uat1
+     [echo] --------------package.xml
+     [echo] --------------35
+     [echo] List metadata of 'InstalledPackage'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-InstalledPackage-2531583100090603091.txt
+     [echo] List metadata of 'CustomLabels'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomLabels-8150063137499695517.txt
+     [echo] List metadata of 'CustomLabels child' called 'CustomLabel'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomLabel-9169275129940697437.txt
+     [echo] List metadata of 'StaticResource'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-StaticResource-2593581945388821471.txt
+     [echo] List metadata of 'Scontrol'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Scontrol-384490035942996483.txt
+     [echo] List metadata of 'Certificate'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Certificate-1051287896541433432.txt
+     [echo] List metadata of 'AuraDefinitionBundle'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AuraDefinitionBundle-4111923258394147826.txt
+     [echo] List metadata of 'ApexComponent'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexComponent-6628155370979154844.txt
+     [echo] List metadata of 'ApexPage'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexPage-4356149286121392263.txt
+     [echo] List metadata of 'Queue'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Queue-5730237870712733898.txt
+     [echo] List metadata of 'ExternalDataSource'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ExternalDataSource-7473872840928014669.txt
+     [echo] List metadata of 'NamedCredential'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-NamedCredential-1012548644851044802.txt
+     [echo] List metadata of 'ExternalServiceRegistration'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ExternalServiceRegistration-4855237149638769360.txt
+     [echo] List metadata of 'Role'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Role-8452960580861005346.txt
+     [echo] List metadata of 'Group'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Group-5334941845156973856.txt
+     [echo] List metadata of 'GlobalValueSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-GlobalValueSet-6281624621830981727.txt
+     [echo] List metadata of 'StandardValueSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-StandardValueSet-5845513190321394586.txt
+     [echo] List metadata of 'CustomPermission'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomPermission-2059870695017746619.txt
+     [echo] List metadata of 'CustomObject'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomObject-568089718558059811.txt
+     [echo] List metadata of 'CustomObject child' called 'CustomField'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomField-4323810737474826988.txt
+     [echo] List metadata of 'CustomObject child' called 'BusinessProcess'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-BusinessProcess-9018167553035190941.txt
+     [echo] List metadata of 'CustomObject child' called 'CompactLayout'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CompactLayout-6543823121929892830.txt
+     [echo] List metadata of 'CustomObject child' called 'RecordType'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-RecordType-374114855005095819.txt
+     [echo] List metadata of 'CustomObject child' called 'WebLink'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WebLink-5862335300956490280.txt
+     [echo] List metadata of 'CustomObject child' called 'ValidationRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ValidationRule-1949767339140546810.txt
+     [echo] List metadata of 'CustomObject child' called 'SharingReason'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SharingReason-8196421290247473749.txt
+     [echo] List metadata of 'CustomObject child' called 'ListView'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ListView-3282982100419061302.txt
+     [echo] List metadata of 'CustomObject child' called 'FieldSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-FieldSet-9005722915842227168.txt
+     [echo] List metadata of 'ReportType'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ReportType-8501481183992125930.txt
+     [echo] List metadata of 'ReportFolder'...
+     [echo] List metadata of 'Report' in folder 'Tps_r_el_pilotage_file_EER_D'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Tps_r_el_pilotage_file_EER_D-1883892515532586088.txt
+     [echo] List metadata of 'Report' in folder 'SG_Rapports_D_plac_s_du_Folder_Public'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_Rapports_D_plac_s_du_Folder_Public-2108271306815272044.txt
+     [echo] List metadata of 'Report' in folder 'SG_VISION_SITES'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_VISION_SITES-8135131070634009216.txt
+     [echo] List metadata of 'Report' in folder 'SG_SuiviCCMhebdo'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_SuiviCCMhebdo-200755265797755554.txt
+     [echo] List metadata of 'Report' in folder 'SG_Recette'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_Recette-1729217875346835353.txt
+     [echo] List metadata of 'Report' in folder 'Sites_Pilotage_temps_r_el'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Sites_Pilotage_temps_r_el-5925078521588614217.txt
+     [echo] List metadata of 'Report' in folder 'Sales_and_Marketing_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Sales_and_Marketing_Reports-5448012770425381169.txt
+     [echo] List metadata of 'Report' in folder 'CLH_stats_all_g_es_abs_PAU'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-CLH_stats_all_g_es_abs_PAU-7814775802623906312.txt
+     [echo] List metadata of 'Report' in folder 'sites_reporting__Site_Usage_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-sites_reporting__Site_Usage_Reports-3895319538578787133.txt
+     [echo] List metadata of 'Report' in folder 'SG_EERReportingEERADLancement'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_EERReportingEERADLancement-1591898041345111026.txt
+     [echo] List metadata of 'Report' in folder 'Service_Dashboards_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Service_Dashboards_Reports-5680484231124684686.txt
+     [echo] List metadata of 'Report' in folder 'Sites_pilotage_en_temps_diff_r'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Sites_pilotage_en_temps_diff_r-3503631045222151667.txt
+     [echo] List metadata of 'Report' in folder 'Gouvernance'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Gouvernance-806963415037040867.txt
+     [echo] List metadata of 'Report' in folder 'Catherine'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Catherine-648749233659095970.txt
+     [echo] List metadata of 'Report' in folder 'Sales_Marketing_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Sales_Marketing_Reports-4817167855077223262.txt
+     [echo] List metadata of 'Report' in folder 'unfiled$public'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-unfiled$public-8029682272425290740.txt
+     [echo] List metadata of 'Report' in folder 'DashboardReportsAdoption'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-DashboardReportsAdoption-2706273992742894580.txt
+     [echo] List metadata of 'Report' in folder 'Tps_r_el_pilotage_file_RDV'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Tps_r_el_pilotage_file_RDV-3727576698079716152.txt
+     [echo] List metadata of 'Report' in folder 'Tchat_relation_digitale'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Tchat_relation_digitale-5814013521826331666.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ReportFolder-1280335895209830300.txt
+     [echo] List metadata of 'DashboardFolder'...
+     [echo] List metadata of 'Dashboard' in folder 'Recette'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-Recette-8771422644955457985.txt
+     [echo] List metadata of 'Dashboard' in folder 'Sales_and_Marketing_Dashboards'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-Sales_and_Marketing_Dashboards-2622909746154248408.txt
+     [echo] List metadata of 'Dashboard' in folder 'Service_Dashboards'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-Service_Dashboards-5458799019607442577.txt
+     [echo] List metadata of 'Dashboard' in folder 'sites_reporting__CompanyDashboards'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-sites_reporting__CompanyDashboards-2525740217450783953.txt
+     [echo] List metadata of 'Dashboard' in folder 'SG_POPPARTTAB1_CRCm'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-SG_POPPARTTAB1_CRCm-2120742259171100548.txt
+     [echo] List metadata of 'Dashboard' in folder 'SG_EERReportingEERADLancement'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-SG_EERReportingEERADLancement-8821176317100991562.txt
+     [echo] List metadata of 'Dashboard' in folder 'SG_POPPARTTAB1'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-SG_POPPARTTAB1-3605845108761792619.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DashboardFolder-3627160999323781764.txt
+     [echo] List metadata of 'AnalyticSnapshot'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AnalyticSnapshot-7239063316760442653.txt
+     [echo] List metadata of 'CustomFeedFilter'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomFeedFilter-5028648194418620025.txt
+     [echo] List metadata of 'Layout'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Layout-6610416996417175250.txt
+     [echo] List metadata of 'DocumentFolder'...
+     [echo] List metadata of 'Document' in folder 'SalesTools'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SalesTools-2985905517792413246.txt
+     [echo] List metadata of 'Document' in folder 'SharedDocuments'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SharedDocuments-2119528378468960571.txt
+     [echo] List metadata of 'Document' in folder 'Dossier_partag_des_communaut_s1'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-Dossier_partag_des_communaut_s1-1881648792634871854.txt
+     [echo] List metadata of 'Document' in folder 'SG_EER_DocumentWeb'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SG_EER_DocumentWeb-1701274872257359912.txt
+     [echo] List metadata of 'Document' in folder 'SG_PPR'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SG_PPR-301362710653384711.txt
+     [echo] List metadata of 'Document' in folder 'Dossier_partag_des_communaut_s'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-Dossier_partag_des_communaut_s-5514302907446563901.txt
+     [echo] List metadata of 'Document' in folder 'SG_EER'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SG_EER-5952252844562927024.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DocumentFolder-833911289252490755.txt
+     [echo] List metadata of 'CustomPageWebLink'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomPageWebLink-1528539896989965767.txt
+     [echo] List metadata of 'Letterhead'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Letterhead-2426904760226540247.txt
+     [echo] List metadata of 'EmailFolder'...
+     [echo] List metadata of 'EmailTemplate' in folder 'unfiled$public'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmailTemplate-in-unfiled$public-6780867919134862239.txt
+     [echo] List metadata of 'EmailTemplate' in folder 'SG_PRV_Template'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmailTemplate-in-SG_PRV_Template-7291463543948352697.txt
+     [echo] List metadata of 'EmailTemplate' in folder 'SG_EER_Template'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmailTemplate-in-SG_EER_Template-5731999877347725897.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmailFolder-3802352489769514722.txt
+     [echo] List metadata of 'QuickAction'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-QuickAction-5139611450801571534.txt
+     [echo] List metadata of 'FlexiPage'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-FlexiPage-5037258179175404445.txt
+     [echo] List metadata of 'CustomTab'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomTab-6397016231095940949.txt
+     [echo] List metadata of 'CustomApplicationComponent'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomApplicationComponent-8358751306687927568.txt
+     [echo] List metadata of 'CustomApplication'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomApplication-132095771701800048.txt
+     [echo] List metadata of 'EmbeddedServiceConfig'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmbeddedServiceConfig-3889141416803566249.txt
+     [echo] List metadata of 'EmbeddedServiceLiveAgent'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmbeddedServiceLiveAgent-2530436100213777291.txt
+     [echo] List metadata of 'EmbeddedServiceBranding'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmbeddedServiceBranding-2617169834486038494.txt
+     [echo] List metadata of 'Flow'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Flow-1356226580925286127.txt
+     [echo] List metadata of 'FlowDefinition'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-FlowDefinition-656137966811951941.txt
+     [echo] List metadata of 'Workflow'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Workflow-597254048537200452.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowFieldUpdate'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowFieldUpdate-7111423481976389888.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowKnowledgePublish'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowKnowledgePublish-4554578034648983928.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowTask'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowTask-5612131979105771402.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowAlert'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowAlert-8465451852966232549.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowSend'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowSend-9163009001140119830.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowOutboundMessage'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowOutboundMessage-5962539731751995079.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowRule-1951111953131412491.txt
+     [echo] List metadata of 'AssignmentRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AssignmentRules-6684095294388805169.txt
+     [echo] List metadata of 'AssignmentRules child' called 'AssignmentRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AssignmentRule-2809964761166702380.txt
+     [echo] List metadata of 'AutoResponseRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AutoResponseRules-8088258714422711170.txt
+     [echo] List metadata of 'AutoResponseRules child' called 'AutoResponseRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AutoResponseRule-8259554366171482423.txt
+     [echo] List metadata of 'EscalationRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EscalationRules-6424074090931790945.txt
+     [echo] List metadata of 'EscalationRules child' called 'EscalationRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EscalationRule-5990952524363344923.txt
+     [echo] List metadata of 'PostTemplate'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-PostTemplate-849479954131698423.txt
+     [echo] List metadata of 'ApprovalProcess'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApprovalProcess-9156830188004467096.txt
+     [echo] List metadata of 'HomePageComponent'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-HomePageComponent-2278219438234664038.txt
+     [echo] List metadata of 'HomePageLayout'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-HomePageLayout-5338023109796960978.txt
+     [echo] List metadata of 'CustomObjectTranslation'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomObjectTranslation-9073250654873180541.txt
+     [echo] List metadata of 'Translations'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Translations-7353283459569602065.txt
+     [echo] List metadata of 'GlobalValueSetTranslation'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-GlobalValueSetTranslation-895715333046571408.txt
+     [echo] List metadata of 'StandardValueSetTranslation'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-StandardValueSetTranslation-6939728131793900155.txt
+     [echo] List metadata of 'ApexClass'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexClass-4067697482575604264.txt
+     [echo] List metadata of 'ApexTrigger'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexTrigger-7457223130435458112.txt
+     [echo] List metadata of 'ApexTestSuite'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexTestSuite-9009721519351844557.txt
+     [echo] List metadata of 'Profile'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Profile-3419499335711388650.txt
+     [echo] List metadata of 'PermissionSet'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-PermissionSet-549100715756943639.txt
+     [echo] List metadata of 'CustomMetadata'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomMetadata-5754204440132187423.txt
+     [echo] List metadata of 'ProfilePasswordPolicy'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ProfilePasswordPolicy-2351443438756522927.txt
+     [echo] List metadata of 'ProfileSessionSetting'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ProfileSessionSetting-8826945797278067575.txt
+     [echo] List metadata of 'DataCategoryGroup'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DataCategoryGroup-6169871505824112932.txt
+     [echo] List metadata of 'RemoteSiteSetting'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-RemoteSiteSetting-5187331787281460403.txt
+     [echo] List metadata of 'CspTrustedSite'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CspTrustedSite-861358013950755888.txt
+     [echo] List metadata of 'MatchingRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-MatchingRules-7019643504150428268.txt
+     [echo] List metadata of 'MatchingRules child' called 'MatchingRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-MatchingRule-8374469203773324613.txt
+     [echo] List metadata of 'DuplicateRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DuplicateRule-1639560811591957952.txt
+     [echo] List metadata of 'CleanDataService'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CleanDataService-3719292005620165921.txt
+     [echo] List metadata of 'AuthProvider'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AuthProvider-7907677508322822220.txt
+     [echo] List metadata of 'EclairGeoData'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EclairGeoData-3496236093303151661.txt
+     [echo] List metadata of 'CustomSite'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomSite-1198802485242582100.txt
+     [echo] List metadata of 'ChannelLayout'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ChannelLayout-2252019409377838894.txt
+     [echo] List metadata of 'ContentAsset'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ContentAsset-3894043371546376364.txt
+     [echo] List metadata of 'SharingRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SharingRules-3722697658499978414.txt
+     [echo] List metadata of 'SharingRules child' called 'SharingOwnerRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SharingOwnerRule-7531887521177529708.txt
+     [echo] List metadata of 'SharingRules child' called 'SharingCriteriaRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SharingCriteriaRule-6724553988673554993.txt
+     [echo] List metadata of 'Community'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Community-3447263489281833286.txt
+     [echo] List metadata of 'ChatterExtensions'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ChatterExtensions-550652909054132831.txt
+     [echo] List metadata of 'CallCenter'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CallCenter-4707490308261454245.txt
+     [echo] List metadata of 'ConnectedApp'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ConnectedApp-9189393572200784840.txt
+     [echo] List metadata of 'AppMenu'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AppMenu-6093152754421007144.txt
+     [echo] List metadata of 'DelegateGroup'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DelegateGroup-1356705933411008142.txt
+     [echo] List metadata of 'SiteDotCom'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SiteDotCom-518148696380583069.txt
+     [echo] List metadata of 'Network'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Network-8542577054434587223.txt
+     [echo] List metadata of 'CommunityThemeDefinition'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CommunityThemeDefinition-3200601181728962216.txt
+     [echo] List metadata of 'BrandingSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-BrandingSet-3530445140185040085.txt
+     [echo] List metadata of 'CommunityTemplateDefinition'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CommunityTemplateDefinition-4897335459029999743.txt
+     [echo] List metadata of 'ManagedTopics'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ManagedTopics-6000823266438503756.txt
+     [echo] List metadata of 'ManagedTopics child' called 'ManagedTopic'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ManagedTopic-5123004670403888461.txt
+     [echo] List metadata of 'KeywordList'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-KeywordList-3662226548196759852.txt
+     [echo] List metadata of 'UserCriteria'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-UserCriteria-7105959724631931542.txt
+     [echo] List metadata of 'ModerationRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ModerationRule-1599775199445094125.txt
+     [echo] List metadata of 'SamlSsoConfig'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SamlSsoConfig-7237660243669392208.txt
+     [echo] List metadata of 'CorsWhitelistOrigin'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CorsWhitelistOrigin-2678350982175149555.txt
+     [echo] List metadata of 'ActionLinkGroupTemplate'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ActionLinkGroupTemplate-7941635976142156783.txt
+     [echo] List metadata of 'Skill'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Skill-7719779564169178585.txt
+     [echo] List metadata of 'LiveChatDeployment'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LiveChatDeployment-7679055841789132607.txt
+     [echo] List metadata of 'LiveChatButton'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LiveChatButton-1693578948542545716.txt
+     [echo] List metadata of 'LiveChatAgentConfig'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LiveChatAgentConfig-7453004866096043738.txt
+     [echo] List metadata of 'SynonymDictionary'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SynonymDictionary-2844879833811381925.txt
+     [echo] List metadata of 'PathAssistant'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-PathAssistant-3085286762667161158.txt
+     [echo] List metadata of 'LeadConvertSettings'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LeadConvertSettings-1617246347951931289.txt
+     [echo] List metadata of 'LiveChatSensitiveDataRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LiveChatSensitiveDataRule-595091949613648395.txt
+     [echo] List metadata of 'PlatformCachePartition'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-PlatformCachePartition-7907313466366138449.txt
+     [echo] List metadata of 'Settings'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Settings-2347556745357793501.txt
+
+BUILD SUCCESSFUL
+Total time: 1 minute 8 seconds
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_BACKUP/Salesforce_Deploy_Toolbox.xml
+
+retrieve:
+[sf:retrieve] Request for a retrieve submitted successfully.
+[sf:retrieve] Request ID for the current retrieve task: 09S5E000000PUUbUAO
+[sf:retrieve] Waiting for server to finish processing the request...
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: Succeeded
+[sf:retrieve] Retrieve warnings (114):
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Entity of type 'InstalledPackage' named 'mule' cannot be found
+[sf:retrieve] package.xml - Entity of type 'CustomLabels' named 'sf_chttr_apps' cannot be found
+[sf:retrieve] package.xml - Entity type 'Certificate' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ExternalServiceRegistration' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'GlobalValueSet' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'StandardValueSet' is not available in this api version
+[sf:retrieve] package.xml - Entity of type 'RecordType' named 'Account.PersonAccount' cannot be found
+[sf:retrieve] package.xml - Entity of type 'RecordType' named 'Account.SG_EERProspect' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'SocialPost.AllSocialPosts' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'Quote.mine' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'Idea.Ideas_Last_7_Days' cannot be found
+[sf:retrieve] package.xml - Entity type: '${${metadatatype}}' is unknown
+[sf:retrieve] package.xml - Entity type 'EmbeddedServiceConfig' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'EmbeddedServiceLiveAgent' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'EmbeddedServiceBranding' is not available in this api version
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_Assign_Current_Owner_Case' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EER_AUTOFILL_AgenceRetraitMoyenPaiement' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EER_Envoi_Mail' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_Send_Email_to_Tomii' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_Send_Email_Formulaire_En_Cours' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'G_Send_Email_to_Prospect_Finalise' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EER_UpdateTechFieldCountry' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EER_DeleteContactSite' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Workflow' named 'SG_Assign_Current_Owner_Case' cannot be found
+[sf:retrieve] package.xml - Entity of type 'AssignmentRules' named 'Case.SG_CASE_WF2_MAIL_CONFIRMATION_RDV_3B' cannot be found
+[sf:retrieve] package.xml - Entity of type 'AutoResponseRules' named 'Case.SG_CASE_WF2_MAIL_CONFIRMATION_RDV_3B' cannot be found
+[sf:retrieve] package.xml - Entity of type 'EscalationRules' named 'Case.SG_CASE_WF2_MAIL_CONFIRMATION_RDV_3B' cannot be found
+[sf:retrieve] package.xml - Entity of type 'CustomObjectTranslation' named 'Dashboard Home Page Default' cannot be found
+[sf:retrieve] package.xml - Entity type 'GlobalValueSetTranslation' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'StandardValueSetTranslation' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ApexTestSuite' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ProfilePasswordPolicy' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ProfileSessionSetting' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'CspTrustedSite' is not available in this api version
+[sf:retrieve] package.xml - Entity of type 'MatchingRules' named 'SG_CCm_profileSessionSetting1467635830534' cannot be found
+[sf:retrieve] package.xml - Entity of type 'MatchingRule' named 'Account.Standard_PersonAccount_Match_Rule_v1_0' cannot be found
+[sf:retrieve] package.xml - Entity type 'DuplicateRule' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'CleanDataService' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'EclairGeoData' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ContentAsset' is not available in this api version
+[sf:retrieve] package.xml - Entity of type 'SharingRules' named 'EER_AD' cannot be found
+[sf:retrieve] package.xml - Entity type 'ChatterExtensions' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'DelegateGroup' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'CommunityThemeDefinition' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'BrandingSet' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'CommunityTemplateDefinition' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'KeywordList' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'UserCriteria' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ModerationRule' is not available in this api version
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/leadcap.installedPackage - Duplicate object names in the same package, 'installedPackages/leadcap.installedPackage'; please rename one
+[sf:retrieve] installedPackages/leadcap.installedPackage - Duplicate object names in the same package, 'installedPackages/leadcap.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] package.xml - Unable to retrieve report with id 00O58000003alc4 (Component title: Les demandes en cours...)
+[sf:retrieve] package.xml - API version Winter '16 does not have access to Lightning Pages of type UtilityBar.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:AppMenu and file name:AppSwitcher.
+[sf:retrieve] package.xml - Unable to retrieve file for id pocsos of type AppMenu due to an internal error:842633150-23063 (2077115341)
+[sf:retrieve] Finished request 09S5E000000PUUbUAO successfully.
+
+BUILD SUCCESSFUL
+Total time: 1 minute 18 seconds
+Starting Git Job...
+Cloning into 'sg_eer_v1_uat1'...
+warning: You appear to have cloned an empty repository.
+[master (root-commit) 952c08b] commiting change to repository
+ Committer: Erwan Yhuellou <eyhuellou@eyhuellou-ltm1.internal.salesforce.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1410 files changed, 230835 insertions(+)
+ create mode 100644 appMenus/Salesforce1.appMenu
+ create mode 100644 applications/Docs_Interne_SF_SG.app
+ create mode 100644 applications/EER_POPPART.app
+ create mode 100644 applications/standard__Chatter.app
+ create mode 100644 applications/standard__Community.app
+ create mode 100644 applications/standard__DataAssessment.app
+ create mode 100644 applications/standard__LightningSales.app
+ create mode 100644 applications/standard__LightningService.app
+ create mode 100644 applications/standard__Marketing.app
+ create mode 100644 applications/standard__Platform.app
+ create mode 100644 applications/standard__Sales.app
+ create mode 100644 applications/standard__Service.app
+ create mode 100644 applications/standard__ServiceConsole.app
+ create mode 100644 assignmentRules/Case.assignmentRules
+ create mode 100644 assignmentRules/Lead.assignmentRules
+ create mode 100644 autoResponseRules/Case.autoResponseRules
+ create mode 100644 autoResponseRules/Lead.autoResponseRules
+ create mode 100644 classes/CaseBeforeUpdateTest.cls
+ create mode 100644 classes/CaseBeforeUpdateTest.cls-meta.xml
+ create mode 100644 classes/ChangePasswordController.cls
+ create mode 100644 classes/ChangePasswordController.cls-meta.xml
+ create mode 100644 classes/ChangePasswordControllerTest.cls
+ create mode 100644 classes/ChangePasswordControllerTest.cls-meta.xml
+ create mode 100644 classes/CommunitiesLandingController.cls
+ create mode 100644 classes/CommunitiesLandingController.cls-meta.xml
+ create mode 100644 classes/CommunitiesLandingControllerTest.cls
+ create mode 100644 classes/CommunitiesLandingControllerTest.cls-meta.xml
+ create mode 100644 classes/CommunitiesLoginController.cls
+ create mode 100644 classes/CommunitiesLoginController.cls-meta.xml
+ create mode 100644 classes/CommunitiesLoginControllerTest.cls
+ create mode 100644 classes/CommunitiesLoginControllerTest.cls-meta.xml
+ create mode 100644 classes/CommunitiesSelfRegConfirmController.cls
+ create mode 100644 classes/CommunitiesSelfRegConfirmController.cls-meta.xml
+ create mode 100644 classes/CommunitiesSelfRegConfirmControllerTest.cls
+ create mode 100644 classes/CommunitiesSelfRegConfirmControllerTest.cls-meta.xml
+ create mode 100644 classes/CommunitiesSelfRegController.cls
+ create mode 100644 classes/CommunitiesSelfRegController.cls-meta.xml
+ create mode 100644 classes/CommunitiesSelfRegControllerTest.cls
+ create mode 100644 classes/CommunitiesSelfRegControllerTest.cls-meta.xml
+ create mode 100644 classes/ForgotPasswordController.cls
+ create mode 100644 classes/ForgotPasswordController.cls-meta.xml
+ create mode 100644 classes/ForgotPasswordControllerTest.cls
+ create mode 100644 classes/ForgotPasswordControllerTest.cls-meta.xml
+ create mode 100644 classes/MyProfilePageController.cls
+ create mode 100644 classes/MyProfilePageController.cls-meta.xml
+ create mode 100644 classes/MyProfilePageControllerTest.cls
+ create mode 100644 classes/MyProfilePageControllerTest.cls-meta.xml
+ create mode 100644 classes/SGEER_PaiementChoixCarteCtrl.cls
+ create mode 100644 classes/SGEER_PaiementChoixCarteCtrl.cls-meta.xml
+ create mode 100644 classes/SGEER_PaiementChoixCarteCtrlTest.cls
+ create mode 100644 classes/SGEER_PaiementChoixCarteCtrlTest.cls-meta.xml
+ create mode 100644 classes/SG_EERCaseClotureSendEmailAfter70day.cls
+ create mode 100644 classes/SG_EERCaseClotureSendEmailAfter70day.cls-meta.xml
+ create mode 100644 classes/SG_EERCaseSendEmailAfter70day_Test.cls
+ create mode 100644 classes/SG_EERCaseSendEmailAfter70day_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERCaseSendEmailafter1day.cls
+ create mode 100644 classes/SG_EERCaseSendEmailafter1day.cls-meta.xml
+ create mode 100644 classes/SG_EERCaseSendEmailafter5days.cls
+ create mode 100644 classes/SG_EERCaseSendEmailafter5days.cls-meta.xml
+ create mode 100644 classes/SG_EERCaseSendEmailafter5daysTest.cls
+ create mode 100644 classes/SG_EERCaseSendEmailafter5daysTest.cls-meta.xml
+ create mode 100644 classes/SG_EERSendEmailNewAttachment_Test.cls
+ create mode 100644 classes/SG_EERSendEmailNewAttachment_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERSendEmail_Test.cls
+ create mode 100644 classes/SG_EERSendEmail_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERTemplateMailCaseController.cls
+ create mode 100644 classes/SG_EERTemplateMailCaseController.cls-meta.xml
+ create mode 100644 classes/SG_EERTemplateMailCaseControllertest.cls
+ create mode 100644 classes/SG_EERTemplateMailCaseControllertest.cls-meta.xml
+ create mode 100644 classes/SG_EER_AccueilController.cls
+ create mode 100644 classes/SG_EER_AccueilController.cls-meta.xml
+ create mode 100644 classes/SG_EER_AccueilController_Test.cls
+ create mode 100644 classes/SG_EER_AccueilController_Test.cls-meta.xml
+ create mode 100644 classes/SG_EER_AttachementUpload.cls
+ create mode 100644 classes/SG_EER_AttachementUpload.cls-meta.xml
+ create mode 100644 classes/SG_EER_AttachmentUploadTest.cls
+ create mode 100644 classes/SG_EER_AttachmentUploadTest.cls-meta.xml
+ create mode 100644 classes/SG_EER_ContactExt.cls
+ create mode 100644 classes/SG_EER_ContactExt.cls-meta.xml
+ create mode 100644 classes/SG_EER_ContactExt_Test.cls
+ create mode 100644 classes/SG_EER_ContactExt_Test.cls-meta.xml
+ create mode 100644 classes/SG_EER_CopyEncryptedFields.cls
+ create mode 100644 classes/SG_EER_CopyEncryptedFields.cls-meta.xml
+ create mode 100644 classes/SG_EER_CopyEncryptedFieldsTest.cls
+ create mode 100644 classes/SG_EER_CopyEncryptedFieldsTest.cls-meta.xml
+ create mode 100644 classes/SG_EER_CustomLoginController.cls
+ create mode 100644 classes/SG_EER_CustomLoginController.cls-meta.xml
+ create mode 100644 classes/SG_EER_CustomLoginController_Test.cls
+ create mode 100644 classes/SG_EER_CustomLoginController_Test.cls-meta.xml
+ create mode 100644 classes/SG_EER_DeleteContactSite.cls
+ create mode 100644 classes/SG_EER_DeleteContactSite.cls-meta.xml
+ create mode 100644 classes/SG_EER_DeleteContactSite_Test.cls
+ create mode 100644 classes/SG_EER_DeleteContactSite_Test.cls-meta.xml
+ create mode 100644 classes/SG_EER_Inactive_User.cls
+ create mode 100644 classes/SG_EER_Inactive_User.cls-meta.xml
+ create mode 100644 classes/SG_EER_Inactive_UserTest.cls
+ create mode 100644 classes/SG_EER_Inactive_UserTest.cls-meta.xml
+ create mode 100644 classes/SG_EER_Moteur_OFFRE.cls
+ create mode 100644 classes/SG_EER_Moteur_OFFRE.cls-meta.xml
+ create mode 100644 classes/SG_EER_Moteur_OFFRETest.cls
+ create mode 100644 classes/SG_EER_Moteur_OFFRETest.cls-meta.xml
+ create mode 100644 classes/SG_EER_Moteur_PJ.cls
+ create mode 100644 classes/SG_EER_Moteur_PJ.cls-meta.xml
+ create mode 100644 classes/SG_EER_OffrePaiementRecommandationCtrl.cls
+ create mode 100644 classes/SG_EER_OffrePaiementRecommandationCtrl.cls-meta.xml
+ create mode 100644 classes/SG_EER_OffrePaiementRecommandation_Test.cls
+ create mode 100644 classes/SG_EER_OffrePaiementRecommandation_Test.cls-meta.xml
+ create mode 100644 classes/SG_EER_PJ_AddedTest.cls
+ create mode 100644 classes/SG_EER_PJ_AddedTest.cls-meta.xml
+ create mode 100644 classes/SG_EER_PJ_Popup.cls
+ create mode 100644 classes/SG_EER_PJ_Popup.cls-meta.xml
+ create mode 100644 classes/SG_EER_PJ_PopupTEST.cls
+ create mode 100644 classes/SG_EER_PJ_PopupTEST.cls-meta.xml
+ create mode 100644 classes/SG_EER_PageDeGarde.cls
+ create mode 100644 classes/SG_EER_PageDeGarde.cls-meta.xml
+ create mode 100644 classes/SG_EER_PageDeGardeTest.cls
+ create mode 100644 classes/SG_EER_PageDeGardeTest.cls-meta.xml
+ create mode 100644 classes/SG_EER_RedirectAgence.cls
+ create mode 100644 classes/SG_EER_RedirectAgence.cls-meta.xml
+ create mode 100644 classes/SG_EER_RedirectAgence_Test.cls
+ create mode 100644 classes/SG_EER_RedirectAgence_Test.cls-meta.xml
+ create mode 100644 classes/SG_EER_RedirectMoyenDePaiment.cls
+ create mode 100644 classes/SG_EER_RedirectMoyenDePaiment.cls-meta.xml
+ create mode 100644 classes/SG_EER_RedirectMoyenDePaiment_Test.cls
+ create mode 100644 classes/SG_EER_RedirectMoyenDePaiment_Test.cls-meta.xml
+ create mode 100644 classes/SG_EER_RedirectPourCommencer.cls
+ create mode 100644 classes/SG_EER_RedirectPourCommencer.cls-meta.xml
+ create mode 100644 classes/SG_EER_RedirectPourCommencer_Test.cls
+ create mode 100644 classes/SG_EER_RedirectPourCommencer_Test.cls-meta.xml
+ create mode 100644 classes/SG_EER_RedirectRecap.cls
+ create mode 100644 classes/SG_EER_RedirectRecap.cls-meta.xml
+ create mode 100644 classes/SG_EER_RedirectRecapFinal.cls
+ create mode 100644 classes/SG_EER_RedirectRecapFinal.cls-meta.xml
+ create mode 100644 classes/SG_EER_RedirectRecapFinal_Test.cls
+ create mode 100644 classes/SG_EER_RedirectRecapFinal_Test.cls-meta.xml
+ create mode 100644 classes/SG_EER_RedirectRecap_Test.cls
+ create mode 100644 classes/SG_EER_RedirectRecap_Test.cls-meta.xml
+ create mode 100644 classes/SG_EER_RedirectVous.cls
+ create mode 100644 classes/SG_EER_RedirectVous.cls-meta.xml
+ create mode 100644 classes/SG_EER_RedirectVous_Test.cls
+ create mode 100644 classes/SG_EER_RedirectVous_Test.cls-meta.xml
+ create mode 100644 classes/SG_EER_TR001Account.cls
+ create mode 100644 classes/SG_EER_TR001Account.cls-meta.xml
+ create mode 100644 classes/SG_EER_TR001_UpdateFrmContactSite.cls
+ create mode 100644 classes/SG_EER_TR001_UpdateFrmContactSite.cls-meta.xml
+ create mode 100644 classes/SG_EER_TR002Account.cls
+ create mode 100644 classes/SG_EER_TR002Account.cls-meta.xml
+ create mode 100644 classes/SG_EER_TR003Account.cls
+ create mode 100644 classes/SG_EER_TR003Account.cls-meta.xml
+ create mode 100644 classes/SG_EER_TestUtils.cls
+ create mode 100644 classes/SG_EER_TestUtils.cls-meta.xml
+ create mode 100644 classes/SG_EER_TestUtilsTest.cls
+ create mode 100644 classes/SG_EER_TestUtilsTest.cls-meta.xml
+ create mode 100644 classes/SG_EER_UpdatePersonAccFieldsTest.cls
+ create mode 100644 classes/SG_EER_UpdatePersonAccFieldsTest.cls-meta.xml
+ create mode 100644 classes/SG_EER_getPJforcase.cls
+ create mode 100644 classes/SG_EER_getPJforcase.cls-meta.xml
+ create mode 100644 classes/SG_EER_getPJforcasetest.cls
+ create mode 100644 classes/SG_EER_getPJforcasetest.cls-meta.xml
+ create mode 100644 classes/SG_EER_scheduledIndicateurCalculBatch.cls
+ create mode 100644 classes/SG_EER_scheduledIndicateurCalculBatch.cls-meta.xml
+ create mode 100644 classes/SG_EER_scheduledUserDesactivation.cls
+ create mode 100644 classes/SG_EER_scheduledUserDesactivation.cls-meta.xml
+ create mode 100644 classes/SG_EER_userDesactivation.cls
+ create mode 100644 classes/SG_EER_userDesactivation.cls-meta.xml
+ create mode 100644 classes/SG_EER_userDesactivationTest.cls
+ create mode 100644 classes/SG_EER_userDesactivationTest.cls-meta.xml
+ create mode 100644 classes/SG_IndicateurCalcul.cls
+ create mode 100644 classes/SG_IndicateurCalcul.cls-meta.xml
+ create mode 100644 classes/SG_IndicateurCalcul_TEST.cls
+ create mode 100644 classes/SG_IndicateurCalcul_TEST.cls-meta.xml
+ create mode 100644 classes/SG_SendMailFormulaireClient.cls
+ create mode 100644 classes/SG_SendMailFormulaireClient.cls-meta.xml
+ create mode 100644 classes/SG_SendMailFormulaireClient_Test.cls
+ create mode 100644 classes/SG_SendMailFormulaireClient_Test.cls-meta.xml
+ create mode 100644 classes/SG_SendMailFormulaireEnCours.cls
+ create mode 100644 classes/SG_SendMailFormulaireEnCours.cls-meta.xml
+ create mode 100644 classes/SG_SendMailFormulaireEnCoursTest.cls
+ create mode 100644 classes/SG_SendMailFormulaireEnCoursTest.cls-meta.xml
+ create mode 100644 classes/SG_SendMailFormulaireTommi.cls
+ create mode 100644 classes/SG_SendMailFormulaireTommi.cls-meta.xml
+ create mode 100644 classes/SG_SendMailFormulaireTommi_Test.cls
+ create mode 100644 classes/SG_SendMailFormulaireTommi_Test.cls-meta.xml
+ create mode 100644 classes/SG_SendMailNouvelleDemande.cls
+ create mode 100644 classes/SG_SendMailNouvelleDemande.cls-meta.xml
+ create mode 100644 classes/SG_SendMailNouvelleDemandeTest.cls
+ create mode 100644 classes/SG_SendMailNouvelleDemandeTest.cls-meta.xml
+ create mode 100644 classes/SG_newERRADDepuisFicheRDVController.cls
+ create mode 100644 classes/SG_newERRADDepuisFicheRDVController.cls-meta.xml
+ create mode 100644 classes/SG_newERRADDepuisFicheRDVController_test.cls
+ create mode 100644 classes/SG_newERRADDepuisFicheRDVController_test.cls-meta.xml
+ create mode 100644 classes/SG_newRDVDepuisFicheEERADController.cls
+ create mode 100644 classes/SG_newRDVDepuisFicheEERADController.cls-meta.xml
+ create mode 100644 classes/SG_newRDVDepuisFicheEERADController_test.cls
+ create mode 100644 classes/SG_newRDVDepuisFicheEERADController_test.cls-meta.xml
+ create mode 100644 classes/SG_resetPassword.cls
+ create mode 100644 classes/SG_resetPassword.cls-meta.xml
+ create mode 100644 classes/SG_resetPassword_test.cls
+ create mode 100644 classes/SG_resetPassword_test.cls-meta.xml
+ create mode 100644 classes/SiteLoginController.cls
+ create mode 100644 classes/SiteLoginController.cls-meta.xml
+ create mode 100644 classes/SiteLoginControllerTest.cls
+ create mode 100644 classes/SiteLoginControllerTest.cls-meta.xml
+ create mode 100644 classes/SiteRegisterController.cls
+ create mode 100644 classes/SiteRegisterController.cls-meta.xml
+ create mode 100644 classes/SiteRegisterControllerTest.cls
+ create mode 100644 classes/SiteRegisterControllerTest.cls-meta.xml
+ create mode 100644 classes/TR001Case.cls
+ create mode 100644 classes/TR001Case.cls-meta.xml
+ create mode 100644 classes/TR002Case.cls
+ create mode 100644 classes/TR002Case.cls-meta.xml
+ create mode 100644 classes/TR003Case.cls
+ create mode 100644 classes/TR003Case.cls-meta.xml
+ create mode 100644 classes/leadcap__LeadCapturePostInstallClass.cls
+ create mode 100644 classes/leadcap__LeadCapturePostInstallClass.cls-meta.xml
+ create mode 100644 classes/leadcap__LeadCapturePostInstallClassTest.cls
+ create mode 100644 classes/leadcap__LeadCapturePostInstallClassTest.cls-meta.xml
+ create mode 100644 classes/leadcap__SalesforceLeadCaptureController.cls
+ create mode 100644 classes/leadcap__SalesforceLeadCaptureController.cls-meta.xml
+ create mode 100644 classes/leadcap__SalesforceLeadCaptureControllerTest.cls
+ create mode 100644 classes/leadcap__SalesforceLeadCaptureControllerTest.cls-meta.xml
+ create mode 100644 classes/newPriseRDVController.cls
+ create mode 100644 classes/newPriseRDVController.cls-meta.xml
+ create mode 100644 classes/newPriseRDVController_test.cls
+ create mode 100644 classes/newPriseRDVController_test.cls-meta.xml
+ create mode 100644 communities/Internal Community.community
+ create mode 100644 components/LinksUtil.component
+ create mode 100644 components/LinksUtil.component-meta.xml
+ create mode 100644 components/SG_EERTemplateMail.component
+ create mode 100644 components/SG_EERTemplateMail.component-meta.xml
+ create mode 100644 components/SG_EERTemplateMailrelance2.component
+ create mode 100644 components/SG_EERTemplateMailrelance2.component-meta.xml
+ create mode 100644 components/SG_EER_LinksUtil.component
+ create mode 100644 components/SG_EER_LinksUtil.component-meta.xml
+ create mode 100644 components/SG_EER_LiveAgent.component
+ create mode 100644 components/SG_EER_LiveAgent.component-meta.xml
+ create mode 100644 components/SG_Tags_GTM.component
+ create mode 100644 components/SG_Tags_GTM.component-meta.xml
+ create mode 100644 components/SiteFooter.component
+ create mode 100644 components/SiteFooter.component-meta.xml
+ create mode 100644 components/SiteHeader.component
+ create mode 100644 components/SiteHeader.component-meta.xml
+ create mode 100644 components/SiteLogin.component
+ create mode 100644 components/SiteLogin.component-meta.xml
+ create mode 100644 components/SitePoweredBy.component
+ create mode 100644 components/SitePoweredBy.component-meta.xml
+ create mode 100644 connectedApps/pocsos.connectedApp
+ create mode 100644 dashboards/Recette/Suivi_recette.dashboard
+ create mode 100644 dashboards/SG_EERReportingEERADLancement/SG_EERReportingEERADLancement.dashboard
+ create mode 100644 dashboards/SG_POPPARTTAB1/Motifs_des_demandes.dashboard
+ create mode 100644 dashboards/SG_POPPARTTAB1/RDV_pris_par_sites.dashboard
+ create mode 100644 dashboards/SG_POPPARTTAB1/SG_CTL_QUALITE.dashboard
+ create mode 100644 dashboards/SG_POPPARTTAB1/SG_PilotageFiches.dashboard
+ create mode 100644 dashboards/SG_POPPARTTAB1/TEST_FLUX_POSITIONS_EER.dashboard
+ create mode 100644 dashboards/SG_POPPARTTAB1/TEST_Marseille1.dashboard
+ create mode 100644 dashboards/SG_POPPARTTAB1_CRCm/SG_PilotageDesFiches_CRCm.dashboard
+ create mode 100644 dashboards/SG_POPPARTTAB1_CRCm/SG_TEST_FLUX_POSITIONS_CRCm.dashboard
+ create mode 100644 dashboards/Sales_and_Marketing_Dashboards/AdoptionDashboard.dashboard
+ create mode 100644 dashboards/Sales_and_Marketing_Dashboards/Best_Practice_Leads_Dashboard.dashboard
+ create mode 100644 dashboards/Sales_and_Marketing_Dashboards/Best_Practices_Dashboard6.dashboard
+ create mode 100644 dashboards/Service_Dashboards/Agent_Supervisor_Overview.dashboard
+ create mode 100644 dashboards/Service_Dashboards/Service_Exec_Overview.dashboard
+ create mode 100644 dashboards/Service_Dashboards/Service_KPIs.dashboard
+ create mode 100644 dashboards/sites_reporting__CompanyDashboards/sites_reporting__SiteUsageDashboard.dashboard
+ create mode 100644 documents/Dossier_partag_des_communaut_s/SG_logo_Community.png
+ create mode 100644 documents/Dossier_partag_des_communaut_s/SG_logo_Community.png-meta.xml
+ create mode 100644 documents/Dossier_partag_des_communaut_s1/LogoSG_png.png
+ create mode 100644 documents/Dossier_partag_des_communaut_s1/LogoSG_png.png-meta.xml
+ create mode 100644 documents/SG_EER/SG_EERCouleurs.png
+ create mode 100644 documents/SG_EER/SG_EERCouleurs.png-meta.xml
+ create mode 100644 documents/SG_EER/SG_EEREnfants.png
+ create mode 100644 documents/SG_EER/SG_EEREnfants.png-meta.xml
+ create mode 100644 documents/SG_EER/SG_EEREspritEquipe.png
+ create mode 100644 documents/SG_EER/SG_EEREspritEquipe.png-meta.xml
+ create mode 100644 documents/SG_EER/SG_EERFilleBFM.png
+ create mode 100644 documents/SG_EER/SG_EERFilleBFM.png-meta.xml
+ create mode 100644 documents/SG_EER/SG_EERFillesNonBFM.png
+ create mode 100644 documents/SG_EER/SG_EERFillesNonBFM.png-meta.xml
+ create mode 100644 documents/SG_EER/SG_EERFooter.jpg
+ create mode 100644 documents/SG_EER/SG_EERFooter.jpg-meta.xml
+ create mode 100644 documents/SG_EER/SG_EERLogoSGTempaltePiedDePage.jpg
+ create mode 100644 documents/SG_EER/SG_EERLogoSGTempaltePiedDePage.jpg-meta.xml
+ create mode 100644 documents/SG_EER/SG_EERReunionEEquipe.png
+ create mode 100644 documents/SG_EER/SG_EERReunionEEquipe.png-meta.xml
+ create mode 100644 documents/SG_EER_DocumentWeb/SG_EER_DocumentBesoinConseil.pdf
+ create mode 100644 documents/SG_EER_DocumentWeb/SG_EER_DocumentBesoinConseil.pdf-meta.xml
+ create mode 100644 documents/SG_EER_DocumentWeb/SG_EER_DocumentConditionCarte.pdf
+ create mode 100644 documents/SG_EER_DocumentWeb/SG_EER_DocumentConditionCarte.pdf-meta.xml
+ create mode 100644 documents/SG_EER_DocumentWeb/SG_EER_DocumentConditionGenerale.pdf
+ create mode 100644 documents/SG_EER_DocumentWeb/SG_EER_DocumentConditionGenerale.pdf-meta.xml
+ create mode 100644 documents/SG_EER_DocumentWeb/SG_EER_DocumentConditionGeneraleQuietis.pdf
+ create mode 100644 documents/SG_EER_DocumentWeb/SG_EER_DocumentConditionGeneraleQuietis.pdf-meta.xml
+ create mode 100644 documents/SG_EER_DocumentWeb/SG_EER_DocumentJazz.pdf
+ create mode 100644 documents/SG_EER_DocumentWeb/SG_EER_DocumentJazz.pdf-meta.xml
+ create mode 100644 documents/SG_PPR/En_t_te_email_prospect_MultiCouleur.png
+ create mode 100644 documents/SG_PPR/En_t_te_email_prospect_MultiCouleur.png-meta.xml
+ create mode 100644 documents/SG_PPR/Logo_Soci_t_General.jpg
+ create mode 100644 documents/SG_PPR/Logo_Soci_t_General.jpg-meta.xml
+ create mode 100644 documents/SG_PPR/SG_EnteteEmailProspect.png
+ create mode 100644 documents/SG_PPR/SG_EnteteEmailProspect.png-meta.xml
+ create mode 100644 documents/SG_PPR/SG_EnteteEmailProspectFleur.png
+ create mode 100644 documents/SG_PPR/SG_EnteteEmailProspectFleur.png-meta.xml
+ create mode 100644 documents/SG_PPR/SG_EnteteEmailProspectMeeting.png
+ create mode 100644 documents/SG_PPR/SG_EnteteEmailProspectMeeting.png-meta.xml
+ create mode 100644 documents/SG_PPR/SG_EnteteEmailProspect_BFM.png
+ create mode 100644 documents/SG_PPR/SG_EnteteEmailProspect_BFM.png-meta.xml
+ create mode 100644 documents/SG_PPR/SG_LogoSGTempaltePiedDePage.jpg
+ create mode 100644 documents/SG_PPR/SG_LogoSGTempaltePiedDePage.jpg-meta.xml
+ create mode 100644 documents/SG_PPR/SG_PPR_Footer.png
+ create mode 100644 documents/SG_PPR/SG_PPR_Footer.png-meta.xml
+ create mode 100644 documents/SG_PPR/SG_PiedPageEmailProspect.jpg
+ create mode 100644 documents/SG_PPR/SG_PiedPageEmailProspect.jpg-meta.xml
+ create mode 100644 documents/SalesTools/Documentation_for_Salesforce_com_Sample_Dashboards.pdf
+ create mode 100644 documents/SalesTools/Documentation_for_Salesforce_com_Sample_Dashboards.pdf-meta.xml
+ create mode 100644 email/SG_EER_Template/EmailConfirmationFinalisationDemandeEER.email
+ create mode 100644 email/SG_EER_Template/EmailConfirmationFinalisationDemandeEER.email-meta.xml
+ create mode 100644 email/SG_EER_Template/Email_de_relance_du_prospect_qui_a_finalis_le_formulaire_EERAD_10j.email
+ create mode 100644 email/SG_EER_Template/Email_de_relance_du_prospect_qui_a_finalis_le_formulaire_EERAD_10j.email-meta.xml
+ create mode 100644 email/SG_EER_Template/Email_de_relance_du_prospect_qui_a_finalis_le_formulaire_EERAD_30j.email
+ create mode 100644 email/SG_EER_Template/Email_de_relance_du_prospect_qui_a_finalis_le_formulaire_EERAD_30j.email-meta.xml
+ create mode 100644 email/SG_EER_Template/Email_de_relance_n1_de_completude.email
+ create mode 100644 email/SG_EER_Template/Email_de_relance_n1_de_completude.email-meta.xml
+ create mode 100644 email/SG_EER_Template/Email_de_relance_n2_de_completude.email
+ create mode 100644 email/SG_EER_Template/Email_de_relance_n2_de_completude.email-meta.xml
+ create mode 100644 email/SG_EER_Template/Emailrelance_n1EERADnonfinaliseapres24h.email
+ create mode 100644 email/SG_EER_Template/Emailrelance_n1EERADnonfinaliseapres24h.email-meta.xml
+ create mode 100644 email/SG_EER_Template/Emailrelance_n2EERADnonfinaliseapres5j.email
+ create mode 100644 email/SG_EER_Template/Emailrelance_n2EERADnonfinaliseapres5j.email-meta.xml
+ create mode 100644 email/SG_EER_Template/S16EmailInformationFinValidite.email
+ create mode 100644 email/SG_EER_Template/S16EmailInformationFinValidite.email-meta.xml
+ create mode 100644 email/SG_EER_Template/S17EmailInformationFinValidite.email
+ create mode 100644 email/SG_EER_Template/S17EmailInformationFinValidite.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER10EmailInformationAgenceProspectIneligible.email
+ create mode 100644 email/SG_EER_Template/SG_EER10EmailInformationAgenceProspectIneligible.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER11EmailAgenceNouveauClient.email
+ create mode 100644 email/SG_EER_Template/SG_EER11EmailAgenceNouveauClient.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER12AEmailConfirmationOUvertureCompteDistance.email
+ create mode 100644 email/SG_EER_Template/SG_EER12AEmailConfirmationOUvertureCompteDistance.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER12BEmailConfirmationOUvertureCompteDistance.email
+ create mode 100644 email/SG_EER_Template/SG_EER12BEmailConfirmationOUvertureCompteDistance.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER12CEmailConfirmationOUvertureCompteDistance.email
+ create mode 100644 email/SG_EER_Template/SG_EER12CEmailConfirmationOUvertureCompteDistance.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER13EmailSondage.email
+ create mode 100644 email/SG_EER_Template/SG_EER13EmailSondage.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER14EmailInformationEERADRealisee.email
+ create mode 100644 email/SG_EER_Template/SG_EER14EmailInformationEERADRealisee.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER15EmailAgenceCommunication.email
+ create mode 100644 email/SG_EER_Template/SG_EER15EmailAgenceCommunication.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER1EmailProspectInfoConnexionEspaceTemporaire.email
+ create mode 100644 email/SG_EER_Template/SG_EER1EmailProspectInfoConnexionEspaceTemporaire.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER22_Rappel_echeance_droit_au_compte.email
+ create mode 100644 email/SG_EER_Template/SG_EER22_Rappel_echeance_droit_au_compte.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER5AEmailRefuseEERADFormulaireFinalisee.email
+ create mode 100644 email/SG_EER_Template/SG_EER5AEmailRefuseEERADFormulaireFinalisee.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER6EmailConfirmationReceptionCCRM.email
+ create mode 100644 email/SG_EER_Template/SG_EER6EmailConfirmationReceptionCCRM.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER7EmailConfirmationReceptionComplementDossier.email
+ create mode 100644 email/SG_EER_Template/SG_EER7EmailConfirmationReceptionComplementDossier.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER9EmailInformationRetractation.email
+ create mode 100644 email/SG_EER_Template/SG_EER9EmailInformationRetractation.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER_Community_Change_Password.email
+ create mode 100644 email/SG_EER_Template/SG_EER_Community_Change_Password.email-meta.xml
+ create mode 100644 email/SG_EER_Template/SG_EER_Community_Welcome.email
+ create mode 100644 email/SG_EER_Template/SG_EER_Community_Welcome.email-meta.xml
+ create mode 100644 email/SG_EER_Template/X19_Prospect_identifie_comme_client_RDV.email
+ create mode 100644 email/SG_EER_Template/X19_Prospect_identifie_comme_client_RDV.email-meta.xml
+ create mode 100644 email/SG_EER_Template/prospect_identifie_comme_client_EER_D.email
+ create mode 100644 email/SG_EER_Template/prospect_identifie_comme_client_EER_D.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/Formulaire_non_finalis.email
+ create mode 100644 email/SG_PRV_Template/Formulaire_non_finalis.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_AccuseDeReception.email
+ create mode 100644 email/SG_PRV_Template/SG_AccuseDeReception.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRDVAgence.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRDVAgence.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifCreditConso.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifCreditConso.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifCreditConsoBFM.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifCreditConsoBFM.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifCreditConsoBFM_OLD.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifCreditConsoBFM_OLD.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifCreditImmoBFM.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifCreditImmoBFM.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifCreditimmo.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifCreditimmo.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifCreditimmoSuppleance.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifCreditimmoSuppleance.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifOuvrirUnCompte.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifOuvrirUnCompte.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifOuvrirUnCompteBFM.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifOuvrirUnCompteBFM.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifOuvrirUnCompteJointBFM.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifOuvrirUnCompteJointBFM.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifOuvrirUnCompteJointSuppleance.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifOuvrirUnCompteJointSuppleance.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifOuvrirUnCompteSuppleance.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifOuvrirUnCompteSuppleance.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifOuvrirUnComptejoint.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifOuvrirUnComptejoint.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifPretEtudiant.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifPretEtudiant.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifPretEtudiantBFM.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifPretEtudiantBFM.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifPretEtudiantSuppleance.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifPretEtudiantSuppleance.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifcreditConsoSuppleance.email
+ create mode 100644 email/SG_PRV_Template/SG_ConfirmationRdvAyantPourMotifcreditConsoSuppleance.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_MailSondage.email
+ create mode 100644 email/SG_PRV_Template/SG_MailSondage.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_MailSuiviAgence.email
+ create mode 100644 email/SG_PRV_Template/SG_MailSuiviAgence.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_NonRelancable.email
+ create mode 100644 email/SG_PRV_Template/SG_NonRelancable.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/SG_Notification1hAvantRappel.email
+ create mode 100644 email/SG_PRV_Template/SG_Notification1hAvantRappel.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/X11_Prospect_identifie_comme_tudiant_RDV.email
+ create mode 100644 email/SG_PRV_Template/X11_Prospect_identifie_comme_tudiant_RDV.email-meta.xml
+ create mode 100644 email/SG_PRV_Template/X21_Email_pour_prospect_Facebook.email
+ create mode 100644 email/SG_PRV_Template/X21_Email_pour_prospect_Facebook.email-meta.xml
+ create mode 100644 email/unfiled$public/CommunityChangePasswordEmailTemplate.email
+ create mode 100644 email/unfiled$public/CommunityChangePasswordEmailTemplate.email-meta.xml
+ create mode 100644 email/unfiled$public/CommunityForgotPasswordEmailTemplate.email
+ create mode 100644 email/unfiled$public/CommunityForgotPasswordEmailTemplate.email-meta.xml
+ create mode 100644 email/unfiled$public/CommunityWelcomeEmailTemplate.email
+ create mode 100644 email/unfiled$public/CommunityWelcomeEmailTemplate.email-meta.xml
+ create mode 100644 email/unfiled$public/Sample_CallNoAnswer.email
+ create mode 100644 email/unfiled$public/Sample_CallNoAnswer.email-meta.xml
+ create mode 100644 email/unfiled$public/Sample_CustomerInterest.email
+ create mode 100644 email/unfiled$public/Sample_CustomerInterest.email-meta.xml
+ create mode 100644 email/unfiled$public/Sample_DealClosed.email
+ create mode 100644 email/unfiled$public/Sample_DealClosed.email-meta.xml
+ create mode 100644 email/unfiled$public/Sample_GreatMeetingYou.email
+ create mode 100644 email/unfiled$public/Sample_GreatMeetingYou.email-meta.xml
+ create mode 100644 email/unfiled$public/Sample_HappyBirthday.email
+ create mode 100644 email/unfiled$public/Sample_HappyBirthday.email-meta.xml
+ create mode 100644 email/unfiled$public/Sample_MeetOnsite.email
+ create mode 100644 email/unfiled$public/Sample_MeetOnsite.email-meta.xml
+ create mode 100644 email/unfiled$public/Sample_NewAccountManager.email
+ create mode 100644 email/unfiled$public/Sample_NewAccountManager.email-meta.xml
+ create mode 100644 email/unfiled$public/Sample_NextSteps.email
+ create mode 100644 email/unfiled$public/Sample_NextSteps.email-meta.xml
+ create mode 100644 email/unfiled$public/Sample_OutofOffice.email
+ create mode 100644 email/unfiled$public/Sample_OutofOffice.email-meta.xml
+ create mode 100644 email/unfiled$public/Sample_Promotion.email
+ create mode 100644 email/unfiled$public/Sample_Promotion.email-meta.xml
+ create mode 100644 email/unfiled$public/Sample_Reconnecting.email
+ create mode 100644 email/unfiled$public/Sample_Reconnecting.email-meta.xml
+ create mode 100644 email/unfiled$public/Sample_ScheduleMeeting.email
+ create mode 100644 email/unfiled$public/Sample_ScheduleMeeting.email-meta.xml
+ create mode 100644 escalationRules/Case.escalationRules
+ create mode 100644 flowDefinitions/G_Send_Email_to_Prospect_Finalise.flowDefinition
+ create mode 100644 flowDefinitions/SG_Assign_Current_Owner_Case.flowDefinition
+ create mode 100644 flowDefinitions/SG_EER_AUTOFILL_AgenceRetraitMoyenPaiement.flowDefinition
+ create mode 100644 flowDefinitions/SG_EER_DeleteContactSite.flowDefinition
+ create mode 100644 flowDefinitions/SG_EER_Envoi_Mail.flowDefinition
+ create mode 100644 flowDefinitions/SG_EER_Inactive_User.flowDefinition
+ create mode 100644 flowDefinitions/SG_EER_UpdateTechFieldCountry.flowDefinition
+ create mode 100644 flowDefinitions/SG_Send_Email_Formulaire_En_Cours.flowDefinition
+ create mode 100644 flowDefinitions/SG_Send_Email_to_Tomii.flowDefinition
+ create mode 100644 flows/G_Send_Email_to_Prospect_Finalise-1.flow
+ create mode 100644 flows/G_Send_Email_to_Prospect_Finalise-2.flow
+ create mode 100644 flows/G_Send_Email_to_Prospect_Finalise-3.flow
+ create mode 100644 flows/SG_Assign_Current_Owner_Case-1.flow
+ create mode 100644 flows/SG_Assign_Current_Owner_Case-2.flow
+ create mode 100644 flows/SG_Assign_Current_Owner_Case-3.flow
+ create mode 100644 flows/SG_EER_AUTOFILL_AgenceRetraitMoyenPaiement-1.flow
+ create mode 100644 flows/SG_EER_DeleteContactSite-1.flow
+ create mode 100644 flows/SG_EER_Envoi_Mail-1.flow
+ create mode 100644 flows/SG_EER_Envoi_Mail-2.flow
+ create mode 100644 flows/SG_EER_Inactive_User-1.flow
+ create mode 100644 flows/SG_EER_Inactive_User-2.flow
+ create mode 100644 flows/SG_EER_Inactive_User-3.flow
+ create mode 100644 flows/SG_EER_UpdateTechFieldCountry-1.flow
+ create mode 100644 flows/SG_Send_Email_Formulaire_En_Cours-1.flow
+ create mode 100644 flows/SG_Send_Email_Formulaire_En_Cours-2.flow
+ create mode 100644 flows/SG_Send_Email_Formulaire_En_Cours-3.flow
+ create mode 100644 flows/SG_Send_Email_Formulaire_En_Cours-4.flow
+ create mode 100644 flows/SG_Send_Email_to_Tomii-1.flow
+ create mode 100644 flows/SG_Send_Email_to_Tomii-2.flow
+ create mode 100644 flows/SG_Send_Email_to_Tomii-3.flow
+ create mode 100644 flows/SG_Send_Email_to_Tomii-4.flow
+ create mode 100644 flows/SG_Send_Email_to_Tomii-5.flow
+ create mode 100644 flows/SG_Send_Email_to_Tomii-6.flow
+ create mode 100644 groups/SG_Admin.group
+ create mode 100644 groups/SG_Support_niveau_2.group
+ create mode 100644 homePageLayouts/Dashboard Home Page Default.homePageLayout
+ create mode 100644 installedPackages/leadcap.installedPackage
+ create mode 100644 installedPackages/mule.installedPackage
+ create mode 100644 installedPackages/sf_chttr_apps.installedPackage
+ create mode 100644 installedPackages/sf_com_apps.installedPackage
+ create mode 100644 installedPackages/sites_reporting.installedPackage
+ create mode 100644 labels/CustomLabels.labels
+ create mode 100644 layouts/Account-Account Layout.layout
+ create mode 100644 layouts/Asset-Asset Layout.layout
+ create mode 100644 layouts/Average_Time_CCM__c-Temps moyen CCM Layout.layout
+ create mode 100644 layouts/Campaign-Campaign Layout.layout
+ create mode 100644 layouts/CampaignMember-Campaign Member Page Layout.layout
+ create mode 100644 layouts/Case-SG Case PL Admin.layout
+ create mode 100644 "layouts/Case-SG Cr\303\251ation manuelle.layout"
+ create mode 100644 layouts/Case-SG EER Gestion du propect.layout
+ create mode 100644 layouts/Case-SG Formulaire web %2F Import.layout
+ create mode 100644 layouts/Case-SG Tomii.layout
+ create mode 100644 layouts/CaseClose-Close Case Layout.layout
+ create mode 100644 layouts/CaseInteraction-Case Feed Layout.layout
+ create mode 100644 "layouts/CaseSite__c-Fiche abandon\303\251e Feed.layout"
+ create mode 100644 "layouts/CaseSite__c-Fiche abandon\303\251e.layout"
+ create mode 100644 layouts/CollaborationGroup-Group Layout.layout
+ create mode 100644 layouts/Contact-Contact Layout.layout
+ create mode 100644 layouts/ContentVersion-Content Version.layout
+ create mode 100644 layouts/Contract-Contract Layout.layout
+ create mode 100644 layouts/DuplicateRecordSet-Duplicate Record Set Layout.layout
+ create mode 100644 layouts/EER_Fiche_OrigineTchat__c-EER Fiche OrigineTchat Layout.layout
+ create mode 100644 layouts/Event-Event Layout.layout
+ create mode 100644 layouts/FeedItem-Feed Item Layout.layout
+ create mode 100644 layouts/FlowInterview-Flow Interview Layout.layout
+ create mode 100644 layouts/Global-Global Layout.layout
+ create mode 100644 layouts/Horaires__c-Horaire Layout.layout
+ create mode 100644 layouts/Idea-Idea Layout.layout
+ create mode 100644 layouts/Lead-Lead Layout.layout
+ create mode 100644 layouts/LiveAgentSession-Live Agent Session Layout.layout
+ create mode 100644 layouts/LiveChatTranscript-Live Chat Transcript Layout.layout
+ create mode 100644 layouts/LiveChatTranscriptEvent-Live Chat Transcript Event Layout.layout
+ create mode 100644 layouts/LiveChatVisitor-Live Chat Visitor Layout.layout
+ create mode 100644 layouts/Log__c-Log Layout.layout
+ create mode 100644 layouts/Macro-Macro Layout.layout
+ create mode 100644 "layouts/NonWorkingDay__c-Jour Non Ouvr\303\251 Layout.layout"
+ create mode 100644 layouts/Opportunity-Opportunity Layout.layout
+ create mode 100644 layouts/OpportunityLineItem-Opportunity Product Layout.layout
+ create mode 100644 layouts/Order-Order Layout.layout
+ create mode 100644 layouts/OrderItem-Order Product Layout.layout
+ create mode 100644 layouts/PersonAccount-EER - Prospect.layout
+ create mode 100644 "layouts/PersonAccount-Pr\303\251sentation du compte personnel.layout"
+ create mode 100644 layouts/Pricebook2-Price Book Layout.layout
+ create mode 100644 layouts/PricebookEntry-Price Book Entry Layout.layout
+ create mode 100644 layouts/Product2-Product Layout.layout
+ create mode 100644 layouts/ProfileSkill-Skill Layout.layout
+ create mode 100644 layouts/ProfileSkillEndorsement-Endorsement Layout.layout
+ create mode 100644 layouts/ProfileSkillUser-Skill User Layout.layout
+ create mode 100644 layouts/QuickText-Quick Text Layout.layout
+ create mode 100644 layouts/Quote-Quote Layout.layout
+ create mode 100644 layouts/QuoteLineItem-Quote Line Item Layout.layout
+ create mode 100644 layouts/Recette__c-Lot 1 - RDV.layout
+ create mode 100644 layouts/Recette__c-Lot 2 - EER.layout
+ create mode 100644 layouts/Recette__c-Recette Layout.layout
+ create mode 100644 "layouts/SG_EERContactSite__c-Pr\303\251sentation SG_EERContactSite.layout"
+ create mode 100644 "layouts/SG_EERProduits__c-Pr\303\251sentation Produit.layout"
+ create mode 100644 "layouts/SG_EER_Piecejustificative__c-Pr\303\251sentation Pi\303\250ce justificative.layout"
+ create mode 100644 "layouts/SG_EER_REF__c-Pr\303\251sentation R\303\251f\303\251rentiel.layout"
+ create mode 100644 "layouts/SG_EER_Referentiel_PJ__c-Pr\303\251sentation R\303\251f\303\251rentiel PJ.layout"
+ create mode 100644 "layouts/SG_EER_Type_PJ__c-Type de pi\303\250ce justificative Layout.layout"
+ create mode 100644 "layouts/SOSSession-Pr\303\251sentation de la session SOS.layout"
+ create mode 100644 "layouts/SOSSessionActivity-Pr\303\251sentation de l%27activit\303\251 de la session SOS.layout"
+ create mode 100644 layouts/Solution-Solution Layout.layout
+ create mode 100644 layouts/Task-Task Layout.layout
+ create mode 100644 layouts/User-User Layout.layout
+ create mode 100644 layouts/UserAlt-User Profile Layout.layout
+ create mode 100644 layouts/UserAppMenuItem-Application Layout.layout
+ create mode 100644 layouts/WorkAccess-Access Layout.layout
+ create mode 100644 layouts/WorkBadge-Badge Layout.layout
+ create mode 100644 layouts/WorkBadge-Badge Received Layout 192.layout
+ create mode 100644 layouts/WorkBadgeDefinition-Badge Definition Layout.layout
+ create mode 100644 layouts/WorkBadgeDefinition-Badge Layout 192.layout
+ create mode 100644 layouts/WorkThanks-Thanks Layout.layout
+ create mode 100644 letterhead/EnTeteEmailAgence.letter
+ create mode 100644 letterhead/En_t_te_email_de_relance_formulaire.letter
+ create mode 100644 letterhead/En_tete_Facebook.letter
+ create mode 100644 letterhead/SG_EERAucun.letter
+ create mode 100644 letterhead/SG_EEREnfant.letter
+ create mode 100644 letterhead/SG_EERFilleBFM.letter
+ create mode 100644 letterhead/SG_EERFillesNonBFM.letter
+ create mode 100644 letterhead/SG_EERReunionEquipe.letter
+ create mode 100644 letterhead/SG_EERTeamBuilding.letter
+ create mode 100644 letterhead/SG_EER_Couleurs.letter
+ create mode 100644 letterhead/SG_EnTeteemailSondage.letter
+ create mode 100644 letterhead/SG_EnteteEmailProspect.letter
+ create mode 100644 letterhead/SG_EnteteEmailProspect_BFM.letter
+ create mode 100644 liveChatAgentConfigs/SG_PRV_Agents.liveChatAgentConfig
+ create mode 100644 liveChatButtons/SG_Chat_Button.liveChatButton
+ create mode 100644 liveChatButtons/SG_Chat_Button_2.liveChatButton
+ create mode 100644 liveChatButtons/SG_Chat_Button_3.liveChatButton
+ create mode 100644 liveChatDeployments/SG_Tchat_EER_OC.liveChatDeployment
+ create mode 100644 liveChatDeployments/SG_Tchat_PRV.liveChatDeployment
+ create mode 100644 liveChatDeployments/SG_Tchat_RD.liveChatDeployment
+ create mode 100644 "managedTopics/Soci\303\251t\303\251 G\303\251n\303\251rale.managedTopics"
+ create mode 100644 matchingRules/Account.matchingRule
+ create mode 100644 matchingRules/Contact.matchingRule
+ create mode 100644 matchingRules/Lead.matchingRule
+ create mode 100644 matchingRules/PersonAccount.matchingRule
+ create mode 100644 "networks/Soci\303\251t\303\251 G\303\251n\303\251rale.network"
+ create mode 100644 objectTranslations/Account-fr.objectTranslation
+ create mode 100644 objectTranslations/Average_Time_CCM__c-fr.objectTranslation
+ create mode 100644 objectTranslations/Case-fr.objectTranslation
+ create mode 100644 objectTranslations/CaseSite__c-fr.objectTranslation
+ create mode 100644 objectTranslations/Contact-en_US.objectTranslation
+ create mode 100644 objectTranslations/Contact-fr.objectTranslation
+ create mode 100644 objectTranslations/EER_Fiche_OrigineTchat__c-fr.objectTranslation
+ create mode 100644 objectTranslations/GenericEmail__c-fr.objectTranslation
+ create mode 100644 objectTranslations/Horaires__c-fr.objectTranslation
+ create mode 100644 objectTranslations/LiveAgentSession-fr.objectTranslation
+ create mode 100644 objectTranslations/LiveChatTranscript-en_US.objectTranslation
+ create mode 100644 objectTranslations/LiveChatTranscript-fr.objectTranslation
+ create mode 100644 objectTranslations/Log__c-fr.objectTranslation
+ create mode 100644 objectTranslations/NonWorkingDay__c-fr.objectTranslation
+ create mode 100644 objectTranslations/Recette__c-fr.objectTranslation
+ create mode 100644 objectTranslations/SG_EERContactSite__c-fr.objectTranslation
+ create mode 100644 objectTranslations/SG_EERProduits__c-fr.objectTranslation
+ create mode 100644 objectTranslations/SG_EER_Piecejustificative__c-fr.objectTranslation
+ create mode 100644 objectTranslations/SG_EER_REF__c-fr.objectTranslation
+ create mode 100644 objectTranslations/SG_EER_Referentiel_PJ__c-fr.objectTranslation
+ create mode 100644 objectTranslations/SG_EER_Type_PJ__c-fr.objectTranslation
+ create mode 100644 objects/Account.object
+ create mode 100644 objects/Activity.object
+ create mode 100644 objects/Asset.object
+ create mode 100644 objects/Average_Time_CCM__c.object
+ create mode 100644 objects/Campaign.object
+ create mode 100644 objects/Case.object
+ create mode 100644 objects/CaseSite__c.object
+ create mode 100644 objects/Contact.object
+ create mode 100644 objects/Contract.object
+ create mode 100644 objects/EER_Fiche_OrigineTchat__c.object
+ create mode 100644 objects/GenericEmail__c.object
+ create mode 100644 objects/Horaires__c.object
+ create mode 100644 objects/Lead.object
+ create mode 100644 objects/LiveAgentSession.object
+ create mode 100644 objects/LiveChatTranscript.object
+ create mode 100644 objects/Log__c.object
+ create mode 100644 objects/NonWorkingDay__c.object
+ create mode 100644 objects/Opportunity.object
+ create mode 100644 objects/Order.object
+ create mode 100644 objects/Pricebook2.object
+ create mode 100644 objects/Product2.object
+ create mode 100644 objects/QuickText.object
+ create mode 100644 objects/Recette__c.object
+ create mode 100644 objects/SG_EERContactSite__c.object
+ create mode 100644 objects/SG_EERProduits__c.object
+ create mode 100644 objects/SG_EER_Piecejustificative__c.object
+ create mode 100644 objects/SG_EER_REF__c.object
+ create mode 100644 objects/SG_EER_Referentiel_PJ__c.object
+ create mode 100644 objects/SG_EER_Type_PJ__c.object
+ create mode 100644 objects/SOSSession.object
+ create mode 100644 objects/Solution.object
+ create mode 100644 objects/User.object
+ create mode 100644 package.xml
+ create mode 100644 pages/AnswersHome.page
+ create mode 100644 pages/AnswersHome.page-meta.xml
+ create mode 100644 pages/BandwidthExceeded.page
+ create mode 100644 pages/BandwidthExceeded.page-meta.xml
+ create mode 100644 pages/ChangePassword.page
+ create mode 100644 pages/ChangePassword.page-meta.xml
+ create mode 100644 pages/CommunitiesLanding.page
+ create mode 100644 pages/CommunitiesLanding.page-meta.xml
+ create mode 100644 pages/CommunitiesLogin.page
+ create mode 100644 pages/CommunitiesLogin.page-meta.xml
+ create mode 100644 pages/CommunitiesSelfReg.page
+ create mode 100644 pages/CommunitiesSelfReg.page-meta.xml
+ create mode 100644 pages/CommunitiesSelfRegConfirm.page
+ create mode 100644 pages/CommunitiesSelfRegConfirm.page-meta.xml
+ create mode 100644 pages/CommunitiesTemplate.page
+ create mode 100644 pages/CommunitiesTemplate.page-meta.xml
+ create mode 100644 pages/Exception.page
+ create mode 100644 pages/Exception.page-meta.xml
+ create mode 100644 pages/FileNotFound.page
+ create mode 100644 pages/FileNotFound.page-meta.xml
+ create mode 100644 pages/ForgotPassword.page
+ create mode 100644 pages/ForgotPassword.page-meta.xml
+ create mode 100644 pages/ForgotPasswordConfirm.page
+ create mode 100644 pages/ForgotPasswordConfirm.page-meta.xml
+ create mode 100644 pages/IdeasHome.page
+ create mode 100644 pages/IdeasHome.page-meta.xml
+ create mode 100644 pages/InMaintenance.page
+ create mode 100644 pages/InMaintenance.page-meta.xml
+ create mode 100644 pages/MyProfilePage.page
+ create mode 100644 pages/MyProfilePage.page-meta.xml
+ create mode 100644 pages/SG_EER_Accueil.page
+ create mode 100644 pages/SG_EER_Accueil.page-meta.xml
+ create mode 100644 pages/SG_EER_Accueil_Fonctionnaire_ou_Assimile.page
+ create mode 100644 pages/SG_EER_Accueil_Fonctionnaire_ou_Assimile.page-meta.xml
+ create mode 100644 pages/SG_EER_Accueil_Pays_Residence_Fiscale.page
+ create mode 100644 pages/SG_EER_Accueil_Pays_Residence_Fiscale.page-meta.xml
+ create mode 100644 pages/SG_EER_Accueil_Statut_Etudiant.page
+ create mode 100644 pages/SG_EER_Accueil_Statut_Etudiant.page-meta.xml
+ create mode 100644 pages/SG_EER_Agence_Directe.page
+ create mode 100644 pages/SG_EER_Agence_Directe.page-meta.xml
+ create mode 100644 pages/SG_EER_Civilite.page
+ create mode 100644 pages/SG_EER_Civilite.page-meta.xml
+ create mode 100644 pages/SG_EER_Login_Community.page
+ create mode 100644 pages/SG_EER_Login_Community.page-meta.xml
+ create mode 100644 pages/SG_EER_OffreAgenceHorsCible.page
+ create mode 100644 pages/SG_EER_OffreAgenceHorsCible.page-meta.xml
+ create mode 100644 pages/SG_EER_OffreAgenceKoMineur.page
+ create mode 100644 pages/SG_EER_OffreAgenceKoMineur.page-meta.xml
+ create mode 100644 pages/SG_EER_OffreAgenceKoOnLine.page
+ create mode 100644 pages/SG_EER_OffreAgenceKoOnLine.page-meta.xml
+ create mode 100644 pages/SG_EER_OffreAgenceRDVAgenceWcb.page
+ create mode 100644 pages/SG_EER_OffreAgenceRDVAgenceWcb.page-meta.xml
+ create mode 100644 pages/SG_EER_Offre_Agence_Dispatch.page
+ create mode 100644 pages/SG_EER_Offre_Agence_Dispatch.page-meta.xml
+ create mode 100644 pages/SG_EER_Offre_Agence_Rdv_Agence_Dispatch.page
+ create mode 100644 pages/SG_EER_Offre_Agence_Rdv_Agence_Dispatch.page-meta.xml
+ create mode 100644 pages/SG_EER_Offre_Paiement_Chequier.page
+ create mode 100644 pages/SG_EER_Offre_Paiement_Chequier.page-meta.xml
+ create mode 100644 pages/SG_EER_Offre_Paiement_Info_Jazz.page
+ create mode 100644 pages/SG_EER_Offre_Paiement_Info_Jazz.page-meta.xml
+ create mode 100644 pages/SG_EER_Offre_Paiement_Infos_Quietis.page
+ create mode 100644 pages/SG_EER_Offre_Paiement_Infos_Quietis.page-meta.xml
+ create mode 100644 pages/SG_EER_Offre_Paiement_OptionsCBancaire.page
+ create mode 100644 pages/SG_EER_Offre_Paiement_OptionsCBancaire.page-meta.xml
+ create mode 100644 pages/SG_EER_Offre_Paiement_Reco_CompteVide.page
+ create mode 100644 pages/SG_EER_Offre_Paiement_Reco_CompteVide.page-meta.xml
+ create mode 100644 pages/SG_EER_Offre_Paiement_Recommandation.page
+ create mode 100644 pages/SG_EER_Offre_Paiement_Recommandation.page-meta.xml
+ create mode 100644 pages/SG_EER_Offre_Paiement_Retrait.page
+ create mode 100644 pages/SG_EER_Offre_Paiement_Retrait.page-meta.xml
+ create mode 100644 pages/SG_EER_Offre_Paiement_TrouverAgPhysique.page
+ create mode 100644 pages/SG_EER_Offre_Paiement_TrouverAgPhysique.page-meta.xml
+ create mode 100644 pages/SG_EER_Offre_Parrainage_AD.page
+ create mode 100644 pages/SG_EER_Offre_Parrainage_AD.page-meta.xml
+ create mode 100644 pages/SG_EER_Offre_Popup.page
+ create mode 100644 pages/SG_EER_Offre_Popup.page-meta.xml
+ create mode 100644 pages/SG_EER_Offre_Trouver_Agence_Physique.page
+ create mode 100644 pages/SG_EER_Offre_Trouver_Agence_Physique.page-meta.xml
+ create mode 100644 pages/SG_EER_PJ_Popup.page
+ create mode 100644 pages/SG_EER_PJ_Popup.page-meta.xml
+ create mode 100644 pages/SG_EER_PageDeGarde.page
+ create mode 100644 pages/SG_EER_PageDeGarde.page-meta.xml
+ create mode 100644 pages/SG_EER_PaiementChoixCarte.page
+ create mode 100644 pages/SG_EER_PaiementChoixCarte.page-meta.xml
+ create mode 100644 pages/SG_EER_Popup_Wcb.page
+ create mode 100644 pages/SG_EER_Popup_Wcb.page-meta.xml
+ create mode 100644 pages/SG_EER_ProchainesEtapesEtudeEnvoiRdv.page
+ create mode 100644 pages/SG_EER_ProchainesEtapesEtudeEnvoiRdv.page-meta.xml
+ create mode 100644 pages/SG_EER_ProchainesEtapesPJustificatives.page
+ create mode 100644 pages/SG_EER_ProchainesEtapesPJustificatives.page-meta.xml
+ create mode 100644 pages/SG_EER_RecapitulatifVersementOuverture.page
+ create mode 100644 pages/SG_EER_RecapitulatifVersementOuverture.page-meta.xml
+ create mode 100644 pages/SG_EER_Recapitulatif_Question_Secrete.page
+ create mode 100644 pages/SG_EER_Recapitulatif_Question_Secrete.page-meta.xml
+ create mode 100644 pages/SG_EER_Recapitulatif_Recapitulatif.page
+ create mode 100644 pages/SG_EER_Recapitulatif_Recapitulatif.page-meta.xml
+ create mode 100644 pages/SG_EER_Recapitulatif_Recapitulatif_RO.page
+ create mode 100644 pages/SG_EER_Recapitulatif_Recapitulatif_RO.page-meta.xml
+ create mode 100644 pages/SG_EER_Vous_Adresse_Residence_Fiscale.page
+ create mode 100644 pages/SG_EER_Vous_Adresse_Residence_Fiscale.page-meta.xml
+ create mode 100644 pages/SG_EER_Vous_Hebergement.page
+ create mode 100644 pages/SG_EER_Vous_Hebergement.page-meta.xml
+ create mode 100644 pages/SG_EER_Vous_Naissance.page
+ create mode 100644 pages/SG_EER_Vous_Naissance.page-meta.xml
+ create mode 100644 pages/SG_EER_Vous_Patrimoine.page
+ create mode 100644 pages/SG_EER_Vous_Patrimoine.page-meta.xml
+ create mode 100644 pages/SG_EER_Vous_Pourquoi_Nous.page
+ create mode 100644 pages/SG_EER_Vous_Pourquoi_Nous.page-meta.xml
+ create mode 100644 pages/SG_EER_Vous_Question_Secrete.page
+ create mode 100644 pages/SG_EER_Vous_Question_Secrete.page-meta.xml
+ create mode 100644 pages/SG_EER_Vous_Revenus_Annuels.page
+ create mode 100644 pages/SG_EER_Vous_Revenus_Annuels.page-meta.xml
+ create mode 100644 pages/SG_EER_Vous_Revenus_Domiciliation.page
+ create mode 100644 pages/SG_EER_Vous_Revenus_Domiciliation.page-meta.xml
+ create mode 100644 pages/SG_EER_Vous_Situation_De_Famille.page
+ create mode 100644 pages/SG_EER_Vous_Situation_De_Famille.page-meta.xml
+ create mode 100644 pages/SG_EER_Vous_Statut_Professionnel.page
+ create mode 100644 pages/SG_EER_Vous_Statut_Professionnel.page-meta.xml
+ create mode 100644 pages/SG_EER_Vous_Vos_Coordonnees.page
+ create mode 100644 pages/SG_EER_Vous_Vos_Coordonnees.page-meta.xml
+ create mode 100644 pages/SG_LienEvermaps.page
+ create mode 100644 pages/SG_LienEvermaps.page-meta.xml
+ create mode 100644 pages/SG_Step1.page
+ create mode 100644 pages/SG_Step1.page-meta.xml
+ create mode 100644 pages/SG_Step2_3.page
+ create mode 100644 pages/SG_Step2_3.page-meta.xml
+ create mode 100644 pages/SG_Step4.page
+ create mode 100644 pages/SG_Step4.page-meta.xml
+ create mode 100644 pages/SiteLogin.page
+ create mode 100644 pages/SiteLogin.page-meta.xml
+ create mode 100644 pages/SiteRegister.page
+ create mode 100644 pages/SiteRegister.page-meta.xml
+ create mode 100644 pages/SiteRegisterConfirm.page
+ create mode 100644 pages/SiteRegisterConfirm.page-meta.xml
+ create mode 100644 pages/SiteTemplate.page
+ create mode 100644 pages/SiteTemplate.page-meta.xml
+ create mode 100644 pages/StdExceptionTemplate.page
+ create mode 100644 pages/StdExceptionTemplate.page-meta.xml
+ create mode 100644 pages/Unauthorized.page
+ create mode 100644 pages/Unauthorized.page-meta.xml
+ create mode 100644 pages/UnderConstruction.page
+ create mode 100644 pages/UnderConstruction.page-meta.xml
+ create mode 100644 pages/leadcap__Lead_Capture.page
+ create mode 100644 pages/leadcap__Lead_Capture.page-meta.xml
+ create mode 100644 pathAssistants/Default.pathAssistant
+ create mode 100644 pathAssistants/Default_Opportunity.pathAssistant
+ create mode 100644 permissionsets/Acces_Tchat_relation_digital.permissionset
+ create mode 100644 permissionsets/EmailTemplateAdmin.permissionset
+ create mode 100644 permissionsets/Salesforce_Lead_Capture.permissionset
+ create mode 100644 permissionsets/sos4.permissionset
+ create mode 100644 permissionsets/sosagents.permissionset
+ create mode 100644 profiles/Admin.profile
+ create mode 100644 profiles/Chatter External User.profile
+ create mode 100644 profiles/Chatter Free User.profile
+ create mode 100644 profiles/Chatter Moderator User.profile
+ create mode 100644 profiles/ContractManager.profile
+ create mode 100644 profiles/Customer Community Plus Login User.profile
+ create mode 100644 profiles/Guest License User.profile
+ create mode 100644 profiles/MarketingProfile.profile
+ create mode 100644 profiles/Profil EER%40AD.profile
+ create mode 100644 profiles/Profil PriseRDV.profile
+ create mode 100644 "profiles/Profil Soci\303\251t\303\251 G\303\251n\303\251rale.profile"
+ create mode 100644 profiles/ReadOnly.profile
+ create mode 100644 profiles/SG ATI.profile
+ create mode 100644 profiles/SG Administrateur.profile
+ create mode 100644 profiles/SG CCm.profile
+ create mode 100644 profiles/SG MOA.profile
+ create mode 100644 profiles/SG Manager Site.profile
+ create mode 100644 profiles/SG Web analytics.profile
+ create mode 100644 profiles/SG_EER_Customer Community Plus Login User.profile
+ create mode 100644 profiles/SolutionManager.profile
+ create mode 100644 profiles/Standard.profile
+ create mode 100644 queues/Mail_r_ponse_fournir.queue
+ create mode 100644 queues/SG_EER_FileAttente_BackOffice.queue
+ create mode 100644 queues/SG_EER_FileAttente_FrontOffice.queue
+ create mode 100644 queues/SG_EER_FiledAttenteTchat.queue
+ create mode 100644 queues/SG_FileAttenteGenerique.queue
+ create mode 100644 queues/SG_FileAttenteTchat.queue
+ create mode 100644 queues/SOSQueue.queue
+ create mode 100644 quickActions/Account.Child_Account.quickAction
+ create mode 100644 quickActions/Campaign.Child_Campaign.quickAction
+ create mode 100644 quickActions/Case.NewChildCase.quickAction
+ create mode 100644 quickActions/CollaborationGroup.NewGroupMember.quickAction
+ create mode 100644 quickActions/CollaborationGroup.NewGroupRecord.quickAction
+ create mode 100644 quickActions/FeedItem.NewTaskFromFeedItem.quickAction
+ create mode 100644 quickActions/Follow_Up.quickAction
+ create mode 100644 quickActions/LogACall.quickAction
+ create mode 100644 quickActions/NewAccount.quickAction
+ create mode 100644 quickActions/NewCase.quickAction
+ create mode 100644 quickActions/NewContact.quickAction
+ create mode 100644 quickActions/NewEvent.quickAction
+ create mode 100644 quickActions/NewGroup.quickAction
+ create mode 100644 quickActions/NewLead.quickAction
+ create mode 100644 quickActions/NewOpportunity.quickAction
+ create mode 100644 quickActions/NewTask.quickAction
+ create mode 100644 quickActions/Quote.SendEmail.quickAction
+ create mode 100644 quickActions/SendEmail.quickAction
+ create mode 100644 quickActions/Task.Defer.quickAction
+ create mode 100644 quickActions/Task.Defer_0.quickAction
+ create mode 100644 quickActions/Task.Defer_1.quickAction
+ create mode 100644 quickActions/Task.Defer_2.quickAction
+ create mode 100644 quickActions/Task.Defer_3.quickAction
+ create mode 100644 quickActions/Task.EditDescription.quickAction
+ create mode 100644 quickActions/Task.EditDescription_0.quickAction
+ create mode 100644 quickActions/Task.EditDescription_1.quickAction
+ create mode 100644 quickActions/Task.EditDescription_2.quickAction
+ create mode 100644 quickActions/Task.EditDescription_3.quickAction
+ create mode 100644 quickActions/Task.UpdatePriority.quickAction
+ create mode 100644 quickActions/Task.UpdatePriority_0.quickAction
+ create mode 100644 quickActions/Task.UpdatePriority_1.quickAction
+ create mode 100644 quickActions/Task.UpdatePriority_2.quickAction
+ create mode 100644 quickActions/Task.UpdatePriority_3.quickAction
+ create mode 100644 quickActions/Task.UpdateStatus.quickAction
+ create mode 100644 quickActions/Task.UpdateStatus_0.quickAction
+ create mode 100644 quickActions/Task.UpdateStatus_1.quickAction
+ create mode 100644 quickActions/Task.UpdateStatus_2.quickAction
+ create mode 100644 quickActions/Task.UpdateStatus_3.quickAction
+ create mode 100644 reportTypes/Discussion_tchat.reportType
+ create mode 100644 reportTypes/Fiches_abandonn_es.reportType
+ create mode 100644 reportTypes/R_f_rentiels.reportType
+ create mode 100644 reportTypes/Requetes_plage_horaire_agence.reportType
+ create mode 100644 reportTypes/SG_ActivitesOmniChanneldesAgents.reportType
+ create mode 100644 reportTypes/SG_ActivitesUserPresencedesAgents01.reportType
+ create mode 100644 reportTypes/SG_ActivitsLiveAgentSessionsdesAgents.reportType
+ create mode 100644 reportTypes/SG_ActivitsLiveChatTranscdesAgents.reportType
+ create mode 100644 reportTypes/Tobefficent.reportType
+ create mode 100644 reportTypes/les_fiches_agences.reportType
+ create mode 100644 reportTypes/sites_reporting__Site_Usage_Reports.reportType
+ create mode 100644 reportTypes/test.reportType
+ create mode 100644 reports/CLH_stats_all_g_es_abs_PAU/Fiches_non_relan_ables.report
+ create mode 100644 reports/CLH_stats_all_g_es_abs_PAU/Nb_de_fiches_cr_es_par_origine1.report
+ create mode 100644 reports/CLH_stats_all_g_es_abs_PAU/Nb_de_rdv_pris_par_canal_hors_EIP.report
+ create mode 100644 reports/CLH_stats_all_g_es_abs_PAU/Nb_de_rdv_pris_par_origine.report
+ create mode 100644 reports/CLH_stats_all_g_es_abs_PAU/Nb_de_tchats_trait_s1.report
+ create mode 100644 reports/Catherine/CONVERS_TCHAT.report
+ create mode 100644 reports/Catherine/EER2_Motif_de_cl_ture_des_fiches.report
+ create mode 100644 reports/Catherine/EER_Statut_des_fiches_re_ues.report
+ create mode 100644 reports/Catherine/ER_Origine_des_EER_par_canal.report
+ create mode 100644 reports/Catherine/Nb_de_fiches_cr_es_par_origine.report
+ create mode 100644 reports/Catherine/Nb_de_rdv_rdv_pris_par_canal_hors_eip.report
+ create mode 100644 reports/Catherine/Rdv_joints.report
+ create mode 100644 reports/Catherine/Rdv_nb_de_formulaires_mois_m_1.report
+ create mode 100644 reports/Catherine/Tchat_d_lais.report
+ create mode 100644 reports/Catherine/rdv_Nb_de_rdv_pris_par_origine.report
+ create mode 100644 reports/Catherine/rdv_fiches_non_relan_ables.report
+ create mode 100644 reports/Catherine/rdv_nb_rdv_par_r_sultat_relance_tr1.report
+ create mode 100644 reports/Catherine/rdv_nb_rdv_par_r_sultat_relance_tr2.report
+ create mode 100644 reports/Catherine/rdv_nb_rdv_par_r_sultat_relance_tr3.report
+ create mode 100644 reports/Catherine/rdv_r_sultats_tour_1.report
+ create mode 100644 reports/Catherine/rdv_r_sultats_tour_2.report
+ create mode 100644 reports/Catherine/rdv_r_sultats_tour_3.report
+ create mode 100644 reports/Catherine/tchat_d_lais_de_r_ponse.report
+ create mode 100644 reports/DashboardReportsAdoption/UsageActivitiesCompleted.report
+ create mode 100644 reports/Gouvernance/Middle_office_stock_dossiers_traiter.report
+ create mode 100644 reports/Gouvernance/PA_stock_fiches_rdv_tour1.report
+ create mode 100644 reports/Gouvernance/PA_stock_fiches_rdv_tour2.report
+ create mode 100644 reports/Gouvernance/PA_stock_fiches_rdv_tour3.report
+ create mode 100644 reports/Gouvernance/Stock_appels_accompagnement1.report
+ create mode 100644 reports/Gouvernance/Stock_appels_compl_tude_KO1.report
+ create mode 100644 reports/Gouvernance/Stock_appels_de_bienvenue.report
+ create mode 100644 reports/Gouvernance/Stocks_appels_c_l_bration.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/Case_en_attente_de_d_lai_de.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/D_tails_des_offres.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/EERAD_Nb_de_demandes_initi_es_par_jour.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/Etat_des_demandes_EER_D.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/Etat_des_demandes_en_cours_sur_le_site.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/Fiches_par_propri_taire.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/Nombre_de_demandes_initi_es_par_jour.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/Pilotage_Stock_EER.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/Qualit_fiches_EER_dans_en_process_RDV.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/R_partition_des_demandes_AD_R_seau.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/SG_EERCanalDemandesTchatVsOther.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/SG_EERDelaiOuvertureCloture.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/SG_EERDemandeParProprietaire.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/SG_EEROrigineDesDemandes.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/SG_EERPilotageFroidStatutSousStatut.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/SG_EERTableauProspectFiches.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/Test_Matthieu.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/Volume_EER_non_bancarise.report
+ create mode 100644 reports/SG_EERReportingEERADLancement/Volume_EER_non_eligible.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/Opportunity_Amount_by_Stage_Sample.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportActiveUsers.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportCasesStatusbyRep.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportCompletedActivities.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportCustomReportsbyUser.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportDocumentLibrary.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportLastModifiedBy.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportLeadsbyLeadSource.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportLoginLeaderboard.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportLoginWallofShame.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportMonthtoDateTrending.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportOpenCasesByPriority.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportPipelineHistory.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportSalesLeaderboard.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportSolutionsAdded.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportUsersLoggedIn.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportofAccounts.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportofCases.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportofContacts.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportofDocuments.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportofLeads.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportofOpenTasks.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportofOpportunities.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportofReports.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportofSolutions.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportofTasksandActivities.report
+ create mode 100644 reports/SG_Rapports_D_plac_s_du_Folder_Public/SampleReportsLeadsbyStatus.report
+ create mode 100644 reports/SG_Recette/Building_Dur_e_Statut_par_Utilisateur.report
+ create mode 100644 reports/SG_Recette/Etat_global_des_tickets_valid_s_par_ITIM.report
+ create mode 100644 reports/SG_Recette/Export_fiches.report
+ create mode 100644 reports/SG_Recette/SG_EERTicketsSupport_Lot_2.report
+ create mode 100644 reports/SG_Recette/SG_EtatDesticketsSG.report
+ create mode 100644 reports/SG_Recette/SG_TicketCreeParJour.report
+ create mode 100644 reports/SG_Recette/SG_TicketParqualification.report
+ create mode 100644 reports/SG_Recette/SG_TicketsSupport.report
+ create mode 100644 reports/SG_Recette/SG_ValideParItim.report
+ create mode 100644 reports/SG_Recette/SupportLot1_Etat.report
+ create mode 100644 reports/SG_Recette/Temps_Moyen_CCM.report
+ create mode 100644 reports/SG_VISION_SITES/TEST_Activites.report
+ create mode 100644 reports/SG_VISION_SITES/TEST_Activites_sem_MARSEILLE.report
+ create mode 100644 reports/SG_VISION_SITES/TEST_CCm.report
+ create mode 100644 reports/SG_VISION_SITES/TEST_LYON_CLOTURE.report
+ create mode 100644 reports/SG_VISION_SITES/TEST_LYON_ORIGINE.report
+ create mode 100644 reports/SG_VISION_SITES/TEST_MARSEILLE_ORIGINE.report
+ create mode 100644 reports/SG_VISION_SITES/TEST_MARSEILLE_STATUT.report
+ create mode 100644 reports/Sales_Marketing_Reports/Closed_Lost_by_Reason.report
+ create mode 100644 reports/Sales_Marketing_Reports/Closed_Won_80_This_Q_by_Owner.report
+ create mode 100644 reports/Sales_Marketing_Reports/Closed_Won_This_Q_by_Owner.report
+ create mode 100644 reports/Sales_Marketing_Reports/Closed_Won_This_Q_by_Type.report
+ create mode 100644 reports/Sales_Marketing_Reports/Closed_Won_by_Type.report
+ create mode 100644 reports/Sales_Marketing_Reports/Conversion_Rate.report
+ create mode 100644 reports/Sales_Marketing_Reports/Hot_Leads_w_o_Activity_96_Hours.report
+ create mode 100644 reports/Sales_Marketing_Reports/Leads_Converted_All_Time.report
+ create mode 100644 reports/Sales_Marketing_Reports/Leads_Converted_Current_FQ2.report
+ create mode 100644 reports/Sales_Marketing_Reports/Leads_Converted_by_FQ.report
+ create mode 100644 reports/Sales_Marketing_Reports/Leads_Created_Current_FQ.report
+ create mode 100644 reports/Sales_Marketing_Reports/Open_Oppties_This_Q.report
+ create mode 100644 reports/Sales_Marketing_Reports/Open_Oppties_This_Q_No_Acti_Last_96hrs.report
+ create mode 100644 reports/Sales_Marketing_Reports/Pipeline_Report_This_Q.report
+ create mode 100644 reports/Sales_Marketing_Reports/Win_Ratio.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Activities_by_Salesperson.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/CampaignROIbyCampaignType.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/CampaignsbyROI.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Closed_Deals_leader_board.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Closed_opportunity.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Leads_by_Industry.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/LeadsbySource.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Marketing_Exec_Amount_per_Camp.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Marketing_Exec_Conversion_Rate.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Marketing_Exec_Converted_Amount.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Marketing_Exec_Converted_and_Won_Amount.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Marketing_Exec_Converted_by_Month.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Marketing_Exec_Lead_Trends_by_Status.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Marketing_Exec_Leads_Converted.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Marketing_Exec_Leads_by_Campaigns.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Marketing_Exec_of_Leads.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/OpportunityProductPipeline.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/SP_Current_Month_Open_Pipeline.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Exec.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Exec_Bookings_Trend.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Exec_Closed_Deals_QTD.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Exec_Lost_Deals.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Exec_Open_Deals.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Exec_Open_Pipeline.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Exec_Open_Pipeline_next_90_days.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Exec_Top_Closed_Deals.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Manager_Closed_Deals.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Manager_Open_Opportunities.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Manager_Open_Pipeline.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Manager_Pipeline_Next_90_days.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Person_Activities_Completed.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Person_Activity.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Person_MTD_Sales.report
+ create mode 100644 reports/Sales_and_Marketing_Reports/Sales_Person_Open_Pipeline_by_stage.report
+ create mode 100644 reports/Service_Dashboards_Reports/Age_of_Cases_Currently_Open_by_Type.report
+ create mode 100644 reports/Service_Dashboards_Reports/Aged_Cases_by_Account.report
+ create mode 100644 reports/Service_Dashboards_Reports/Aged_Cases_by_Agent.report
+ create mode 100644 reports/Service_Dashboards_Reports/Average_Case_Resolution_Time_1.report
+ create mode 100644 reports/Service_Dashboards_Reports/Average_Case_Resolution_Time_MTD.report
+ create mode 100644 reports/Service_Dashboards_Reports/Avg_Case_Resolution_Time_MTD_by_Agen.report
+ create mode 100644 reports/Service_Dashboards_Reports/Case_Resolution_Time_MTD_by_Origin.report
+ create mode 100644 reports/Service_Dashboards_Reports/Cases_Closed_MTD.report
+ create mode 100644 reports/Service_Dashboards_Reports/Cases_Closed_MTD_by_Agent.report
+ create mode 100644 reports/Service_Dashboards_Reports/Cases_Created_MTD.report
+ create mode 100644 reports/Service_Dashboards_Reports/Cases_Currently_Open.report
+ create mode 100644 reports/Service_Dashboards_Reports/Cases_Currently_Open_by_Account.report
+ create mode 100644 reports/Service_Dashboards_Reports/Cases_Currently_Open_by_Agent.report
+ create mode 100644 reports/Service_Dashboards_Reports/Cases_Currently_Open_by_Origin.report
+ create mode 100644 reports/Service_Dashboards_Reports/Cases_Currently_Open_by_Priority.report
+ create mode 100644 reports/Service_Dashboards_Reports/Cases_Currently_Open_by_Type.report
+ create mode 100644 reports/Service_Dashboards_Reports/Cases_by_Origin.report
+ create mode 100644 reports/Service_Dashboards_Reports/Cases_by_Origin_and_Open_Status.report
+ create mode 100644 reports/Service_Dashboards_Reports/Cases_by_Priority.report
+ create mode 100644 reports/Service_Dashboards_Reports/Cases_by_Type_and_Open_Status.report
+ create mode 100644 reports/Service_Dashboards_Reports/High_Priority_Open_Cases_by_Account.report
+ create mode 100644 reports/Service_Dashboards_Reports/Top_10_Cases_by_Age.report
+ create mode 100644 reports/Service_Dashboards_Reports/Trend_of_Case_Resolution_Time.report
+ create mode 100644 reports/Service_Dashboards_Reports/Trend_of_Cases_Closed.report
+ create mode 100644 reports/Service_Dashboards_Reports/Trend_of_Cases_Created.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/CCm_omnichannel_position.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/Demandes_d_EERAD_en_gestion.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/EER_D_fiches_EER_en_File_relance_Rdv.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/Etat_des_fiches_cl_tur_es.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/Etat_des_fiches_ouvertes.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/File_EER_1_Front_Office_traiter.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/File_EER_2_Middle_Office_traiter.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/File_RDV_Relances_traiter_et_retards.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/PA_tps_r_el_fiches_traiter_selon_urg.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/PA_tps_r_el_rappels_progr_sem_en_cours.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/Pilotage_stock_EER_D.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/Qualit_Fiches_RDV_en_process_EER.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/RDV_fiches_Rdv_en_BackOffice_EER_D.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/RDV_fiches_Rdv_en_FrontOffice_EER_D.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/Tps_r_el_relances_2_effectu_es.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/Tps_r_el_relances_3_effectu_es.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/Tps_r_el_stock_fiches_non_trait_es.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/assignation_temps_r_el.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/fiches_rebasculer.report
+ create mode 100644 reports/Sites_Pilotage_temps_r_el/tps_r_el_relances_1_effectu_es.report
+ create mode 100644 reports/Sites_pilotage_en_temps_diff_r/EERAD_Nb_de_demandes_initi_es_par_jour2.report
+ create mode 100644 reports/Sites_pilotage_en_temps_diff_r/EER_RDV_Nb_de_demandes_par_jour1.report
+ create mode 100644 reports/Sites_pilotage_en_temps_diff_r/EER_RDV_Nb_de_traitements.report
+ create mode 100644 reports/Sites_pilotage_en_temps_diff_r/Liste_EER_D.report
+ create mode 100644 reports/Sites_pilotage_en_temps_diff_r/Nb_de_tchats_trait_s.report
+ create mode 100644 reports/Sites_pilotage_en_temps_diff_r/RDV_clotures.report
+ create mode 100644 reports/Sites_pilotage_en_temps_diff_r/RDV_clotures_par_sites.report
+ create mode 100644 reports/Sites_pilotage_en_temps_diff_r/RDV_pris_par_site1.report
+ create mode 100644 reports/Sites_pilotage_en_temps_diff_r/Statut_des_fiches_re_ues.report
+ create mode 100644 reports/Sites_pilotage_en_temps_diff_r/TCHATS_Nb_de_tchats_trait_s.report
+ create mode 100644 reports/Tchat_relation_digitale/Tchat_Relation_digitale.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/EERAD_Nb_de_demandes_initi_es_par_jour1.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/EER_D_demandes_hors_file_FrontOffice.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/EER_D_fiches_EER_en_File_relance_Rdv1.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/File_EER1_Front_attente_retour_dossier.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/File_EER1_Front_off_traiter_new.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/File_EER1_Front_v_rifier.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/File_EER_1_Front_office_traiter_new.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/File_EER_1_Front_office_traiter_tr2.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/File_EER_1_Front_office_traiter_tr3.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/File_EER_2_Middle_Ddes_Fin_traiter.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/File_EER_2_Middle_SAUF_Ddes_Finalis_es.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/File_EER_nouvelles_demandes.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/Middle_office_stock_dossiers_tariter.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/Motif_de_cl_ture_des_fiches.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/Pilotage_stock_EER_D1.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/Stock_appels_de_bienvenue_hors_Front.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_EER_D/saisie_manuelle_non_finalis_e.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_RDV/EER_RDV_Nb_de_demandes_par_jour.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_RDV/File_RDV_relances_traiter_et_retards1.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_RDV/RDV_admin_fiches_CC2.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_RDV/RDV_fiches_Rdv_en_BackOffice_EER_D1.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_RDV/RDV_fiches_Rdv_en_FrontOffice_EER_D1.report
+ create mode 100644 reports/Tps_r_el_pilotage_file_RDV/RDV_tat_des_fiches_ouvertes.report
+ create mode 100644 reports/sites_reporting__Site_Usage_Reports/sites_reporting__Current_Period_Page_Views.report
+ create mode 100644 reports/sites_reporting__Site_Usage_Reports/sites_reporting__Daily_Total_Bandwidth_Usage.report
+ create mode 100644 reports/sites_reporting__Site_Usage_Reports/sites_reporting__Daily_Total_Page_Views.report
+ create mode 100644 reports/sites_reporting__Site_Usage_Reports/sites_reporting__Site_Daily_Origin_Bandwidth_Usage.report
+ create mode 100644 reports/sites_reporting__Site_Usage_Reports/sites_reporting__Site_Daily_Request_Time_Usage.report
+ create mode 100644 reports/sites_reporting__Site_Usage_Reports/sites_reporting__Top_Bandwidth_Consuming_Sites.report
+ create mode 100644 reports/sites_reporting__Site_Usage_Reports/sites_reporting__Top_Resource_Consuming_Sites.report
+ create mode 100644 reports/sites_reporting__Site_Usage_Reports/sites_reporting__Top_Sites_by_Page_Views.report
+ create mode 100644 reports/unfiled$public/Alexis.report
+ create mode 100644 reports/unfiled$public/All_prospects.report
+ create mode 100644 reports/unfiled$public/Demande_Nicolas.report
+ create mode 100644 reports/unfiled$public/EER_PA_Nb_total_de_fiches_cr_es_2.report
+ create mode 100644 reports/unfiled$public/Limitation_1000.report
+ create mode 100644 reports/unfiled$public/MAP_Bilan_demarrage.report
+ create mode 100644 reports/unfiled$public/Motifs_des_demandes.report
+ create mode 100644 reports/unfiled$public/Nombre_de_prospect_par_agence.report
+ create mode 100644 reports/unfiled$public/RDV_abandonn_es_de_facebook.report
+ create mode 100644 reports/unfiled$public/RDV_pris_par_site.report
+ create mode 100644 reports/unfiled$public/Rapport_paubry_092016_public.report
+ create mode 100644 reports/unfiled$public/SG_AssignationFiches.report
+ create mode 100644 reports/unfiled$public/SG_Clotureparsite2.report
+ create mode 100644 reports/unfiled$public/SG_CumuleClotureParsite.report
+ create mode 100644 reports/unfiled$public/SG_EtatFichesCloturees.report
+ create mode 100644 reports/unfiled$public/SG_FichesClotureeSansMotif.report
+ create mode 100644 reports/unfiled$public/SG_Fichesouvertes.report
+ create mode 100644 reports/unfiled$public/SG_NonRelancableVsNonRenseigne.report
+ create mode 100644 reports/unfiled$public/SG_Omnichannel_position1.report
+ create mode 100644 reports/unfiled$public/SG_RapportGlobalPOPPART.report
+ create mode 100644 reports/unfiled$public/SG_RapportOriginelPOPPART.report
+ create mode 100644 reports/unfiled$public/SG_Suivi_promesse.report
+ create mode 100644 reports/unfiled$public/SG_TopClosePeople.report
+ create mode 100644 reports/unfiled$public/SG_UserPresence_Agent_V2_Public.report
+ create mode 100644 reports/unfiled$public/TEST_CAMPAGNE_SOURCE_WEB.report
+ create mode 100644 reports/unfiled$public/TEST_OMNICHANNEL.report
+ create mode 100644 reports/unfiled$public/TEST_OMNICHANNEL_TPS_REEL.report
+ create mode 100644 reports/unfiled$public/TEST_RDV_HEBDO.report
+ create mode 100644 reports/unfiled$public/TEST_RITCHY.report
+ create mode 100644 reports/unfiled$public/TEST_STATUTS.report
+ create mode 100644 reports/unfiled$public/TEST_STOCK_CANAL.report
+ create mode 100644 reports/unfiled$public/Test_activit_CCm_par_date.report
+ create mode 100644 reports/unfiled$public/Utilisateur_avec_licence.report
+ create mode 100644 reports/unfiled$public/alexis_2_eer_D_poppart.report
+ create mode 100644 reports/unfiled$public/alexis_eer_D_poppart.report
+ create mode 100644 reports/unfiled$public/analyse_shoot_test.report
+ create mode 100644 reports/unfiled$public/rapport_acquisition_alexis.report
+ create mode 100644 roles/AMEClientComptepersonnel.role
+ create mode 100644 roles/AMOClientComptepersonnel.role
+ create mode 100644 roles/BGIClientComptepersonnel.role
+ create mode 100644 roles/CEO.role
+ create mode 100644 roles/CMEClientComptepersonnel.role
+ create mode 100644 roles/Conseiller_Client_le_multim_dia_Lyon.role
+ create mode 100644 roles/Conseiller_Client_le_multim_dia_Marseille.role
+ create mode 100644 roles/Directeur_CRCm_Global.role
+ create mode 100644 roles/Directeur_CRCm_Lyon.role
+ create mode 100644 roles/Directeur_CRCm_Marseille.role
+ create mode 100644 roles/EROClientComptepersonnel.role
+ create mode 100644 roles/ESAClientComptepersonnel.role
+ create mode 100644 roles/JBAClientComptepersonnel.role
+ create mode 100644 roles/JCAClientComptepersonnel.role
+ create mode 100644 roles/JCHAClientComptepersonnel.role
+ create mode 100644 roles/MCAClientComptepersonnel.role
+ create mode 100644 roles/MCOClientComptepersonnel.role
+ create mode 100644 roles/NDAClientComptepersonnel.role
+ create mode 100644 roles/NROClientComptepersonnel.role
+ create mode 100644 roles/ODUClientComptepersonnel.role
+ create mode 100644 roles/Responsable_Equipe_Lyon.role
+ create mode 100644 roles/Responsable_Equipe_Marseille.role
+ create mode 100644 roles/Responsable_Unit_Op_rationnelle.role
+ create mode 100644 roles/Responsable_Unit_Op_rationnelle_Lyon.role
+ create mode 100644 roles/TBEClientComptepersonnel.role
+ create mode 100644 roles/aboufClientComptepersonnel.role
+ create mode 100644 roles/cjamaClientComptepersonnel.role
+ create mode 100644 roles/contClientComptepersonnel.role
+ create mode 100644 roles/cviriClientComptepersonnel.role
+ create mode 100644 roles/dbrajClientComptepersonnel.role
+ create mode 100644 roles/eboriClientComptepersonnel.role
+ create mode 100644 roles/eguilClientComptepersonnel.role
+ create mode 100644 roles/fladoClientComptepersonnel.role
+ create mode 100644 roles/graynClientComptepersonnel.role
+ create mode 100644 roles/jaribClientComptepersonnel.role
+ create mode 100644 roles/mbonnClientComptepersonnel.role
+ create mode 100644 roles/mdelmClientComptepersonnel.role
+ create mode 100644 roles/mduarClientComptepersonnel.role
+ create mode 100644 roles/rrousClientComptepersonnel.role
+ create mode 100644 roles/rtambClientComptepersonnel.role
+ create mode 100644 roles/rviolClientComptepersonnel.role
+ create mode 100644 roles/sboumClientComptepersonnel.role
+ create mode 100644 roles/ugeneClientComptepersonnel.role
+ create mode 100644 settings/Account.settings
+ create mode 100644 settings/Activities.settings
+ create mode 100644 settings/Address.settings
+ create mode 100644 settings/BusinessHours.settings
+ create mode 100644 settings/Case.settings
+ create mode 100644 settings/ChatterAnswers.settings
+ create mode 100644 settings/Company.settings
+ create mode 100644 settings/Contract.settings
+ create mode 100644 settings/Entitlement.settings
+ create mode 100644 settings/Forecasting.settings
+ create mode 100644 settings/Ideas.settings
+ create mode 100644 settings/Knowledge.settings
+ create mode 100644 settings/LiveAgent.settings
+ create mode 100644 settings/Mobile.settings
+ create mode 100644 settings/Name.settings
+ create mode 100644 settings/Opportunity.settings
+ create mode 100644 settings/Order.settings
+ create mode 100644 settings/PathAssistant.settings
+ create mode 100644 settings/Product.settings
+ create mode 100644 settings/Quote.settings
+ create mode 100644 settings/Security.settings
+ create mode 100644 sharingRules/Account.sharingRules
+ create mode 100644 sharingRules/Asset.sharingRules
+ create mode 100644 sharingRules/Average_Time_CCM__c.sharingRules
+ create mode 100644 sharingRules/Campaign.sharingRules
+ create mode 100644 sharingRules/Case.sharingRules
+ create mode 100644 sharingRules/CaseSite__c.sharingRules
+ create mode 100644 sharingRules/Contact.sharingRules
+ create mode 100644 sharingRules/EER_Fiche_OrigineTchat__c.sharingRules
+ create mode 100644 sharingRules/GenericEmail__c.sharingRules
+ create mode 100644 sharingRules/Lead.sharingRules
+ create mode 100644 sharingRules/Log__c.sharingRules
+ create mode 100644 sharingRules/NonWorkingDay__c.sharingRules
+ create mode 100644 sharingRules/Opportunity.sharingRules
+ create mode 100644 sharingRules/Order.sharingRules
+ create mode 100644 sharingRules/Recette__c.sharingRules
+ create mode 100644 sharingRules/SG_EERContactSite__c.sharingRules
+ create mode 100644 sharingRules/SG_EERProduits__c.sharingRules
+ create mode 100644 sharingRules/SG_EER_REF__c.sharingRules
+ create mode 100644 sharingRules/SG_EER_Referentiel_PJ__c.sharingRules
+ create mode 100644 sharingRules/SG_EER_Type_PJ__c.sharingRules
+ create mode 100644 sharingRules/User.sharingRules
+ create mode 100644 siteDotComSites/Soci_t_G_n_rale1.site
+ create mode 100644 siteDotComSites/Soci_t_G_n_rale1.site-meta.xml
+ create mode 100644 sites/EER_AD.site
+ create mode 100644 sites/PriseRDV.site
+ create mode 100644 sites/Soci_t_G_n_rale.site
+ create mode 100644 skills/SG_Tchat.skill
+ create mode 100644 staticresources/MG2.resource
+ create mode 100644 staticresources/MG2.resource-meta.xml
+ create mode 100644 staticresources/SG_ARappelerLogo.resource
+ create mode 100644 staticresources/SG_ARappelerLogo.resource-meta.xml
+ create mode 100644 staticresources/SG_CoeurFavoris.resource
+ create mode 100644 staticresources/SG_CoeurFavoris.resource-meta.xml
+ create mode 100644 staticresources/SG_DeployJS.resource
+ create mode 100644 staticresources/SG_DeployJS.resource-meta.xml
+ create mode 100644 staticresources/SG_EERClotureOK.resource
+ create mode 100644 staticresources/SG_EERClotureOK.resource-meta.xml
+ create mode 100644 staticresources/SG_EERContractualisationEnCours.resource
+ create mode 100644 staticresources/SG_EERContractualisationEnCours.resource-meta.xml
+ create mode 100644 staticresources/SG_EERDelaiExecution.resource
+ create mode 100644 staticresources/SG_EERDelaiExecution.resource-meta.xml
+ create mode 100644 staticresources/SG_EERDemandeEncours.resource
+ create mode 100644 staticresources/SG_EERDemandeEncours.resource-meta.xml
+ create mode 100644 staticresources/SG_EERDemandeFinalisee.resource
+ create mode 100644 staticresources/SG_EERDemandeFinalisee.resource-meta.xml
+ create mode 100644 staticresources/SG_EERDossierRecu.resource
+ create mode 100644 staticresources/SG_EERDossierRecu.resource-meta.xml
+ create mode 100644 staticresources/SG_EERDossierVerifier.resource
+ create mode 100644 staticresources/SG_EERDossierVerifier.resource-meta.xml
+ create mode 100644 staticresources/SG_EERReouverture.resource
+ create mode 100644 staticresources/SG_EERReouverture.resource-meta.xml
+ create mode 100644 staticresources/SG_EER_LogoSG_Liasse.resource
+ create mode 100644 staticresources/SG_EER_LogoSG_Liasse.resource-meta.xml
+ create mode 100644 staticresources/SG_EER_UTIL.resource
+ create mode 100644 staticresources/SG_EER_UTIL.resource-meta.xml
+ create mode 100644 staticresources/SG_EER_V1.resource
+ create mode 100644 staticresources/SG_EER_V1.resource-meta.xml
+ create mode 100644 staticresources/SG_ERRClotureKO.resource
+ create mode 100644 staticresources/SG_ERRClotureKO.resource-meta.xml
+ create mode 100644 staticresources/SG_EtapierNouvelleDemande.resource
+ create mode 100644 staticresources/SG_EtapierNouvelleDemande.resource-meta.xml
+ create mode 100644 staticresources/SG_EtapierRDVNonOk.resource
+ create mode 100644 staticresources/SG_EtapierRDVNonOk.resource-meta.xml
+ create mode 100644 staticresources/SG_EtapierRDVOk.resource
+ create mode 100644 staticresources/SG_EtapierRDVOk.resource-meta.xml
+ create mode 100644 staticresources/SG_EtapierRelance1Effectuee.resource
+ create mode 100644 staticresources/SG_EtapierRelance1Effectuee.resource-meta.xml
+ create mode 100644 staticresources/SG_EtapierRelance2Effectuee.resource
+ create mode 100644 staticresources/SG_EtapierRelance2Effectuee.resource-meta.xml
+ create mode 100644 staticresources/SG_EtapierReponseParMail.resource
+ create mode 100644 staticresources/SG_EtapierReponseParMail.resource-meta.xml
+ create mode 100644 staticresources/SG_IndicateurRetard0.resource
+ create mode 100644 staticresources/SG_IndicateurRetard0.resource-meta.xml
+ create mode 100644 staticresources/SG_IndicateurRetard1.resource
+ create mode 100644 staticresources/SG_IndicateurRetard1.resource-meta.xml
+ create mode 100644 staticresources/SG_IndicateurRetard2.resource
+ create mode 100644 staticresources/SG_IndicateurRetard2.resource-meta.xml
+ create mode 100644 staticresources/SG_IndicateurRetard3.resource
+ create mode 100644 staticresources/SG_IndicateurRetard3.resource-meta.xml
+ create mode 100644 staticresources/SG_LogoSGTchat.resource
+ create mode 100644 staticresources/SG_LogoSGTchat.resource-meta.xml
+ create mode 100644 staticresources/SG_LogoSG_Chat.resource
+ create mode 100644 staticresources/SG_LogoSG_Chat.resource-meta.xml
+ create mode 100644 staticresources/SG_SiteSamples.resource
+ create mode 100644 staticresources/SG_SiteSamples.resource-meta.xml
+ create mode 100644 staticresources/SG_logo_societe_generale.resource
+ create mode 100644 staticresources/SG_logo_societe_generale.resource-meta.xml
+ create mode 100644 staticresources/SG_logo_societe_generale_baseline.resource
+ create mode 100644 staticresources/SG_logo_societe_generale_baseline.resource-meta.xml
+ create mode 100644 staticresources/SLDS_212.resource
+ create mode 100644 staticresources/SLDS_212.resource-meta.xml
+ create mode 100644 staticresources/SiteSamples.resource
+ create mode 100644 staticresources/SiteSamples.resource-meta.xml
+ create mode 100644 staticresources/bundle.resource
+ create mode 100644 staticresources/bundle.resource-meta.xml
+ create mode 100644 staticresources/jMaskedInput.resource
+ create mode 100644 staticresources/jMaskedInput.resource-meta.xml
+ create mode 100644 staticresources/logoEnvelopeStepper.resource
+ create mode 100644 staticresources/logoEnvelopeStepper.resource-meta.xml
+ create mode 100644 staticresources/logoMailBoxStepper.resource
+ create mode 100644 staticresources/logoMailBoxStepper.resource-meta.xml
+ create mode 100644 staticresources/logoUserCheckStepper.resource
+ create mode 100644 staticresources/logoUserCheckStepper.resource-meta.xml
+ create mode 100644 staticresources/prise_RDV.resource
+ create mode 100644 staticresources/prise_RDV.resource-meta.xml
+ create mode 100644 staticresources/redimensionned_logo_SocGen_developpons.resource
+ create mode 100644 staticresources/redimensionned_logo_SocGen_developpons.resource-meta.xml
+ create mode 100644 staticresources/spinJs.resource
+ create mode 100644 staticresources/spinJs.resource-meta.xml
+ create mode 100644 tabs/CaseSite__c.tab
+ create mode 100644 tabs/EER_Fiche_OrigineTchat__c.tab
+ create mode 100644 tabs/Horaires__c.tab
+ create mode 100644 tabs/Log__c.tab
+ create mode 100644 tabs/NonWorkingDay__c.tab
+ create mode 100644 tabs/Recette__c.tab
+ create mode 100644 tabs/SG_EERContactSite__c.tab
+ create mode 100644 tabs/SG_EERProduits__c.tab
+ create mode 100644 tabs/SG_EER_Civilite.tab
+ create mode 100644 tabs/SG_EER_Piecejustificative__c.tab
+ create mode 100644 tabs/SG_EER_REF__c.tab
+ create mode 100644 tabs/SG_EER_Referentiel_PJ__c.tab
+ create mode 100644 tabs/SG_EER_Type_PJ__c.tab
+ create mode 100644 tabs/leadcap__Lead_Capture.tab
+ create mode 100644 translations/en_US.translation
+ create mode 100644 translations/fr.translation
+ create mode 100644 triggers/CaseAfterInsert.trigger
+ create mode 100644 triggers/CaseAfterInsert.trigger-meta.xml
+ create mode 100644 triggers/CaseBeforeUpdate.trigger
+ create mode 100644 triggers/CaseBeforeUpdate.trigger-meta.xml
+ create mode 100644 triggers/SG_EERSendEmailNewAttachment.trigger
+ create mode 100644 triggers/SG_EERSendEmailNewAttachment.trigger-meta.xml
+ create mode 100644 triggers/SG_EER_ContactSiteUpdate.trigger
+ create mode 100644 triggers/SG_EER_ContactSiteUpdate.trigger-meta.xml
+ create mode 100644 triggers/SG_EER_InsertPersonAccFields.trigger
+ create mode 100644 triggers/SG_EER_InsertPersonAccFields.trigger-meta.xml
+ create mode 100644 triggers/SG_EER_PJ_Added.trigger
+ create mode 100644 triggers/SG_EER_PJ_Added.trigger-meta.xml
+ create mode 100644 triggers/SG_EER_UpdatePersonAccFields.trigger
+ create mode 100644 triggers/SG_EER_UpdatePersonAccFields.trigger-meta.xml
+ create mode 100644 workflows/Account.workflow
+ create mode 100644 workflows/Asset.workflow
+ create mode 100644 workflows/AssetRelationship.workflow
+ create mode 100644 workflows/AssistantProgress.workflow
+ create mode 100644 workflows/Average_Time_CCM__c.workflow
+ create mode 100644 workflows/Campaign.workflow
+ create mode 100644 workflows/CampaignMember.workflow
+ create mode 100644 workflows/Case.workflow
+ create mode 100644 workflows/CaseSite__c.workflow
+ create mode 100644 workflows/Contact.workflow
+ create mode 100644 workflows/Contract.workflow
+ create mode 100644 workflows/DuplicateRecordItem.workflow
+ create mode 100644 workflows/DuplicateRecordSet.workflow
+ create mode 100644 workflows/EER_Fiche_OrigineTchat__c.workflow
+ create mode 100644 workflows/EmailMessage.workflow
+ create mode 100644 workflows/Event.workflow
+ create mode 100644 workflows/ExchangeUserMapping.workflow
+ create mode 100644 workflows/FeedItem.workflow
+ create mode 100644 workflows/GenericEmail__c.workflow
+ create mode 100644 workflows/Horaires__c.workflow
+ create mode 100644 workflows/Idea.workflow
+ create mode 100644 workflows/Lead.workflow
+ create mode 100644 workflows/LiveAgentSession.workflow
+ create mode 100644 workflows/LiveChatTranscript.workflow
+ create mode 100644 workflows/LiveChatTranscriptEvent.workflow
+ create mode 100644 workflows/LiveChatTranscriptSkill.workflow
+ create mode 100644 workflows/Log__c.workflow
+ create mode 100644 workflows/Macro.workflow
+ create mode 100644 workflows/MacroAction.workflow
+ create mode 100644 workflows/MacroInstruction.workflow
+ create mode 100644 workflows/NonWorkingDay__c.workflow
+ create mode 100644 workflows/Opportunity.workflow
+ create mode 100644 workflows/OpportunityLineItem.workflow
+ create mode 100644 workflows/Order.workflow
+ create mode 100644 workflows/OrderItem.workflow
+ create mode 100644 workflows/Organization.workflow
+ create mode 100644 workflows/PendingServiceRouting.workflow
+ create mode 100644 workflows/Product2.workflow
+ create mode 100644 workflows/ProfileSkill.workflow
+ create mode 100644 workflows/ProfileSkillEndorsement.workflow
+ create mode 100644 workflows/ProfileSkillUser.workflow
+ create mode 100644 workflows/Question.workflow
+ create mode 100644 workflows/QuickText.workflow
+ create mode 100644 workflows/Quote.workflow
+ create mode 100644 workflows/QuoteLineItem.workflow
+ create mode 100644 workflows/Recette__c.workflow
+ create mode 100644 workflows/Reply.workflow
+ create mode 100644 workflows/SG_EERContactSite__c.workflow
+ create mode 100644 workflows/SG_EERProduits__c.workflow
+ create mode 100644 workflows/SG_EER_Piecejustificative__c.workflow
+ create mode 100644 workflows/SG_EER_REF__c.workflow
+ create mode 100644 workflows/SG_EER_Referentiel_PJ__c.workflow
+ create mode 100644 workflows/SG_EER_Type_PJ__c.workflow
+ create mode 100644 workflows/SOSSession.workflow
+ create mode 100644 workflows/SOSSessionActivity.workflow
+ create mode 100644 workflows/Site.workflow
+ create mode 100644 workflows/SocialPersona.workflow
+ create mode 100644 workflows/SocialPost.workflow
+ create mode 100644 workflows/Solution.workflow
+ create mode 100644 workflows/StreamingChannel.workflow
+ create mode 100644 workflows/Task.workflow
+ create mode 100644 workflows/User.workflow
+ create mode 100644 workflows/UserLicense.workflow
+ create mode 100644 workflows/UserServicePresence.workflow
+ create mode 100644 workflows/WorkBadge.workflow
+ create mode 100644 workflows/WorkBadgeDefinition.workflow
+ create mode 100644 workflows/WorkThanks.workflow
+To https://bitbucket.org/eyhuellou/sg_eer_v1_uat1.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+RetrieveAllFromOrg Finished !
+Finished: SUCCESS

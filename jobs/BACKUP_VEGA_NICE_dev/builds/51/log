@@ -1,0 +1,658 @@
+Started by timer
+Building in workspace /Users/eyhuellou/.jenkins/workspace/BACKUP_VEGA_NICE_dev
+[BACKUP_VEGA_NICE_dev] $ /bin/bash /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/hudson1859226263039540041.sh
+LAUNCH
+Starting RetrieveAllFromOrg
+/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/
+/Users/eyhuellou/Documents/BACKUP/ANT/apache-ant-1.9.8/
+Retrieving metadata from dev
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/EDF_B2B/POC/FOR_BACKUP/Salesforce_Deploy_Toolbox.xml
+
+generatePackageXml:
+     [echo] --------------dev
+     [echo] --------------package.xml
+     [echo] --------------42
+     [echo] List metadata of 'InstalledPackage'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-InstalledPackage-2072712280935609234.txt
+     [echo] List metadata of 'CustomLabels'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CustomLabels-8205646541770085708.txt
+     [echo] List metadata of 'CustomLabels child' called 'CustomLabel'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CustomLabel-4712270167905000996.txt
+     [echo] List metadata of 'StaticResource'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-StaticResource-4801082245412998033.txt
+     [echo] List metadata of 'Scontrol'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Scontrol-2836882674197611942.txt
+     [echo] List metadata of 'Certificate'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Certificate-2237495118985203934.txt
+     [echo] List metadata of 'AuraDefinitionBundle'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-AuraDefinitionBundle-2652016741275439388.txt
+     [echo] List metadata of 'LightningComponentBundle'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-LightningComponentBundle-6387235533165906540.txt
+     [echo] List metadata of 'ApexComponent'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ApexComponent-3126814223332205219.txt
+     [echo] List metadata of 'ApexPage'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ApexPage-4586367083508955605.txt
+     [echo] List metadata of 'Queue'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Queue-2852281403602308659.txt
+     [echo] List metadata of 'CaseSubjectParticle'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CaseSubjectParticle-3010266776283963731.txt
+     [echo] List metadata of 'ExternalDataSource'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ExternalDataSource-9008918115039554957.txt
+     [echo] List metadata of 'NamedCredential'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-NamedCredential-5525582875700899437.txt
+     [echo] List metadata of 'ExternalServiceRegistration'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ExternalServiceRegistration-2215546150521821661.txt
+     [echo] List metadata of 'Role'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Role-845643228932166630.txt
+     [echo] List metadata of 'Group'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Group-6603501760396697945.txt
+     [echo] List metadata of 'GlobalValueSet'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-GlobalValueSet-5776283613931891667.txt
+     [echo] List metadata of 'StandardValueSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-StandardValueSet-7386674357752160460.txt
+     [echo] List metadata of 'CustomPermission'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CustomPermission-5785220049868588816.txt
+     [echo] List metadata of 'CustomObject'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CustomObject-3073910311808306600.txt
+     [echo] List metadata of 'CustomObject child' called 'CustomField'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CustomField-8140562457303601589.txt
+     [echo] List metadata of 'CustomObject child' called 'Index'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Index-5313052513472033162.txt
+     [echo] List metadata of 'CustomObject child' called 'BusinessProcess'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-BusinessProcess-434437899889241263.txt
+     [echo] List metadata of 'CustomObject child' called 'CompactLayout'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CompactLayout-399092304473833735.txt
+     [echo] List metadata of 'CustomObject child' called 'RecordType'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-RecordType-1344171822043105511.txt
+     [echo] List metadata of 'CustomObject child' called 'WebLink'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-WebLink-1511727810996144513.txt
+     [echo] List metadata of 'CustomObject child' called 'ValidationRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ValidationRule-1568037457269396441.txt
+     [echo] List metadata of 'CustomObject child' called 'SharingReason'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-SharingReason-2838383753359796881.txt
+     [echo] List metadata of 'CustomObject child' called 'ListView'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ListView-6366827040821106209.txt
+     [echo] List metadata of 'CustomObject child' called 'FieldSet'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-FieldSet-3131558469572202854.txt
+     [echo] List metadata of 'ReportType'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ReportType-2129259186639328929.txt
+     [echo] List metadata of 'ReportFolder'...
+     [echo] List metadata of 'Report' in folder 'Sales_and_Marketing_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Report-in-Sales_and_Marketing_Reports-5305534138217523687.txt
+     [echo] List metadata of 'Report' in folder 'RapportUtilisateursProfils'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Report-in-RapportUtilisateursProfils-1128475648250987368.txt
+     [echo] List metadata of 'Report' in folder 'unfiled$public'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Report-in-unfiled$public-8405590567756978571.txt
+     [echo] List metadata of 'Report' in folder 'DashboardReportsAdoption'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Report-in-DashboardReportsAdoption-1687553541072565742.txt
+     [echo] List metadata of 'Report' in folder 'TEST'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Report-in-TEST-3454924785320997479.txt
+     [echo] List metadata of 'Report' in folder 'Sales_Marketing_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Report-in-Sales_Marketing_Reports-3345654079798552301.txt
+     [echo] List metadata of 'Report' in folder 'Service_Dashboards_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Report-in-Service_Dashboards_Reports-3656162673163578038.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ReportFolder-7936227386282685332.txt
+     [echo] List metadata of 'DashboardFolder'...
+     [echo] List metadata of 'Dashboard' in folder 'Service_Dashboards'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Dashboard-in-Service_Dashboards-3413633502172269632.txt
+     [echo] List metadata of 'Dashboard' in folder 'Bord_Utilisateurs_Profils'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Dashboard-in-Bord_Utilisateurs_Profils-3839660969364711637.txt
+     [echo] List metadata of 'Dashboard' in folder 'Sales_and_Marketing_Dashboards'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Dashboard-in-Sales_and_Marketing_Dashboards-7737770238043123165.txt
+     [echo] List metadata of 'Dashboard' in folder 'BordUtilisateursProfils'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Dashboard-in-BordUtilisateursProfils-8081547769261111533.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-DashboardFolder-4008746032908496357.txt
+     [echo] List metadata of 'AnalyticSnapshot'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-AnalyticSnapshot-8128561119563490395.txt
+     [echo] List metadata of 'CustomFeedFilter'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CustomFeedFilter-2332115768183010389.txt
+     [echo] List metadata of 'Layout'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Layout-4375573710622844839.txt
+     [echo] List metadata of 'DocumentFolder'...
+     [echo] List metadata of 'Document' in folder 'Topic_Shared_Document_Folder'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Document-in-Topic_Shared_Document_Folder-5379293612296220739.txt
+     [echo] List metadata of 'Document' in folder 'Communities_Shared_Document_Folder'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Document-in-Communities_Shared_Document_Folder-2889694287414622713.txt
+     [echo] List metadata of 'Document' in folder 'SalesTools'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Document-in-SalesTools-7050974388504104802.txt
+     [echo] List metadata of 'Document' in folder 'SharedDocuments'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Document-in-SharedDocuments-2004270465610330189.txt
+     [echo] List metadata of 'Document' in folder 'CameleonCPQ__Cameleon_cloud_CPQ'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Document-in-CameleonCPQ__Cameleon_cloud_CPQ-1356531391545139371.txt
+     [echo] List metadata of 'Document' in folder 'CameleonCPQ__QuoteX_Documents'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Document-in-CameleonCPQ__QuoteX_Documents-5066448428390640819.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-DocumentFolder-3323079664759993718.txt
+     [echo] List metadata of 'CustomPageWebLink'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CustomPageWebLink-2308123991096815427.txt
+     [echo] List metadata of 'Letterhead'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Letterhead-9176865247077940374.txt
+     [echo] List metadata of 'EmailFolder'...
+     [echo] List metadata of 'EmailTemplate' in folder 'unfiled$public'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-EmailTemplate-in-unfiled$public-5427363399122196659.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-EmailFolder-7933719965387611866.txt
+     [echo] List metadata of 'QuickAction'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-QuickAction-7783509261646333809.txt
+     [echo] List metadata of 'FlexiPage'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-FlexiPage-3949077542470870073.txt
+     [echo] List metadata of 'CustomTab'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CustomTab-6654410138778129950.txt
+     [echo] List metadata of 'CustomApplicationComponent'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CustomApplicationComponent-4741680031567965332.txt
+     [echo] List metadata of 'CustomApplication'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CustomApplication-3040697408065385991.txt
+     [echo] List metadata of 'EmbeddedServiceConfig'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-EmbeddedServiceConfig-1223514234144599462.txt
+     [echo] List metadata of 'EmbeddedServiceLiveAgent'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-EmbeddedServiceLiveAgent-8271727855346290751.txt
+     [echo] List metadata of 'EmbeddedServiceBranding'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-EmbeddedServiceBranding-6370166384543338559.txt
+     [echo] List metadata of 'Flow'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Flow-6975523108358771599.txt
+     [echo] List metadata of 'FlowDefinition'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-FlowDefinition-671613023671534312.txt
+     [echo] List metadata of 'EventSubscription'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-EventSubscription-1461586604827877098.txt
+     [echo] List metadata of 'EventDelivery'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-EventDelivery-6944240354829207158.txt
+     [echo] List metadata of 'Workflow'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Workflow-1162673703461241107.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowFieldUpdate'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-WorkflowFieldUpdate-8349940579976983453.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowKnowledgePublish'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-WorkflowKnowledgePublish-1066975370651517558.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowTask'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-WorkflowTask-7471331498931639985.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowAlert'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-WorkflowAlert-3736022224139206922.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowSend'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-WorkflowSend-7524614038096738593.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowOutboundMessage'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-WorkflowOutboundMessage-3741227893133234248.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-WorkflowRule-7486958556214394772.txt
+     [echo] List metadata of 'AssignmentRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-AssignmentRules-8492298871165885548.txt
+     [echo] List metadata of 'AssignmentRules child' called 'AssignmentRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-AssignmentRule-1125242670168865010.txt
+     [echo] List metadata of 'AutoResponseRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-AutoResponseRules-3185400228781174455.txt
+     [echo] List metadata of 'AutoResponseRules child' called 'AutoResponseRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-AutoResponseRule-2099873966503457833.txt
+     [echo] List metadata of 'EscalationRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-EscalationRules-1777884722477384415.txt
+     [echo] List metadata of 'EscalationRules child' called 'EscalationRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-EscalationRule-3229607497956063603.txt
+     [echo] List metadata of 'PostTemplate'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-PostTemplate-9176381263357419400.txt
+     [echo] List metadata of 'ApprovalProcess'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ApprovalProcess-3641026352478474955.txt
+     [echo] List metadata of 'HomePageComponent'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-HomePageComponent-7088238189634170622.txt
+     [echo] List metadata of 'HomePageLayout'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-HomePageLayout-8305976932669238055.txt
+     [echo] List metadata of 'CustomObjectTranslation'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CustomObjectTranslation-9219954457468469589.txt
+     [echo] List metadata of 'Translations'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Translations-9198544846658155342.txt
+     [echo] List metadata of 'GlobalValueSetTranslation'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-GlobalValueSetTranslation-1173679949758376707.txt
+     [echo] List metadata of 'StandardValueSetTranslation'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-StandardValueSetTranslation-32967281557368243.txt
+     [echo] List metadata of 'ApexClass'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ApexClass-3985102947660286786.txt
+     [echo] List metadata of 'ApexTrigger'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ApexTrigger-2383684366847424366.txt
+     [echo] List metadata of 'ApexTestSuite'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ApexTestSuite-5378499795094067533.txt
+     [echo] List metadata of 'Profile'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Profile-264462020314416992.txt
+     [echo] List metadata of 'PermissionSet'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-PermissionSet-4797076004046981865.txt
+     [echo] List metadata of 'CustomMetadata'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CustomMetadata-4491913007813031100.txt
+     [echo] List metadata of 'ProfilePasswordPolicy'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ProfilePasswordPolicy-3166275142826930911.txt
+     [echo] List metadata of 'ProfileSessionSetting'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ProfileSessionSetting-8719668815527220575.txt
+     [echo] List metadata of 'DataCategoryGroup'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-DataCategoryGroup-4551185584925008739.txt
+     [echo] List metadata of 'RemoteSiteSetting'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-RemoteSiteSetting-1913234098546123851.txt
+     [echo] List metadata of 'CspTrustedSite'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CspTrustedSite-2753840092136544566.txt
+     [echo] List metadata of 'MatchingRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-MatchingRules-4420182094732286858.txt
+     [echo] List metadata of 'MatchingRules child' called 'MatchingRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-MatchingRule-8898400797511787505.txt
+     [echo] List metadata of 'DuplicateRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-DuplicateRule-6111356915524825909.txt
+     [echo] List metadata of 'CleanDataService'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CleanDataService-4202807536629831731.txt
+     [echo] List metadata of 'ServiceChannel'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ServiceChannel-1413483809376403318.txt
+     [echo] List metadata of 'QueueRoutingConfig'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-QueueRoutingConfig-2793816907632726213.txt
+     [echo] List metadata of 'ServicePresenceStatus'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ServicePresenceStatus-2635464755036994320.txt
+     [echo] List metadata of 'PresenceDeclineReason'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-PresenceDeclineReason-7992519969208504817.txt
+     [echo] List metadata of 'PresenceUserConfig'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-PresenceUserConfig-7823295817198093505.txt
+     [echo] List metadata of 'AuthProvider'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-AuthProvider-979981325547023588.txt
+     [echo] List metadata of 'EclairGeoData'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-EclairGeoData-5113072307596563146.txt
+     [echo] List metadata of 'CustomSite'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CustomSite-5627987022364197259.txt
+     [echo] List metadata of 'ChannelLayout'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ChannelLayout-4528816038917540381.txt
+     [echo] List metadata of 'ContentAsset'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ContentAsset-4370053301192177844.txt
+     [echo] List metadata of 'SharingRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-SharingRules-5961222062010720145.txt
+     [echo] List metadata of 'SharingRules child' called 'SharingOwnerRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-SharingOwnerRule-2119983646637775828.txt
+     [echo] List metadata of 'SharingRules child' called 'SharingCriteriaRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-SharingCriteriaRule-8943831965543799986.txt
+     [echo] List metadata of 'SharingSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-SharingSet-1574301233060446427.txt
+     [echo] List metadata of 'Community'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Community-5990165657061421065.txt
+     [echo] List metadata of 'ChatterExtension'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ChatterExtension-76761075964257598.txt
+     [echo] List metadata of 'CallCenter'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CallCenter-5878254258809062679.txt
+     [echo] List metadata of 'ConnectedApp'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ConnectedApp-6725974095435367165.txt
+     [echo] List metadata of 'AppMenu'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-AppMenu-3369133458045221585.txt
+     [echo] List metadata of 'DelegateGroup'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-DelegateGroup-4245041778410747954.txt
+     [echo] List metadata of 'SiteDotCom'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-SiteDotCom-6804942990736799607.txt
+     [echo] List metadata of 'Network'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Network-4035972282520680857.txt
+     [echo] List metadata of 'NetworkBranding'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-NetworkBranding-3160520950169175749.txt
+     [echo] List metadata of 'Audience'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Audience-6983733135533125435.txt
+     [echo] List metadata of 'BrandingSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-BrandingSet-6009504761190818229.txt
+     [echo] List metadata of 'CommunityThemeDefinition'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CommunityThemeDefinition-3147014306589496006.txt
+     [echo] List metadata of 'CommunityTemplateDefinition'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CommunityTemplateDefinition-5367840357219632673.txt
+     [echo] List metadata of 'FlowCategory'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-FlowCategory-2538474037279844278.txt
+     [echo] List metadata of 'LightningBolt'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-LightningBolt-1566807309320506873.txt
+     [echo] List metadata of 'LightningExperienceTheme'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-LightningExperienceTheme-6796333083023859947.txt
+     [echo] List metadata of 'ManagedTopics'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ManagedTopics-5511037420679195339.txt
+     [echo] List metadata of 'ManagedTopics child' called 'ManagedTopic'...
+     [echo] Metadata type 'ManagedTopic' ignored.
+     [echo] List metadata of 'KeywordList'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-KeywordList-2712959152039787047.txt
+     [echo] List metadata of 'UserCriteria'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-UserCriteria-4462287338999036539.txt
+     [echo] List metadata of 'ModerationRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ModerationRule-7813631928648969418.txt
+     [echo] List metadata of 'CMSConnectSource'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CMSConnectSource-7294313592127444170.txt
+     [echo] List metadata of 'SamlSsoConfig'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-SamlSsoConfig-1290240312633769401.txt
+     [echo] List metadata of 'CorsWhitelistOrigin'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-CorsWhitelistOrigin-1348250436624362764.txt
+     [echo] List metadata of 'ActionLinkGroupTemplate'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-ActionLinkGroupTemplate-8964044377530945862.txt
+     [echo] List metadata of 'TransactionSecurityPolicy'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-TransactionSecurityPolicy-7292466557695034530.txt
+     [echo] List metadata of 'Skill'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Skill-815886973696687553.txt
+     [echo] List metadata of 'LiveChatDeployment'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-LiveChatDeployment-4072258327136111360.txt
+     [echo] List metadata of 'LiveChatButton'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-LiveChatButton-2535783842798460857.txt
+     [echo] List metadata of 'LiveChatAgentConfig'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-LiveChatAgentConfig-282952364155818688.txt
+     [echo] List metadata of 'SynonymDictionary'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-SynonymDictionary-5273641612447303355.txt
+     [echo] List metadata of 'PathAssistant'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-PathAssistant-7758421511896722378.txt
+     [echo] List metadata of 'LeadConvertSettings'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-LeadConvertSettings-4448592131951971840.txt
+     [echo] List metadata of 'LiveChatSensitiveDataRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-LiveChatSensitiveDataRule-6707266235057899095.txt
+     [echo] List metadata of 'PlatformCachePartition'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-PlatformCachePartition-4403791312649300383.txt
+     [echo] List metadata of 'TopicsForObjects'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-TopicsForObjects-4913514124524417273.txt
+     [echo] List metadata of 'EmailServicesFunction'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-EmailServicesFunction-8508139050472450693.txt
+     [echo] List metadata of 'Settings'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-dev-List-Settings-417601001783716968.txt
+
+BUILD SUCCESSFUL
+Total time: 1 minute 41 seconds
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/EDF_B2B/POC/FOR_BACKUP/Salesforce_Deploy_Toolbox.xml
+
+retrieve:
+[sf:retrieve] Request for a retrieve submitted successfully.
+[sf:retrieve] Request ID for the current retrieve task: 09S0Q0000000yecUAA
+[sf:retrieve] Waiting for server to finish processing the request...
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: Succeeded
+[sf:retrieve] Retrieve warnings (180):
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Settings type: 'EmailToSalesforce' is unknown
+[sf:retrieve] package.xml - Entity of type 'InstalledPackage' named 'mule' cannot be found
+[sf:retrieve] package.xml - Entity of type 'CustomLabels' named 'sf_com_apps' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'Task.UnscheduledTasks' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'Task.CompletedTasks' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'Task.OverdueTasks' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'AccountBrand.Toutes_les_marques_du_compte' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'Task.DelegatedTasks' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'Task.OpenTasks' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'CollaborationGroup.All_ChatterGroups' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'Task.RecurringTasks' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'Idea.Ideas_Last_7_Days' cannot be found
+[sf:retrieve] package.xml - Entity type: '${${metadatatype}}' is unknown
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__QuoteContent__c-QuoteContent Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__QxQuoteLine__c-Quote Line Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'sortablegrid__SDG__c-SDG Layout v2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__ContractLineItem__c-Contract Line Item Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'sortablegrid__SDG_Field__c-SDG Layout v2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'sortablegrid__SDGDefaults__mdt-Main' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__QxQuote__c-Quote Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__Quote__c-Quote Layout %28CLM%29' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__Custom4__c-Custom4 Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__Custom2__c-Custom2 Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'sortablegrid__SDG_Action__c-SDG Action Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__Custom3__c-Custom3 Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'sortablegrid__sdg_Preferences__c-Sortable Data Grid Preference Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__MasterContract__c-MasterContract Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__MappingSet__c-Quote Mapping Set Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'sortablegrid__SDG__c-SDG Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__Quote__c-Quote Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__Contract__c-PROS Contract Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__AdditionalContext__c-Additional Context Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__Quote__c-Quote Layout %28demo%29' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'sortablegrid__SDG_Field__c-Field Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__Custom1__c-Custom1 Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__QxSetup__c-PROS Setup Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'sortablegrid__SDG_Action__c-SDG Layout v2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Layout' named 'CameleonCPQ__QuoteRelease__c-Quote Release Layout' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'CameleonCPQ__Quote__c.ViewAdditionalContext_Action' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'CameleonCPQ__Quote__c.Create_New_Release_Action' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'sortablegrid__SDG__c.Export_Wizard' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'CameleonCPQ__Quote__c.CLM_Create_Contract_Action' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'CameleonCPQ__Quote__c.OpenQuoteContent_Action' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'CameleonCPQ__QuoteRelease__c.Set_As_Active_Action' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'CameleonCPQ__QxQuote__c.Generate_Document' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'sortablegrid__SDG__c.Help' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'CameleonCPQ__QxQuote__c.Print' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'CameleonCPQ__Quote__c.OpenQuoteContent2_Action' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'CameleonCPQ__Quote__c.Clone_Quote_Action' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'CameleonCPQ__Quote__c.CameleonTouch_Action' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'NewQuote' cannot be found
+[sf:retrieve] package.xml - Entity of type 'QuickAction' named 'CameleonCPQ__Quote__c.OpenQuoteContract_Action' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'OpportunityF115UpdateStatus' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Opportunity_PB113_Sub_006' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Opportunity_PB113_Sub_005' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Opportunity_PB113_Sub_004' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Opportunity_PB113_Sub_002' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Opportunity_PB113_Sub_001' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'ContractLineItem_PB118_Main' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Contact_Flow129_Affect_Legal_Entity_Ghost_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Closure_FLOW_123_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Flow119_SendCommunicationToClient' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'TemplateForSendingEmailOrSMSFlow115' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Contract_PB117_Main' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SubscriptionProcess_Flow106_Manage_BA_Form_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SubscriptionProcess_Flow108_Mandate_signature_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Lot_PB115_Main' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Account_CreateNewDate' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Opportunity_PB113_Main' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'OpportunityLineItem_PB116_Main' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Subscription_Process_Dispatcher_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'BillingAccountOpportunityRelation_Flow133_IsEmailOrSMS' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'EnergyPointLife_PB110_Sub_001' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'EnergyPointLife_PB110_Sub_002' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Case_Flow113_Update_Assigned_Team' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'BillingAccount_Flow109_UpdateSignatureInformations' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Informations' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'BillingAccount_Flow112_UpdateTeamsFromEJ' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'CNICE_Test_When_Community_User_is_Created' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Task_Flow114_Update_Assigned_Team' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SubscriptionProcess_Flow107_CheckBox_Create_BA' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Contract_Flow_131_ContractCancelled' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Opportunity_PB113_Sub_003_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SubscriptionProcess_Flow104_Create_Update_BA_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Contact_Flow126_ManageMailOnSubProcesses' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SiteLife_Flow116_Update_BA_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SiteLifeFlow117UpdateSiteLifeStatus' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SubscriptionProcess_Flow116_set_Teams' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Lot_PB115_Sub_001' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'OpportunityLineItem_PB116_Sub_002' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'OpportunityLineItem_PB116_Sub_001' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'QuoteContent_PB109_SynchroOutPROS' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Task_PB106_AffectationProcesses' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Case_Flow122SetDeadlineFromDelay' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'User_Team_Process_Dispatcher' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Opportunity_FLOW_136_UpdateMandateSendTo' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Contract_PB117_Sub_001' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Account_Flow111_Set_Team' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'AmendmentProcess_Flow125_UpdateRecordType' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Contract_PB117_Sub_002' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SubscriptionProcess_Flow105_Dispatcher_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Contact_Flow_115_UpdateRecordType' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'EnergyPointLife_PB110_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'BillingAccount_PB103_AddRoleInLienEJInterlocuteur_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'BillingAccountOpportunity_PB119_Main_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Case_PB107_AffectationProcesses' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'CNICE_test' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SiteLife_PB114_Main' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Contract_PB111' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'EnergyPoint_PB001_Main_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Account_Set_Team_V2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'AccountSetTeam' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Orientation_Flow_120_CloeOrVegaForSubscription' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Task_Flow_117_SetRecordTypeByDeveloperName' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'Opportunity_Flow132_FillInfoForRevival' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SiteLife_PB114_Sub_001' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'UserTeam_Flow_110_UpdateMainTeam' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'ContractLineItem_PB118_Sub_001' cannot be found
+[sf:retrieve] package.xml - Entity of type 'AssignmentRules' named 'sortablegrid__SDG__c.sortablegrid__Make Name Unique' cannot be found
+[sf:retrieve] package.xml - Entity of type 'AutoResponseRules' named 'sortablegrid__SDG__c.sortablegrid__Make Name Unique' cannot be found
+[sf:retrieve] package.xml - Entity of type 'EscalationRules' named 'sortablegrid__SDG__c.sortablegrid__Make Name Unique' cannot be found
+[sf:retrieve] package.xml - Entity of type 'CustomObjectTranslation' named 'Dashboard Home Page Default' cannot be found
+[sf:retrieve] package.xml - Entity of type 'GlobalValueSetTranslation' named 'fr' cannot be found
+[sf:retrieve] package.xml - Entity of type 'StandardValueSetTranslation' named 'fr' cannot be found
+[sf:retrieve] package.xml - Entity of type 'CustomMetadata' named 'F302B1' cannot be found
+[sf:retrieve] package.xml - Entity of type 'DataCategoryGroup' named 'MonEspaceEnterprise_Profile_profileSessionSetting1544008849676' cannot be found
+[sf:retrieve] package.xml - Entity type 'ServiceChannel' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'QueueRoutingConfig' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ServicePresenceStatus' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'PresenceDeclineReason' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'PresenceUserConfig' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'Audience' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'CMSConnectSource' is not available in this api version
+[sf:retrieve] package.xml - Cannot retrieve documents in a user's private folder; move the document to a named folder
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Mock_PS3.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:BIPEJ.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:CPQIntegrationUserApp.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:MockPS3.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Monitoring.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:AppMenu and file name:AppSwitcher.
+[sf:retrieve] package.xml - Invalid name for AppMenu: BIPEJ
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cbContrat.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cbOffres_Services.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cb0Mi0Q0000008RQj.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cbFacture.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cbEspace_Client.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cb0Mi0Q0000008RTz.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cbCompteur_Raccordement.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cbContact.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cb0Mi0Q0000008RUJ.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cb0Mi0Q0000008RQo.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cb0Mi0Q0000008RQp.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cb0Mi0Q0000008RUB.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cb0Mi0Q0000008RUE.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:NetworkBranding and file name:cb0Mi0Q0000008RQe.
+[sf:retrieve] package.xml - Unable to retrieve file for id Default of type TopicsForObjects due to an internal error:850716242-138867 (1794420442)
+[sf:retrieve] Finished request 09S0Q0000000yecUAA successfully.
+
+BUILD SUCCESSFUL
+Total time: 3 minutes 25 seconds
+Starting Git Job...
+Clonage dans 'vega_cnice_dev'...
+Extraction des fichiers:  63% (4280/6764)   Extraction des fichiers:  64% (4329/6764)   Extraction des fichiers:  65% (4397/6764)   Extraction des fichiers:  66% (4465/6764)   Extraction des fichiers:  67% (4532/6764)   Extraction des fichiers:  68% (4600/6764)   Extraction des fichiers:  69% (4668/6764)   Extraction des fichiers:  70% (4735/6764)   Extraction des fichiers:  71% (4803/6764)   Extraction des fichiers:  72% (4871/6764)   Extraction des fichiers:  73% (4938/6764)   Extraction des fichiers:  74% (5006/6764)   Extraction des fichiers:  75% (5073/6764)   Extraction des fichiers:  76% (5141/6764)   Extraction des fichiers:  77% (5209/6764)   Extraction des fichiers:  78% (5276/6764)   Extraction des fichiers:  79% (5344/6764)   Extraction des fichiers:  80% (5412/6764)   Extraction des fichiers:  81% (5479/6764)   Extraction des fichiers:  82% (5547/6764)   Extraction des fichiers:  83% (5615/6764)   Extraction des fichiers:  84% (5682/6764)   Extraction des fichiers:  85% (5750/6764)   Extraction des fichiers:  86% (5818/6764)   Extraction des fichiers:  87% (5885/6764)   Extraction des fichiers:  88% (5953/6764)   Extraction des fichiers:  89% (6020/6764)   Extraction des fichiers:  90% (6088/6764)   Extraction des fichiers:  91% (6156/6764)   Extraction des fichiers:  92% (6223/6764)   Extraction des fichiers:  93% (6291/6764)   Extraction des fichiers:  94% (6359/6764)   Extraction des fichiers:  95% (6426/6764)   Extraction des fichiers:  96% (6494/6764)   Extraction des fichiers:  97% (6562/6764)   Extraction des fichiers:  98% (6629/6764)   Extraction des fichiers:  99% (6697/6764)   Extraction des fichiers: 100% (6764/6764)   Extraction des fichiers: 100% (6764/6764), fait.
+Basculement sur la nouvelle branche 'branch_2018-12-07_13_44_42'
+M	aura/CNICE_ContentLayout/CNICE_ContentLayout.cmp
+M	aura/CNICE_CreerCompteStep02/CNICE_CreerCompteStep02.cmp
+M	classes/CNICE_CreerCompteStepControllers.cls
+M	classes/CNICE_FaireDemandeController.cls
+M	cleanDataServices/DataCloudGeoLocation.cleanDataService
+M	email/unfiled$public/Communities_Changed_Password_EmailHTML.email
+M	email/unfiled$public/Communities_Forgot_Password_Email.email
+M	email/unfiled$public/Communities_New_Member_Welcome_EmailHTML.email
+M	flexipages/Account_PresentationRecordPage.flexipage
+M	flexipages/CameleonCPQ__QxQuote_Record_Page.flexipage
+M	flexipages/Interlocuteur_Page_d_enregistrement1.flexipage
+M	flexipages/Sale_Journey_Closed_Lightning_Page.flexipage
+M	flexipages/Sale_Journey_Lightning_Page.flexipage
+M	flexipages/Sale_Journey_Partner_Lightning_Page.flexipage
+M	flexipages/Sale_Journey_Proposal_Lightning_Page.flexipage
+M	flexipages/Sales_Journey_Billing_Lightning_Page.flexipage
+M	flexipages/sortablegrid__Sortable_Data_Grid_Record_Page.flexipage
+M	networks/MonEspaceEntreprise.network
+M	package.xml
+M	siteDotComSites/MY_FAQ1.site
+M	siteDotComSites/MonEspaceEntreprise_C.site
+M	siteDotComSites/testvisibility1.site
+[branch_2018-12-07_13_44_42 a7aa1ac] Commiting change to repository
+ 22 files changed, 2118 insertions(+), 1240 deletions(-)
+ rewrite siteDotComSites/MY_FAQ1.site (98%)
+ rewrite siteDotComSites/MonEspaceEntreprise_C.site (98%)
+ rewrite siteDotComSites/testvisibility1.site (98%)
+
+Basculement sur la branche 'master'
+Votre branche est à jour avec 'origin/master'.
+Mise à jour 3e67445..a7aa1ac
+Fast-forward
+ aura/CNICE_ContentLayout/CNICE_ContentLayout.cmp   |   28 -
+ .../CNICE_CreerCompteStep02.cmp                    |   36 +-
+ classes/CNICE_CreerCompteStepControllers.cls       |   60 +-
+ classes/CNICE_FaireDemandeController.cls           |    2 +-
+ .../DataCloudGeoLocation.cleanDataService          |   70 +-
+ .../Communities_Changed_Password_EmailHTML.email   |    6 +-
+ .../Communities_Forgot_Password_Email.email        |    6 +-
+ .../Communities_New_Member_Welcome_EmailHTML.email |    6 +-
+ .../Account_PresentationRecordPage.flexipage       |   84 +
+ .../CameleonCPQ__QxQuote_Record_Page.flexipage     |    6 +
+ .../Interlocuteur_Page_d_enregistrement1.flexipage |  175 ++
+ .../Sale_Journey_Closed_Lightning_Page.flexipage   |  100 +
+ flexipages/Sale_Journey_Lightning_Page.flexipage   |   70 +
+ .../Sale_Journey_Partner_Lightning_Page.flexipage  |  196 ++
+ .../Sale_Journey_Proposal_Lightning_Page.flexipage |   70 +
+ .../Sales_Journey_Billing_Lightning_Page.flexipage |   70 +
+ ...egrid__Sortable_Data_Grid_Record_Page.flexipage |   71 +
+ networks/MonEspaceEntreprise.network               |    2 +-
+ package.xml                                        | 2300 ++++++++++----------
+ siteDotComSites/MY_FAQ1.site                       |  Bin 55575 -> 55031 bytes
+ siteDotComSites/MonEspaceEntreprise_C.site         |  Bin 144967 -> 144999 bytes
+ siteDotComSites/testvisibility1.site               |  Bin 86919 -> 86919 bytes
+ 22 files changed, 2118 insertions(+), 1240 deletions(-)
+To bitbucket.org:eyhuellou/vega_cnice_dev.git
+   3e67445..a7aa1ac  HEAD -> master
+RetrieveAllFromOrg Finished !
+Finished: SUCCESS

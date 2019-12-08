@@ -1,0 +1,21 @@
+Started by timer
+Building in workspace /Users/eyhuellou/.jenkins/workspace/RUN_ALL_TEST_dev1
+[RUN_ALL_TEST_dev1] $ /bin/bash /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/hudson6099223860259843006.sh
+LAUNCH
+Starting testAllFromOrg
+/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/
+/Users/eyhuellou/Documents/BACKUP/ANT/apache-ant-1.9.8/
+*** testAllFromOrg Job Started for dev1
+>> RETRIEVING TEST CLASS dev1
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_TEST/Salesforce_Deploy_Toolbox.xml
+
+retrieve:
+[sf:retrieve] Note: use ant -verbose to get more information on the failure
+
+BUILD FAILED
+/Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_TEST/Salesforce_Deploy_Toolbox.xml:142: Error while backuping!!! Cause is: The following error occurred while executing this line:
+/Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_TEST/Salesforce_Deploy_Toolbox.xml:1050: Failed to login: Failed to send request to https://test.salesforce.com/services/Soap/u/40.0
+
+Total time: 1 second
+Build step 'Execute shell' changed build result to UNSTABLE
+Finished: UNSTABLE

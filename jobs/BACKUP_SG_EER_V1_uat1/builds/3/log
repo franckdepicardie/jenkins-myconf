@@ -1,0 +1,953 @@
+Started by timer
+Building in workspace /Users/eyhuellou/.jenkins/workspace/BACKUP_SG_EER_V1_uat1
+[BACKUP_SG_EER_V1_uat1] $ /bin/bash /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/hudson6776733085878121160.sh
+LAUNCH
+Starting RetrieveAllFromOrg
+/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/
+/Users/eyhuellou/Documents/BACKUP/ANT/apache-ant-1.9.8/
+Retrieving metadata from uat1
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_BACKUP/Salesforce_Deploy_Toolbox.xml
+
+generatePackageXml:
+     [echo] --------------uat1
+     [echo] --------------package.xml
+     [echo] --------------35
+     [echo] List metadata of 'InstalledPackage'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-InstalledPackage-949610557050064628.txt
+     [echo] List metadata of 'CustomLabels'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomLabels-6307876167185050205.txt
+     [echo] List metadata of 'CustomLabels child' called 'CustomLabel'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomLabel-4198645494814488726.txt
+     [echo] List metadata of 'StaticResource'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-StaticResource-2271873347211702705.txt
+     [echo] List metadata of 'Scontrol'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Scontrol-4834504261502679623.txt
+     [echo] List metadata of 'Certificate'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Certificate-3652718961722832944.txt
+     [echo] List metadata of 'AuraDefinitionBundle'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AuraDefinitionBundle-6192344886617880768.txt
+     [echo] List metadata of 'ApexComponent'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexComponent-5218532451210961033.txt
+     [echo] List metadata of 'ApexPage'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexPage-8176651515222604475.txt
+     [echo] List metadata of 'Queue'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Queue-42959584534878521.txt
+     [echo] List metadata of 'ExternalDataSource'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ExternalDataSource-7820486314937553161.txt
+     [echo] List metadata of 'NamedCredential'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-NamedCredential-1994632818522933671.txt
+     [echo] List metadata of 'ExternalServiceRegistration'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ExternalServiceRegistration-1383679712574418432.txt
+     [echo] List metadata of 'Role'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Role-4381801634610201966.txt
+     [echo] List metadata of 'Group'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Group-404868661836284970.txt
+     [echo] List metadata of 'GlobalValueSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-GlobalValueSet-65872740524859190.txt
+     [echo] List metadata of 'StandardValueSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-StandardValueSet-4749707128907972211.txt
+     [echo] List metadata of 'CustomPermission'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomPermission-4498161546157524338.txt
+     [echo] List metadata of 'CustomObject'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomObject-8252057795848989282.txt
+     [echo] List metadata of 'CustomObject child' called 'CustomField'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomField-2954567355963260807.txt
+     [echo] List metadata of 'CustomObject child' called 'BusinessProcess'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-BusinessProcess-3941776259052076258.txt
+     [echo] List metadata of 'CustomObject child' called 'CompactLayout'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CompactLayout-3688788509355800302.txt
+     [echo] List metadata of 'CustomObject child' called 'RecordType'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-RecordType-7485246140561141555.txt
+     [echo] List metadata of 'CustomObject child' called 'WebLink'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WebLink-7800485028707905036.txt
+     [echo] List metadata of 'CustomObject child' called 'ValidationRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ValidationRule-775152722544188084.txt
+     [echo] List metadata of 'CustomObject child' called 'SharingReason'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SharingReason-2366156557958889911.txt
+     [echo] List metadata of 'CustomObject child' called 'ListView'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ListView-2933490911811589708.txt
+     [echo] List metadata of 'CustomObject child' called 'FieldSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-FieldSet-1611133404660204732.txt
+     [echo] List metadata of 'ReportType'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ReportType-7488533131452507099.txt
+     [echo] List metadata of 'ReportFolder'...
+     [echo] List metadata of 'Report' in folder 'SG_Rapports_D_plac_s_du_Folder_Public'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_Rapports_D_plac_s_du_Folder_Public-1297187683173683060.txt
+     [echo] List metadata of 'Report' in folder 'SG_EERReportingEERADLancement'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_EERReportingEERADLancement-2437342005396098012.txt
+     [echo] List metadata of 'Report' in folder 'CLH_stats_all_g_es_abs_PAU'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-CLH_stats_all_g_es_abs_PAU-1254193806551120930.txt
+     [echo] List metadata of 'Report' in folder 'Sales_Marketing_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Sales_Marketing_Reports-481993788430203296.txt
+     [echo] List metadata of 'Report' in folder 'Sites_Pilotage_temps_r_el'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Sites_Pilotage_temps_r_el-3347043144651273233.txt
+     [echo] List metadata of 'Report' in folder 'Gouvernance'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Gouvernance-5635377165962180572.txt
+     [echo] List metadata of 'Report' in folder 'Tps_r_el_pilotage_file_RDV'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Tps_r_el_pilotage_file_RDV-7795317966369348336.txt
+     [echo] List metadata of 'Report' in folder 'sites_reporting__Site_Usage_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-sites_reporting__Site_Usage_Reports-1686340708160451449.txt
+     [echo] List metadata of 'Report' in folder 'Tps_r_el_pilotage_file_EER_D'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Tps_r_el_pilotage_file_EER_D-9094939293255584294.txt
+     [echo] List metadata of 'Report' in folder 'SG_SuiviCCMhebdo'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_SuiviCCMhebdo-889185717552276867.txt
+     [echo] List metadata of 'Report' in folder 'Catherine'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Catherine-5661966568187463876.txt
+     [echo] List metadata of 'Report' in folder 'Sales_and_Marketing_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Sales_and_Marketing_Reports-2625954945032817258.txt
+     [echo] List metadata of 'Report' in folder 'Service_Dashboards_Reports'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Service_Dashboards_Reports-1571511259509186602.txt
+     [echo] List metadata of 'Report' in folder 'SG_Recette'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_Recette-357483762239926528.txt
+     [echo] List metadata of 'Report' in folder 'Tchat_relation_digitale'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Tchat_relation_digitale-9199733668427444629.txt
+     [echo] List metadata of 'Report' in folder 'Sites_pilotage_en_temps_diff_r'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-Sites_pilotage_en_temps_diff_r-7600180327617428322.txt
+     [echo] List metadata of 'Report' in folder 'DashboardReportsAdoption'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-DashboardReportsAdoption-1025532738078535575.txt
+     [echo] List metadata of 'Report' in folder 'unfiled$public'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-unfiled$public-8764697225627251217.txt
+     [echo] List metadata of 'Report' in folder 'SG_VISION_SITES'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Report-in-SG_VISION_SITES-531680732277063358.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ReportFolder-3727949009470809621.txt
+     [echo] List metadata of 'DashboardFolder'...
+     [echo] List metadata of 'Dashboard' in folder 'SG_POPPARTTAB1_CRCm'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-SG_POPPARTTAB1_CRCm-4913858390513507714.txt
+     [echo] List metadata of 'Dashboard' in folder 'Sales_and_Marketing_Dashboards'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-Sales_and_Marketing_Dashboards-2633731811213592463.txt
+     [echo] List metadata of 'Dashboard' in folder 'SG_EERReportingEERADLancement'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-SG_EERReportingEERADLancement-2677212168763508423.txt
+     [echo] List metadata of 'Dashboard' in folder 'Recette'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-Recette-8558607798177570177.txt
+     [echo] List metadata of 'Dashboard' in folder 'SG_POPPARTTAB1'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-SG_POPPARTTAB1-2464919483927586103.txt
+     [echo] List metadata of 'Dashboard' in folder 'Service_Dashboards'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-Service_Dashboards-6576781346689845274.txt
+     [echo] List metadata of 'Dashboard' in folder 'sites_reporting__CompanyDashboards'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Dashboard-in-sites_reporting__CompanyDashboards-3138852549593803502.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DashboardFolder-2884625017045629835.txt
+     [echo] List metadata of 'AnalyticSnapshot'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AnalyticSnapshot-6723225536495592467.txt
+     [echo] List metadata of 'CustomFeedFilter'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomFeedFilter-2172912285951928229.txt
+     [echo] List metadata of 'Layout'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Layout-1999118587260176588.txt
+     [echo] List metadata of 'DocumentFolder'...
+     [echo] List metadata of 'Document' in folder 'Dossier_partag_des_communaut_s'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-Dossier_partag_des_communaut_s-685408623253232830.txt
+     [echo] List metadata of 'Document' in folder 'Dossier_partag_des_communaut_s1'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-Dossier_partag_des_communaut_s1-5687655801617505003.txt
+     [echo] List metadata of 'Document' in folder 'SG_EER'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SG_EER-6485548691158281473.txt
+     [echo] List metadata of 'Document' in folder 'SharedDocuments'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SharedDocuments-8589320888901180819.txt
+     [echo] List metadata of 'Document' in folder 'SG_PPR'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SG_PPR-1063350504115208317.txt
+     [echo] List metadata of 'Document' in folder 'SalesTools'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SalesTools-5972189777662700351.txt
+     [echo] List metadata of 'Document' in folder 'SG_EER_DocumentWeb'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Document-in-SG_EER_DocumentWeb-1314159149488121671.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DocumentFolder-6454227431885947395.txt
+     [echo] List metadata of 'CustomPageWebLink'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomPageWebLink-2305278307959163842.txt
+     [echo] List metadata of 'Letterhead'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Letterhead-6176640828993310858.txt
+     [echo] List metadata of 'EmailFolder'...
+     [echo] List metadata of 'EmailTemplate' in folder 'unfiled$public'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmailTemplate-in-unfiled$public-5428151007527377958.txt
+     [echo] List metadata of 'EmailTemplate' in folder 'SG_PRV_Template'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmailTemplate-in-SG_PRV_Template-675370781863805005.txt
+     [echo] List metadata of 'EmailTemplate' in folder 'SG_EER_Template'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmailTemplate-in-SG_EER_Template-7761912349404589827.txt
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmailFolder-4252257653343850342.txt
+     [echo] List metadata of 'QuickAction'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-QuickAction-1611957328368137073.txt
+     [echo] List metadata of 'FlexiPage'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-FlexiPage-1310170021706576023.txt
+     [echo] List metadata of 'CustomTab'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomTab-5664096633702702136.txt
+     [echo] List metadata of 'CustomApplicationComponent'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomApplicationComponent-3699544014641395859.txt
+     [echo] List metadata of 'CustomApplication'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomApplication-7410664563391002693.txt
+     [echo] List metadata of 'EmbeddedServiceConfig'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmbeddedServiceConfig-5006461375796039345.txt
+     [echo] List metadata of 'EmbeddedServiceLiveAgent'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmbeddedServiceLiveAgent-4353926098631517910.txt
+     [echo] List metadata of 'EmbeddedServiceBranding'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EmbeddedServiceBranding-1327795390248674068.txt
+     [echo] List metadata of 'Flow'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Flow-6482865133208516542.txt
+     [echo] List metadata of 'FlowDefinition'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-FlowDefinition-6243836977360900845.txt
+     [echo] List metadata of 'Workflow'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Workflow-614695412775378689.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowFieldUpdate'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowFieldUpdate-2431219144503280243.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowKnowledgePublish'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowKnowledgePublish-7181612714109591192.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowTask'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowTask-4330176466306163729.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowAlert'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowAlert-4806971346904129993.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowSend'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowSend-6667007650408564058.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowOutboundMessage'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowOutboundMessage-5225149031165457123.txt
+     [echo] List metadata of 'Workflow child' called 'WorkflowRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-WorkflowRule-1137639870166154816.txt
+     [echo] List metadata of 'AssignmentRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AssignmentRules-6758302146985651253.txt
+     [echo] List metadata of 'AssignmentRules child' called 'AssignmentRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AssignmentRule-4499173457386877879.txt
+     [echo] List metadata of 'AutoResponseRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AutoResponseRules-1384231392686401717.txt
+     [echo] List metadata of 'AutoResponseRules child' called 'AutoResponseRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AutoResponseRule-3623395685425119893.txt
+     [echo] List metadata of 'EscalationRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EscalationRules-3643806448817786629.txt
+     [echo] List metadata of 'EscalationRules child' called 'EscalationRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EscalationRule-1178106536039353795.txt
+     [echo] List metadata of 'PostTemplate'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-PostTemplate-8693159035512458035.txt
+     [echo] List metadata of 'ApprovalProcess'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApprovalProcess-1559798206511172389.txt
+     [echo] List metadata of 'HomePageComponent'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-HomePageComponent-5934891375263571633.txt
+     [echo] List metadata of 'HomePageLayout'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-HomePageLayout-9110934300641234574.txt
+     [echo] List metadata of 'CustomObjectTranslation'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomObjectTranslation-3558888451361242655.txt
+     [echo] List metadata of 'Translations'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Translations-8023624020643654324.txt
+     [echo] List metadata of 'GlobalValueSetTranslation'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-GlobalValueSetTranslation-3855067537247239245.txt
+     [echo] List metadata of 'StandardValueSetTranslation'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-StandardValueSetTranslation-552951269185215863.txt
+     [echo] List metadata of 'ApexClass'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexClass-2790214245886259843.txt
+     [echo] List metadata of 'ApexTrigger'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexTrigger-1603586171998002197.txt
+     [echo] List metadata of 'ApexTestSuite'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ApexTestSuite-4912995136147580420.txt
+     [echo] List metadata of 'Profile'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Profile-7050390909132151190.txt
+     [echo] List metadata of 'PermissionSet'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-PermissionSet-1698304768395186080.txt
+     [echo] List metadata of 'CustomMetadata'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomMetadata-1039334449579650841.txt
+     [echo] List metadata of 'ProfilePasswordPolicy'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ProfilePasswordPolicy-1641123009490382957.txt
+     [echo] List metadata of 'ProfileSessionSetting'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ProfileSessionSetting-8391354965779158420.txt
+     [echo] List metadata of 'DataCategoryGroup'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DataCategoryGroup-2535613119255619834.txt
+     [echo] List metadata of 'RemoteSiteSetting'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-RemoteSiteSetting-1393876991554932121.txt
+     [echo] List metadata of 'CspTrustedSite'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CspTrustedSite-1854161413276716595.txt
+     [echo] List metadata of 'MatchingRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-MatchingRules-1984059577750920769.txt
+     [echo] List metadata of 'MatchingRules child' called 'MatchingRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-MatchingRule-5276835889826238434.txt
+     [echo] List metadata of 'DuplicateRule'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DuplicateRule-2985123994617748444.txt
+     [echo] List metadata of 'CleanDataService'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CleanDataService-4479561316408040647.txt
+     [echo] List metadata of 'AuthProvider'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AuthProvider-60014440676553306.txt
+     [echo] List metadata of 'EclairGeoData'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-EclairGeoData-5210205218641380273.txt
+     [echo] List metadata of 'CustomSite'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CustomSite-1642693131615718641.txt
+     [echo] List metadata of 'ChannelLayout'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ChannelLayout-2140997708573230502.txt
+     [echo] List metadata of 'ContentAsset'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ContentAsset-4334892363637026180.txt
+     [echo] List metadata of 'SharingRules'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SharingRules-9222834250223820321.txt
+     [echo] List metadata of 'SharingRules child' called 'SharingOwnerRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SharingOwnerRule-984900371708462903.txt
+     [echo] List metadata of 'SharingRules child' called 'SharingCriteriaRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SharingCriteriaRule-4002448739919195692.txt
+     [echo] List metadata of 'Community'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Community-3565039259581867043.txt
+     [echo] List metadata of 'ChatterExtensions'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ChatterExtensions-220257641411744633.txt
+     [echo] List metadata of 'CallCenter'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CallCenter-6940524820150386417.txt
+     [echo] List metadata of 'ConnectedApp'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ConnectedApp-777296813162336926.txt
+     [echo] List metadata of 'AppMenu'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-AppMenu-5321517318983111177.txt
+     [echo] List metadata of 'DelegateGroup'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-DelegateGroup-5131488867939049260.txt
+     [echo] List metadata of 'SiteDotCom'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SiteDotCom-3304502018988858176.txt
+     [echo] List metadata of 'Network'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Network-830754865636890291.txt
+     [echo] List metadata of 'CommunityThemeDefinition'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CommunityThemeDefinition-9042463239827607989.txt
+     [echo] List metadata of 'BrandingSet'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-BrandingSet-4820026345228443262.txt
+     [echo] List metadata of 'CommunityTemplateDefinition'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CommunityTemplateDefinition-5398273761157106408.txt
+     [echo] List metadata of 'ManagedTopics'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ManagedTopics-299558911130031348.txt
+     [echo] List metadata of 'ManagedTopics child' called 'ManagedTopic'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ManagedTopic-2292530814646796753.txt
+     [echo] List metadata of 'KeywordList'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-KeywordList-5035817323918946869.txt
+     [echo] List metadata of 'UserCriteria'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-UserCriteria-453674415665980100.txt
+     [echo] List metadata of 'ModerationRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ModerationRule-5561574126161398836.txt
+     [echo] List metadata of 'SamlSsoConfig'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SamlSsoConfig-3915558532452395793.txt
+     [echo] List metadata of 'CorsWhitelistOrigin'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-CorsWhitelistOrigin-4784120293405344874.txt
+     [echo] List metadata of 'ActionLinkGroupTemplate'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-ActionLinkGroupTemplate-3351537449814206562.txt
+     [echo] List metadata of 'Skill'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Skill-4620675128533623355.txt
+     [echo] List metadata of 'LiveChatDeployment'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LiveChatDeployment-6409032702903493.txt
+     [echo] List metadata of 'LiveChatButton'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LiveChatButton-20331321656764839.txt
+     [echo] List metadata of 'LiveChatAgentConfig'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LiveChatAgentConfig-6561805330374037146.txt
+     [echo] List metadata of 'SynonymDictionary'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-SynonymDictionary-7622518903414536910.txt
+     [echo] List metadata of 'PathAssistant'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-PathAssistant-3521782043644924876.txt
+     [echo] List metadata of 'LeadConvertSettings'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LeadConvertSettings-7989998303432499679.txt
+     [echo] List metadata of 'LiveChatSensitiveDataRule'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-LiveChatSensitiveDataRule-8210936310330784255.txt
+     [echo] List metadata of 'PlatformCachePartition'...
+ [loadfile] Do not set property sections as its length is 0.
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-PlatformCachePartition-3760321778572331568.txt
+     [echo] List metadata of 'Settings'...
+   [delete] Deleting: /var/folders/gt/g1w83nxn221gj64bkcmp78rdz9w7j0/T/sf-uat1-List-Settings-5055179849488484870.txt
+
+BUILD SUCCESSFUL
+Total time: 1 minute 3 seconds
+Buildfile: /Users/eyhuellou/Documents/BACKUP/SF_METADATA/ANT_SGEER/PROJET_V1/FOR_BACKUP/Salesforce_Deploy_Toolbox.xml
+
+retrieve:
+[sf:retrieve] Request for a retrieve submitted successfully.
+[sf:retrieve] Request ID for the current retrieve task: 09S5E000000PVGoUAO
+[sf:retrieve] Waiting for server to finish processing the request...
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: InProgress
+[sf:retrieve] Request Status: Succeeded
+[sf:retrieve] Retrieve warnings (114):
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Settings type: 'Default_Opportunity' is unknown
+[sf:retrieve] package.xml - Entity of type 'InstalledPackage' named 'mule' cannot be found
+[sf:retrieve] package.xml - Entity of type 'CustomLabels' named 'sf_com_apps' cannot be found
+[sf:retrieve] package.xml - Entity type 'Certificate' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ExternalServiceRegistration' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'GlobalValueSet' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'StandardValueSet' is not available in this api version
+[sf:retrieve] package.xml - Entity of type 'CustomObject' named 'SG_Support_niveau_2' cannot be found
+[sf:retrieve] package.xml - Entity of type 'RecordType' named 'Account.PersonAccount' cannot be found
+[sf:retrieve] package.xml - Entity of type 'RecordType' named 'Account.SG_EERProspect' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'SocialPost.AllSocialPosts' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'Quote.mine' cannot be found
+[sf:retrieve] package.xml - Entity of type 'ListView' named 'Idea.Ideas_Last_7_Days' cannot be found
+[sf:retrieve] package.xml - Entity type: '${${metadatatype}}' is unknown
+[sf:retrieve] package.xml - Entity type 'EmbeddedServiceConfig' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'EmbeddedServiceLiveAgent' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'EmbeddedServiceBranding' is not available in this api version
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EER_AUTOFILL_AgenceRetraitMoyenPaiement' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_Assign_Current_Owner_Case' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EER_Envoi_Mail' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_Send_Email_to_Tomii' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_Send_Email_Formulaire_En_Cours' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'G_Send_Email_to_Prospect_Finalise' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EER_UpdateTechFieldCountry' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Flow' named 'SG_EER_DeleteContactSite' cannot be found
+[sf:retrieve] package.xml - Entity of type 'Workflow' named 'SG_Send_Email_to_Tomii' cannot be found
+[sf:retrieve] package.xml - Entity of type 'AssignmentRules' named 'Case.SG_EERV1_Fiche_26_CoherencePjKoAEnAttenteChargPj' cannot be found
+[sf:retrieve] package.xml - Entity of type 'AutoResponseRules' named 'Case.SG_EERV1_Fiche_26_CoherencePjKoAEnAttenteChargPj' cannot be found
+[sf:retrieve] package.xml - Entity of type 'EscalationRules' named 'Case.SG_EERV1_Fiche_26_CoherencePjKoAEnAttenteChargPj' cannot be found
+[sf:retrieve] package.xml - Entity of type 'CustomObjectTranslation' named 'Dashboard Home Page Default' cannot be found
+[sf:retrieve] package.xml - Entity type 'GlobalValueSetTranslation' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'StandardValueSetTranslation' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ApexTestSuite' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ProfilePasswordPolicy' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ProfileSessionSetting' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'CspTrustedSite' is not available in this api version
+[sf:retrieve] package.xml - Entity of type 'MatchingRules' named 'SG_Administrateur_profileSessionSetting1468942583303' cannot be found
+[sf:retrieve] package.xml - Entity of type 'MatchingRule' named 'Account.Standard_PersonAccount_Match_Rule_v1_0' cannot be found
+[sf:retrieve] package.xml - Entity type 'DuplicateRule' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'CleanDataService' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'EclairGeoData' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ContentAsset' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ChatterExtensions' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'DelegateGroup' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'CommunityThemeDefinition' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'BrandingSet' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'CommunityTemplateDefinition' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'KeywordList' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'UserCriteria' is not available in this api version
+[sf:retrieve] package.xml - Entity type 'ModerationRule' is not available in this api version
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_com_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_com_apps.installedPackage'; please rename one
+[sf:retrieve] installedPackages/leadcap.installedPackage - Duplicate object names in the same package, 'installedPackages/leadcap.installedPackage'; please rename one
+[sf:retrieve] installedPackages/leadcap.installedPackage - Duplicate object names in the same package, 'installedPackages/leadcap.installedPackage'; please rename one
+[sf:retrieve] installedPackages/sf_chttr_apps.installedPackage - Duplicate object names in the same package, 'installedPackages/sf_chttr_apps.installedPackage'; please rename one
+[sf:retrieve] package.xml - Unable to retrieve report with id 00O58000003alc4 (Component title: Les demandes en cours...)
+[sf:retrieve] package.xml - API version Winter '16 does not have access to Lightning Pages of type UtilityBar.
+[sf:retrieve] package.xml - Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:AppMenu and file name:AppSwitcher.
+[sf:retrieve] package.xml - Unable to retrieve file for id pocsos of type AppMenu due to an internal error:1725959533-43774 (2077115341)
+[sf:retrieve] Finished request 09S5E000000PVGoUAO successfully.
+
+BUILD SUCCESSFUL
+Total time: 1 minute 13 seconds
+Starting Git Job...
+Cloning into 'sg_eer_v1_uat1'...
+[master 9fcddc0] commiting change to repository
+ Committer: Erwan Yhuellou <eyhuellou@eyhuellou-ltm1.internal.salesforce.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 454 files changed, 96405 insertions(+), 4872 deletions(-)
+ create mode 100644 classes/LightningForgotPasswordController.cls
+ create mode 100644 classes/LightningForgotPasswordController.cls-meta.xml
+ create mode 100644 classes/LightningForgotPasswordControllerTest.cls
+ create mode 100644 classes/LightningForgotPasswordControllerTest.cls-meta.xml
+ create mode 100644 classes/LightningLoginFormController.cls
+ create mode 100644 classes/LightningLoginFormController.cls-meta.xml
+ create mode 100644 classes/LightningLoginFormControllerTest.cls
+ create mode 100644 classes/LightningLoginFormControllerTest.cls-meta.xml
+ create mode 100644 classes/LightningSelfRegisterController.cls
+ create mode 100644 classes/LightningSelfRegisterController.cls-meta.xml
+ create mode 100644 classes/LightningSelfRegisterControllerTest.cls
+ create mode 100644 classes/LightningSelfRegisterControllerTest.cls-meta.xml
+ create mode 100644 classes/PAD.cls
+ create mode 100644 classes/PAD.cls-meta.xml
+ create mode 100644 classes/SGEERV1_PaiementChoixCarteCtrl.cls
+ create mode 100644 classes/SGEERV1_PaiementChoixCarteCtrl.cls-meta.xml
+ create mode 100644 classes/SGEERV1_PaiementChoixCarteCtrlTest.cls
+ create mode 100644 classes/SGEERV1_PaiementChoixCarteCtrlTest.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_AccueilController.cls
+ create mode 100644 classes/SG_EERV1_AccueilController.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_AccueilController_Test.cls
+ create mode 100644 classes/SG_EERV1_AccueilController_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_AccueilCtrl.cls
+ create mode 100644 classes/SG_EERV1_AccueilCtrl.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_AttachementUpload.cls
+ create mode 100644 classes/SG_EERV1_AttachementUpload.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_AttachmentUploadTest.cls
+ create mode 100644 classes/SG_EERV1_AttachmentUploadTest.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_CalendrierRdvVideo.cls
+ create mode 100644 classes/SG_EERV1_BAD_CalendrierRdvVideo.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_CalendrierRdvVideo_Test.cls
+ create mode 100644 classes/SG_EERV1_BAD_CalendrierRdvVideo_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_ChoixJustificatif.cls
+ create mode 100644 classes/SG_EERV1_BAD_ChoixJustificatif.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_ChoixJustificatif_Test.cls
+ create mode 100644 classes/SG_EERV1_BAD_ChoixJustificatif_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_ChoixRdvVideo.cls
+ create mode 100644 classes/SG_EERV1_BAD_ChoixRdvVideo.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_ChoixRdvVideo_Test.cls
+ create mode 100644 classes/SG_EERV1_BAD_ChoixRdvVideo_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_Classique_Home.cls
+ create mode 100644 classes/SG_EERV1_BAD_Classique_Home.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_Classique_Home_Test.cls
+ create mode 100644 classes/SG_EERV1_BAD_Classique_Home_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_ConfirmationRdv.cls
+ create mode 100644 classes/SG_EERV1_BAD_ConfirmationRdv.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_ConfirmationRdv_Test.cls
+ create mode 100644 classes/SG_EERV1_BAD_ConfirmationRdv_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_LaunchVideo.cls
+ create mode 100644 classes/SG_EERV1_BAD_LaunchVideo.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_LaunchVideo_Test.cls
+ create mode 100644 classes/SG_EERV1_BAD_LaunchVideo_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_Live_Home.cls
+ create mode 100644 classes/SG_EERV1_BAD_Live_Home.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_Selfie.cls
+ create mode 100644 classes/SG_EERV1_BAD_Selfie.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_Selfie_Test.cls
+ create mode 100644 classes/SG_EERV1_BAD_Selfie_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_SignatureContrat.cls
+ create mode 100644 classes/SG_EERV1_BAD_SignatureContrat.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_SignatureContrat_Test.cls
+ create mode 100644 classes/SG_EERV1_BAD_SignatureContrat_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_TelechargementContrat.cls
+ create mode 100644 classes/SG_EERV1_BAD_TelechargementContrat.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_TelechargementContrat_Test.cls
+ create mode 100644 classes/SG_EERV1_BAD_TelechargementContrat_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_BAD_live_Home_Test.cls
+ create mode 100644 classes/SG_EERV1_BAD_live_Home_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_ContactExt.cls
+ create mode 100644 classes/SG_EERV1_ContactExt.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_ContactExt_Test.cls
+ create mode 100644 classes/SG_EERV1_ContactExt_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_CustomLoginController.cls
+ create mode 100644 classes/SG_EERV1_CustomLoginController.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_CustomLoginController_Test.cls
+ create mode 100644 classes/SG_EERV1_CustomLoginController_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_Moteur_OFFRE.cls
+ create mode 100644 classes/SG_EERV1_Moteur_OFFRE.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_Moteur_OFFRETest.cls
+ create mode 100644 classes/SG_EERV1_Moteur_OFFRETest.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_OffrePaiementRecommandatioTest.cls
+ create mode 100644 classes/SG_EERV1_OffrePaiementRecommandatioTest.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_OffrePaiementRecommandationCtrl.cls
+ create mode 100644 classes/SG_EERV1_OffrePaiementRecommandationCtrl.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_PJ_Popup.cls
+ create mode 100644 classes/SG_EERV1_PJ_Popup.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_PJ_PopupTEST.cls
+ create mode 100644 classes/SG_EERV1_PJ_PopupTEST.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_PageDeGarde.cls
+ create mode 100644 classes/SG_EERV1_PageDeGarde.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_PageDeGardeTest.cls
+ create mode 100644 classes/SG_EERV1_PageDeGardeTest.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_PdfGeneration.cls
+ create mode 100644 classes/SG_EERV1_PdfGeneration.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_PdfParentCtrl.cls
+ create mode 100644 classes/SG_EERV1_PdfParentCtrl.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_PdfParentCtrlTest.cls
+ create mode 100644 classes/SG_EERV1_PdfParentCtrlTest.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_Prochaines_Etapes.cls
+ create mode 100644 classes/SG_EERV1_Prochaines_Etapes.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_Prochaines_Etapes_Test.cls
+ create mode 100644 classes/SG_EERV1_Prochaines_Etapes_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_RedirectAgence.cls
+ create mode 100644 classes/SG_EERV1_RedirectAgence.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_RedirectAgence_Test.cls
+ create mode 100644 classes/SG_EERV1_RedirectAgence_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_RedirectMoyenDePaiment.cls
+ create mode 100644 classes/SG_EERV1_RedirectMoyenDePaiment.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_RedirectMoyenDePaiment_Test.cls
+ create mode 100644 classes/SG_EERV1_RedirectMoyenDePaiment_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_RedirectPourCommencer.cls
+ create mode 100644 classes/SG_EERV1_RedirectPourCommencer.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_RedirectPourCommencer_Test.cls
+ create mode 100644 classes/SG_EERV1_RedirectPourCommencer_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_RedirectRecap.cls
+ create mode 100644 classes/SG_EERV1_RedirectRecap.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_RedirectRecapFinal.cls
+ create mode 100644 classes/SG_EERV1_RedirectRecapFinal.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_RedirectRecapFinal_Test.cls
+ create mode 100644 classes/SG_EERV1_RedirectRecapFinal_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_RedirectRecap_Test.cls
+ create mode 100644 classes/SG_EERV1_RedirectRecap_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_RedirectVous.cls
+ create mode 100644 classes/SG_EERV1_RedirectVous.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_RedirectVous_Test.cls
+ create mode 100644 classes/SG_EERV1_RedirectVous_Test.cls-meta.xml
+ create mode 100644 classes/SG_EERV1_WS_SD_Notification.cls
+ create mode 100644 classes/SG_EERV1_WS_SD_Notification.cls-meta.xml
+ create mode 100644 classes/pdfFooterControllerExtension.cls
+ create mode 100644 classes/pdfFooterControllerExtension.cls-meta.xml
+ create mode 100644 classes/pdfHeaderControllerExtension.cls
+ create mode 100644 classes/pdfHeaderControllerExtension.cls-meta.xml
+ create mode 100644 components/SG_EERV1_BAD_Classique_Home_a.component
+ create mode 100644 components/SG_EERV1_BAD_Classique_Home_a.component-meta.xml
+ create mode 100644 components/SG_EERV1_BAD_Classique_Home_b.component
+ create mode 100644 components/SG_EERV1_BAD_Classique_Home_b.component-meta.xml
+ create mode 100644 components/SG_EERV1_BAD_Classique_Home_c.component
+ create mode 100644 components/SG_EERV1_BAD_Classique_Home_c.component-meta.xml
+ create mode 100644 components/SG_EERV1_BAD_Live_Home_a.component
+ create mode 100644 components/SG_EERV1_BAD_Live_Home_a.component-meta.xml
+ create mode 100644 components/SG_EERV1_BAD_Live_Home_b.component
+ create mode 100644 components/SG_EERV1_BAD_Live_Home_b.component-meta.xml
+ create mode 100644 components/SG_EERV1_BAD_Live_Home_c.component
+ create mode 100644 components/SG_EERV1_BAD_Live_Home_c.component-meta.xml
+ create mode 100644 components/SG_EERV1_BAD_Live_Home_d.component
+ create mode 100644 components/SG_EERV1_BAD_Live_Home_d.component-meta.xml
+ create mode 100644 components/SG_EERV1_BAD_ModalJustIncoherence.component
+ create mode 100644 components/SG_EERV1_BAD_ModalJustIncoherence.component-meta.xml
+ create mode 100644 components/SG_EERV1_BAD_ModalJustificatif.component
+ create mode 100644 components/SG_EERV1_BAD_ModalJustificatif.component-meta.xml
+ create mode 100644 components/SG_EERV1_BAD_ModalSelfieChoice.component
+ create mode 100644 components/SG_EERV1_BAD_ModalSelfieChoice.component-meta.xml
+ create mode 100644 components/SG_EERV1_BAD_ModalSelfieLaunch.component
+ create mode 100644 components/SG_EERV1_BAD_ModalSelfieLaunch.component-meta.xml
+ create mode 100644 components/SG_EERV1_BAD_PopinTelechargementAppli.component
+ create mode 100644 components/SG_EERV1_BAD_PopinTelechargementAppli.component-meta.xml
+ create mode 100644 components/SG_EERV1_LinksUtil.component
+ create mode 100644 components/SG_EERV1_LinksUtil.component-meta.xml
+ create mode 100644 components/SG_EERV1_LinksUtil_clone.component
+ create mode 100644 components/SG_EERV1_LinksUtil_clone.component-meta.xml
+ create mode 100644 components/SG_EERV1_LiveAgent.component
+ create mode 100644 components/SG_EERV1_LiveAgent.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_ACCES_BAD.component
+ create mode 100644 components/SG_EERV1_PDF_ACCES_BAD.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_ADHESION_CONTRAT_BAD.component
+ create mode 100644 components/SG_EERV1_PDF_ADHESION_CONTRAT_BAD.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_ADHESION_CONTRAT_CARTE.component
+ create mode 100644 components/SG_EERV1_PDF_ADHESION_CONTRAT_CARTE.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_ADHESION_CONVENTION_COMPTE.component
+ create mode 100644 components/SG_EERV1_PDF_ADHESION_CONVENTION_COMPTE.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_ADHESION_DELAI_REFLEXION.component
+ create mode 100644 components/SG_EERV1_PDF_ADHESION_DELAI_REFLEXION.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_ADRESSE.component
+ create mode 100644 components/SG_EERV1_PDF_ADRESSE.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_ASSURANCES.component
+ create mode 100644 components/SG_EERV1_PDF_ASSURANCES.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_ATTESTATION_HEBERGEMENT.component
+ create mode 100644 components/SG_EERV1_PDF_ATTESTATION_HEBERGEMENT.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_BESOINS_CONSEILS.component
+ create mode 100644 components/SG_EERV1_PDF_BESOINS_CONSEILS.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_BROCHURE_TARIFAIRE.component
+ create mode 100644 components/SG_EERV1_PDF_BROCHURE_TARIFAIRE.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_CARTE_PAIEMENT.component
+ create mode 100644 components/SG_EERV1_PDF_CARTE_PAIEMENT.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_COMPTE.component
+ create mode 100644 components/SG_EERV1_PDF_COMPTE.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_CONVENTION_PREUVE.component
+ create mode 100644 components/SG_EERV1_PDF_CONVENTION_PREUVE.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_CORPS_BAD_CP.component
+ create mode 100644 components/SG_EERV1_PDF_CORPS_BAD_CP.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_CORPS_PRODUIT_CP.component
+ create mode 100644 components/SG_EERV1_PDF_CORPS_PRODUIT_CP.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_CORPS_SYNTHESE_ECHANGE.component
+ create mode 100644 components/SG_EERV1_PDF_CORPS_SYNTHESE_ECHANGE.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_CRS.component
+ create mode 100644 components/SG_EERV1_PDF_CRS.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_FOOTER.component
+ create mode 100644 components/SG_EERV1_PDF_FOOTER.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_HEADER.component
+ create mode 100644 components/SG_EERV1_PDF_HEADER.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_IDENTIFICATION_TITULAIRE.component
+ create mode 100644 components/SG_EERV1_PDF_IDENTIFICATION_TITULAIRE.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_INFO_PRODUITS_SERVICES.component
+ create mode 100644 components/SG_EERV1_PDF_INFO_PRODUITS_SERVICES.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_JAZZ.component
+ create mode 100644 components/SG_EERV1_PDF_JAZZ.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_JAZZ_DELAI_RETRACTATION.component
+ create mode 100644 components/SG_EERV1_PDF_JAZZ_DELAI_RETRACTATION.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_PRODUIT_CG.component
+ create mode 100644 components/SG_EERV1_PDF_PRODUIT_CG.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_SIGNATURE.component
+ create mode 100644 components/SG_EERV1_PDF_SIGNATURE.component-meta.xml
+ create mode 100644 components/SG_EERV1_PDF_SYNTHESE_ECHANGE.component
+ create mode 100644 components/SG_EERV1_PDF_SYNTHESE_ECHANGE.component-meta.xml
+ create mode 100644 layouts/Case-Parcours Classique.layout
+ create mode 100644 layouts/Case-Parcours Live.layout
+ create mode 100644 layouts/SG_EERV1_Commune_de_naissance__c-Commune de naissance Layout.layout
+ create mode 100644 "layouts/SG_EERV1_Controle_RADLAD__c-Contr\303\264le RADLAD Layout.layout"
+ create mode 100644 "layouts/SG_EERV1_Documents_Signes_A_signer__c-Documents Sign\303\251s%2FA signer Layout.layout"
+ create mode 100644 "layouts/SG_EERV1_NonWorkingDay__c-Jour non ouvr\303\251 EERADV1 Layout.layout"
+ create mode 100644 layouts/SG_EERV1_Relance__c-Relance Layout.layout
+ create mode 100644 layouts/SG_EERV1_Tentative__c-Tentative Layout.layout
+ create mode 100644 "layouts/SG_EERV1_Type_PJ__c-Type de Pi\303\250ce Justificatives Layout.layout"
+ create mode 100644 objectTranslations/SG_EERV1_Commune_de_naissance__c-fr.objectTranslation
+ create mode 100644 objectTranslations/SG_EERV1_Controle_RADLAD__c-fr.objectTranslation
+ create mode 100644 objectTranslations/SG_EERV1_Documents_Signes_A_signer__c-fr.objectTranslation
+ create mode 100644 objectTranslations/SG_EERV1_NonWorkingDay__c-fr.objectTranslation
+ create mode 100644 objectTranslations/SG_EERV1_Relance__c-fr.objectTranslation
+ create mode 100644 objectTranslations/SG_EERV1_Tentative__c-fr.objectTranslation
+ create mode 100644 objectTranslations/SG_EERV1_Type_PJ__c-fr.objectTranslation
+ create mode 100644 objects/SG_EERV1_Commune_de_naissance__c.object
+ create mode 100644 objects/SG_EERV1_Controle_RADLAD__c.object
+ create mode 100644 objects/SG_EERV1_Documents_Signes_A_signer__c.object
+ create mode 100644 objects/SG_EERV1_NonWorkingDay__c.object
+ create mode 100644 objects/SG_EERV1_Relance__c.object
+ create mode 100644 objects/SG_EERV1_Tentative__c.object
+ create mode 100644 objects/SG_EERV1_Type_PJ__c.object
+ create mode 100644 pages/SG_EERV1_Accueil.page
+ create mode 100644 pages/SG_EERV1_Accueil.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Accueil_FonctionnaireouAssimile.page
+ create mode 100644 pages/SG_EERV1_Accueil_FonctionnaireouAssimile.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Accueil_Pays_Residence_Fiscale.page
+ create mode 100644 pages/SG_EERV1_Accueil_Pays_Residence_Fiscale.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Accueil_Pays_Residence_Fiscale2.page
+ create mode 100644 pages/SG_EERV1_Accueil_Pays_Residence_Fiscale2.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Accueil_Statut_Etudiant.page
+ create mode 100644 pages/SG_EERV1_Accueil_Statut_Etudiant.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Accueil_clone.page
+ create mode 100644 pages/SG_EERV1_Accueil_clone.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Agence_Directe.page
+ create mode 100644 pages/SG_EERV1_Agence_Directe.page-meta.xml
+ create mode 100644 pages/SG_EERV1_BAD_CalendrierRdvVideo.page
+ create mode 100644 pages/SG_EERV1_BAD_CalendrierRdvVideo.page-meta.xml
+ create mode 100644 pages/SG_EERV1_BAD_ChoixJustificatif.page
+ create mode 100644 pages/SG_EERV1_BAD_ChoixJustificatif.page-meta.xml
+ create mode 100644 pages/SG_EERV1_BAD_ChoixRdvVideo.page
+ create mode 100644 pages/SG_EERV1_BAD_ChoixRdvVideo.page-meta.xml
+ create mode 100644 pages/SG_EERV1_BAD_Classique_Home.page
+ create mode 100644 pages/SG_EERV1_BAD_Classique_Home.page-meta.xml
+ create mode 100644 pages/SG_EERV1_BAD_ConfirmationRdv.page
+ create mode 100644 pages/SG_EERV1_BAD_ConfirmationRdv.page-meta.xml
+ create mode 100644 pages/SG_EERV1_BAD_LaunchVideo.page
+ create mode 100644 pages/SG_EERV1_BAD_LaunchVideo.page-meta.xml
+ create mode 100644 pages/SG_EERV1_BAD_Live_Home.page
+ create mode 100644 pages/SG_EERV1_BAD_Live_Home.page-meta.xml
+ create mode 100644 pages/SG_EERV1_BAD_Selfie.page
+ create mode 100644 pages/SG_EERV1_BAD_Selfie.page-meta.xml
+ create mode 100644 pages/SG_EERV1_BAD_SignatureContrat.page
+ create mode 100644 pages/SG_EERV1_BAD_SignatureContrat.page-meta.xml
+ create mode 100644 pages/SG_EERV1_BAD_TelechargementContrat.page
+ create mode 100644 pages/SG_EERV1_BAD_TelechargementContrat.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Civilite.page
+ create mode 100644 pages/SG_EERV1_Civilite.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Login_Community.page
+ create mode 100644 pages/SG_EERV1_Login_Community.page-meta.xml
+ create mode 100644 pages/SG_EERV1_OffreAgenceHorsCible.page
+ create mode 100644 pages/SG_EERV1_OffreAgenceHorsCible.page-meta.xml
+ create mode 100644 pages/SG_EERV1_OffreAgenceKoMineur.page
+ create mode 100644 pages/SG_EERV1_OffreAgenceKoMineur.page-meta.xml
+ create mode 100644 pages/SG_EERV1_OffreAgenceKoOnLine.page
+ create mode 100644 pages/SG_EERV1_OffreAgenceKoOnLine.page-meta.xml
+ create mode 100644 pages/SG_EERV1_OffreAgenceRDVAgenceWcb.page
+ create mode 100644 pages/SG_EERV1_OffreAgenceRDVAgenceWcb.page-meta.xml
+ create mode 100644 pages/SG_EERV1_OffrePaiementOptsCarteBancaire.page
+ create mode 100644 pages/SG_EERV1_OffrePaiementOptsCarteBancaire.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Offre_Agence_Dispatch.page
+ create mode 100644 pages/SG_EERV1_Offre_Agence_Dispatch.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Offre_Agence_RdvAgenceDispatch.page
+ create mode 100644 pages/SG_EERV1_Offre_Agence_RdvAgenceDispatch.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Offre_PaiementTrouverAgPhysique.page
+ create mode 100644 pages/SG_EERV1_Offre_PaiementTrouverAgPhysique.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_Chequier.page
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_Chequier.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_Info_Jazz.page
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_Info_Jazz.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_Infos_Quietis.page
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_Infos_Quietis.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_OptionsCBancaire.page
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_OptionsCBancaire.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_Reco_CompteVide.page
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_Reco_CompteVide.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_Recommandation.page
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_Recommandation.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_Retrait.page
+ create mode 100644 pages/SG_EERV1_Offre_Paiement_Retrait.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Offre_Parrainage_AD.page
+ create mode 100644 pages/SG_EERV1_Offre_Parrainage_AD.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Offre_Popup.page
+ create mode 100644 pages/SG_EERV1_Offre_Popup.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Offre_Trouver_Agence_Physique.page
+ create mode 100644 pages/SG_EERV1_Offre_Trouver_Agence_Physique.page-meta.xml
+ create mode 100644 pages/SG_EERV1_PDF_BAD_CP_NON.page
+ create mode 100644 pages/SG_EERV1_PDF_BAD_CP_NON.page-meta.xml
+ create mode 100644 pages/SG_EERV1_PDF_BAD_CP_OUI.page
+ create mode 100644 pages/SG_EERV1_PDF_BAD_CP_OUI.page-meta.xml
+ create mode 100644 pages/SG_EERV1_PDF_BROCHURE_TARIFAIRE.page
+ create mode 100644 pages/SG_EERV1_PDF_BROCHURE_TARIFAIRE.page-meta.xml
+ create mode 100644 pages/SG_EERV1_PDF_CONVENTION_PREUVE.page
+ create mode 100644 pages/SG_EERV1_PDF_CONVENTION_PREUVE.page-meta.xml
+ create mode 100644 pages/SG_EERV1_PDF_CRS.page
+ create mode 100644 pages/SG_EERV1_PDF_CRS.page-meta.xml
+ create mode 100644 pages/SG_EERV1_PDF_PRODUIT_CG.page
+ create mode 100644 pages/SG_EERV1_PDF_PRODUIT_CG.page-meta.xml
+ create mode 100644 pages/SG_EERV1_PDF_PRODUIT_CP_NON.page
+ create mode 100644 pages/SG_EERV1_PDF_PRODUIT_CP_NON.page-meta.xml
+ create mode 100644 pages/SG_EERV1_PDF_PRODUIT_CP_OUI.page
+ create mode 100644 pages/SG_EERV1_PDF_PRODUIT_CP_OUI.page-meta.xml
+ create mode 100644 pages/SG_EERV1_PDF_SYNTHESE_ECHANGE.page
+ create mode 100644 pages/SG_EERV1_PDF_SYNTHESE_ECHANGE.page-meta.xml
+ create mode 100644 pages/SG_EERV1_PJ_Popup.page
+ create mode 100644 pages/SG_EERV1_PJ_Popup.page-meta.xml
+ create mode 100644 pages/SG_EERV1_PageDeGarde.page
+ create mode 100644 pages/SG_EERV1_PageDeGarde.page-meta.xml
+ create mode 100644 pages/SG_EERV1_PaiementChoixCarte.page
+ create mode 100644 pages/SG_EERV1_PaiementChoixCarte.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Popup_Wcb.page
+ create mode 100644 pages/SG_EERV1_Popup_Wcb.page-meta.xml
+ create mode 100644 pages/SG_EERV1_ProchainesEtapesEtudeEnvoiRdv.page
+ create mode 100644 pages/SG_EERV1_ProchainesEtapesEtudeEnvoiRdv.page-meta.xml
+ create mode 100644 pages/SG_EERV1_ProchainesEtapesPJustificatives.page
+ create mode 100644 pages/SG_EERV1_ProchainesEtapesPJustificatives.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Prochaines_EtapesA.page
+ create mode 100644 pages/SG_EERV1_Prochaines_EtapesA.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Prochaines_EtapesB.page
+ create mode 100644 pages/SG_EERV1_Prochaines_EtapesB.page-meta.xml
+ create mode 100644 pages/SG_EERV1_RecapitulatifVersementOuverture.page
+ create mode 100644 pages/SG_EERV1_RecapitulatifVersementOuverture.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Recapitulatif_Question_Secrete.page
+ create mode 100644 pages/SG_EERV1_Recapitulatif_Question_Secrete.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Recapitulatif_Recapitulatif.page
+ create mode 100644 pages/SG_EERV1_Recapitulatif_Recapitulatif.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Recapitulatif_Recapitulatif_RO.page
+ create mode 100644 pages/SG_EERV1_Recapitulatif_Recapitulatif_RO.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Vous_Adresse_Residence_Fiscale.page
+ create mode 100644 pages/SG_EERV1_Vous_Adresse_Residence_Fiscale.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Vous_Hebergement.page
+ create mode 100644 pages/SG_EERV1_Vous_Hebergement.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Vous_Hebergement2.page
+ create mode 100644 pages/SG_EERV1_Vous_Hebergement2.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Vous_Naissance.page
+ create mode 100644 pages/SG_EERV1_Vous_Naissance.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Vous_Patrimoine.page
+ create mode 100644 pages/SG_EERV1_Vous_Patrimoine.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Vous_Pourquoi_Nous.page
+ create mode 100644 pages/SG_EERV1_Vous_Pourquoi_Nous.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Vous_Question_Secrete.page
+ create mode 100644 pages/SG_EERV1_Vous_Question_Secrete.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Vous_Revenus_Annuels.page
+ create mode 100644 pages/SG_EERV1_Vous_Revenus_Annuels.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Vous_Revenus_Domiciliation.page
+ create mode 100644 pages/SG_EERV1_Vous_Revenus_Domiciliation.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Vous_Situation_De_Famille.page
+ create mode 100644 pages/SG_EERV1_Vous_Situation_De_Famille.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Vous_Statut_Professionnel.page
+ create mode 100644 pages/SG_EERV1_Vous_Statut_Professionnel.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Vous_Vos_Coordonnees.page
+ create mode 100644 pages/SG_EERV1_Vous_Vos_Coordonnees.page-meta.xml
+ create mode 100644 pages/SG_EERV1_Vous_Vos_Coordonnees_clone.page
+ create mode 100644 pages/SG_EERV1_Vous_Vos_Coordonnees_clone.page-meta.xml
+ create mode 100644 pages/SG_EERV1_launchAllPdf.page
+ create mode 100644 pages/SG_EERV1_launchAllPdf.page-meta.xml
+ create mode 100644 profiles/EER%40DV1 Profile.profile
+ create mode 100644 "profiles/Soci\303\251t\303\251 G\303\251n\303\251rale V1 Profile.profile"
+ create mode 100644 sharingRules/SG_EERV1_Commune_de_naissance__c.sharingRules
+ create mode 100644 sharingRules/SG_EERV1_Documents_Signes_A_signer__c.sharingRules
+ create mode 100644 sharingRules/SG_EERV1_NonWorkingDay__c.sharingRules
+ rewrite siteDotComSites/Soci_t_G_n_rale1.site (98%)
+ create mode 100644 sites/EER_DV1.site
+ create mode 100644 staticresources/MG2V1.resource
+ create mode 100644 staticresources/MG2V1.resource-meta.xml
+ create mode 100644 staticresources/SG_EERV1_UTIL.resource
+ create mode 100644 staticresources/SG_EERV1_UTIL.resource-meta.xml
+ create mode 100644 staticresources/SG_EERV1_V1.resource
+ create mode 100644 staticresources/SG_EERV1_V1.resource-meta.xml
+ create mode 100644 staticresources/SG_EER_V1_COMP_LOGO_BFM.resource
+ create mode 100644 staticresources/SG_EER_V1_COMP_LOGO_BFM.resource-meta.xml
+ create mode 100644 staticresources/SG_EER_V1_COMP_LOGO_SG_LIASSE.resource
+ create mode 100644 staticresources/SG_EER_V1_COMP_LOGO_SG_LIASSE.resource-meta.xml
+ create mode 100644 staticresources/SG_EER_V1_COMP_LOGO_SG_TCHAT.resource
+ create mode 100644 staticresources/SG_EER_V1_COMP_LOGO_SG_TCHAT.resource-meta.xml
+ create mode 100644 workflows/SG_EERV1_Commune_de_naissance__c.workflow
+ create mode 100644 workflows/SG_EERV1_Controle_RADLAD__c.workflow
+ create mode 100644 workflows/SG_EERV1_Documents_Signes_A_signer__c.workflow
+ create mode 100644 workflows/SG_EERV1_NonWorkingDay__c.workflow
+ create mode 100644 workflows/SG_EERV1_Relance__c.workflow
+ create mode 100644 workflows/SG_EERV1_Tentative__c.workflow
+ create mode 100644 workflows/SG_EERV1_Type_PJ__c.workflow
+To https://bitbucket.org/eyhuellou/sg_eer_v1_uat1.git
+   95ca1f3..9fcddc0  master -> master
+Branch master set up to track remote branch master from origin.
+RetrieveAllFromOrg Finished !
+Finished: SUCCESS
